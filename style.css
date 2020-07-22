@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'im_fell_english_proitalic';
+    src: url('fonts/FeENit27C-webfont.eot');
+    src: url('fonts/FeENit27C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FeENit27C-webfont.woff2') format('woff2'),
+         url('fonts/FeENit27C-webfont.woff') format('woff'),
+         url('fonts/FeENit27C-webfont.ttf') format('truetype'),
+         url('fonts/FeENit27C-webfont.svg#im_fell_english_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'im_fell_english_proregular';
+    src: url('fonts/FeENrm28C-webfont.eot');
+    src: url('fonts/FeENrm28C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FeENrm28C-webfont.woff2') format('woff2'),
+         url('fonts/FeENrm28C-webfont.woff') format('woff'),
+         url('fonts/FeENrm28C-webfont.ttf') format('truetype'),
+         url('fonts/FeENrm28C-webfont.svg#im_fell_english_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'im_fell_english_proregular';
+}
+
+body em{
+    font-family: 'im_fell_english_proitalic';
+}
+
+h1, h2, h3{
+    text-align:center;
+    font-size:1.5em;
+}
+
+.presentation{
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    font-size:1.1em;
+    text-align:justify;
+}
+
+#pieces{
+    text-align:center;
+}
+
+.apropos{
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    font-size:1.1em;
+    text-align:center;
+}
+
+.piece{
+    display : inline-block;
+    margin : 30px 25px 30px 25px;
+    padding : 30px 25px 30px 25px;
+    width : 220px;
+    text-align :center;
+    position : relative;
+    vertical-align : top;
+}
+
+.bordurehg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    opacity: 0.3;
+}
+
+.bordurebd{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    opacity: 0.3;
+}
+
+.miniature{
+    max-width : 120px;
+    margin : auto;
+    max-height : 200px;
+    filter: grayscale(100%);
+}
+
+.miniature:hover{
+    filter: none;
+}
+
+.titre-miniature{
+    width : 100px;
+    height : 135px;
+    margin : auto;
+    padding: 10px;
+    padding-top: 20px;
+    background-image:url("img/page-vierge.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 0.7em;
+    filter: grayscale(100%) blur(0.5px);
+    color: #333333;
+}
+
+.titre-miniature:hover{
+    filter: blur(0.5px);
+}
+
+.editeur-miniature{
+    max-width : 40px;
+    max-height : 40px;
+}
+
+.icon{
+    position : absolute;
+    top : 30px;
+    left : 25px;
+    width : 40px;
+}
+
+.gallica-icon{
+    position : absolute;
+    top : 30px;
+    left : 25px;
+    width : 25px;
+}
+
+.source-icon{
+    position : relative;
+    width : 25px;
+    top : 5px;
+}
+
+.text-icon{
+    position : absolute;
+    top : 60px;
+    left : 25px;
+    width : 25px;
+}
+
+a{
+    color : #AA0000;
+}
+
+.closedParams{
+    right:-500px;
+    width:535px;
+    position:fixed;
+}
+
+.openParams{
+    right: 0px;
+    width: 535px;
+    position: fixed;
+}
+
+.params{
+    z-index: 100;
+    height: 500px;
+    overflow: hidden;
+}
+
+.paramBlock{
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px;
+}
+
+
+@keyframes animation {
+  0%   { margin-left: 0px;}
+  100%  { margin-left: 10px;}
+}
+
+.paramsPicture{
+    width: 40px;
+    cursor: url("img/cursor.png"), pointer;
+    left: 0px;
+}
+
+.closedParams img{
+    animation: animation 2s ease-out infinite alternate;
+}
+
+.twocol{
+    margin:auto;
+    column-count:2;
+    margin-top:0px;
+    padding-top:0px
+}
+
+.bouton-ok{
+    cursor: url("img/cursor.png"), pointer;
+    font-weight: bold;
+}
+
+.bouton-ok img{
+    width:50px;
+    margin-bottom:-10px;
+}
+
+.sankey-sources h3{
+    cursor: url("img/cursor.png"), pointer;
+}
+
+a{
+    cursor: url("img/cursor.png"), pointer;
+}
+
+###################
+# SVG
+###################
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+.link:hover {
+  stroke-opacity: .5;
+}
+###################
