@@ -1380,14 +1380,14 @@ $(document).ready(function(){
               if(p.editeur != ""){
                  var imageEditeur = "";
                  if(p.editeur.toLowerCase() in editeurs){
-                    imageEditeur = '<img src="img/editeurs/'+p.editeur.toLowerCase().replace("é","%e9")+'.png" class="editeur-miniature">';
+                    imageEditeur = '<img src="img/editeurs/'+p.editeur.toLowerCase().replace("é","e")+'.png" class="editeur-miniature">';
                  }           
                  var lieu = "";
                  if((p.lieu != "") && (p.lieu != "s. l.") && (p.lieu != "[s. l.]")){
                     //console.log("lieu"+p.lieu);
                     lieu = "À "+p.lieu.toUpperCase()+'<br>';
                  }
-                 mentionEditeur = '<br>'+imageEditeur+'<br><span style="font-size:0.7em">'+lieu+'<span style="font-size:0.8em">Chez '+p.editeur.toUpperCase()+'</span></span>';
+                 mentionEditeur = '<div class="mention-editeur">'+imageEditeur+'<br><span style="font-size:0.7em">'+lieu+'<span style="font-size:0.8em">Chez '+p.editeur.toUpperCase()+'</span></span></div>';
               }
               miniature = '<div class="titre-miniature">'+titreMini.toUpperCase()+'<br><span style="font-size:0.7em">'+p.auteur+'</span>'+mentionEditeur+'</div>'
       }

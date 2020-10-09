@@ -118,6 +118,12 @@ h1, h2, h3{
     max-height : 40px;
 }
 
+.mention-editeur{
+    position: absolute;
+    width: 100px;
+    bottom: 10px;
+}
+
 .icon{
     position : absolute;
     top : 30px;
