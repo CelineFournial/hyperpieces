@@ -1722,8 +1722,8 @@ function construitGraphique(){
    "R": {"155":0, "156":0, "157":0, "158":0, "159":0, "160":0, "161":0, "162":0, "163":0, "164":0}, 
    "J": {"155":0, "156":0, "157":0, "158":0, "159":0, "160":0, "161":0, "162":0, "163":0, "164":0}, 
    "N": {"155":0, "156":0, "157":0, "158":0, "159":0, "160":0, "161":0, "162":0, "163":0, "164":0}, 
-   "Z": {"155":0, "156":0, "157":0, "158":0, "159":0, "160":0, "161":0, "162":0, "163":0, "164":0}
    };
+   /* "Z": {"155":0, "156":0, "157":0, "158":0, "159":0, "160":0, "161":0, "162":0, "163":0, "164":0} */
    var listeCategories = Object.keys(sourcesParDecennieParCategorie);
    var i = 0;
    while(i < listePiecesAffichees.length){
@@ -1741,9 +1741,9 @@ function construitGraphique(){
                }
                j++;
             }
-         } else {
+         } /*else {
             sourcesParDecennieParCategorie["Z"][decennie] ++;
-         }
+         }*/
        
       i ++;
    }
@@ -2781,7 +2781,7 @@ lignées de pièces construites avec <a href="https://github.com/mdaines/viz.js"
 <p>
 Conception du site : <a href="">Céline Fournial</a> et <a href="http://igm.univ-mlv.fr/~gambette">Philippe Gambette</a><br>
 Données sources : <a href="">Céline Fournial</a><br>
-Développement (HTML, CSS, Javascript) : <a href="https://github.com/CelineFournial/hyperpieces">Philippe Gambette</a>
+Développement (HTML, CSS, Javascript) : <a href="http://igm.univ-mlv.fr/~gambette">Philippe Gambette</a>
 </p>
 <p>
 Travaux menés au <a href="https://www.cellf.paris-sorbonne.fr/">CELLF</a>, puis au <a href="https://lisaa.u-pem.fr/">LISAA</a> et au <a href="https://ligm.u-pem.fr/">LIGM</a> :<br>
