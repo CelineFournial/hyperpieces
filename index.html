@@ -1780,7 +1780,7 @@ $(".bouton-ok").on("click",function(){
       var nodes = components[component].nodes;
       // reorder nodes to avoid having arcs covering each other
       var chronologicallyOrderedNodes = Array.from(nodes).sort(function(a,b){return dictPieces["p"+a].annee - dictPieces["p"+b].annee});
-      console.log(chronologicallyOrderedNodes);
+      //console.log(chronologicallyOrderedNodes);
       var temp = chronologicallyOrderedNodes[chronologicallyOrderedNodes.length-1];
       chronologicallyOrderedNodes[chronologicallyOrderedNodes.length-1] = chronologicallyOrderedNodes[1];
       chronologicallyOrderedNodes[1] = temp;
@@ -1788,16 +1788,38 @@ $(".bouton-ok").on("click",function(){
       for(id in chronologicallyOrderedNodes){
          var node = chronologicallyOrderedNodes[id];
          nodeLocation[node] = {x:(1+(parseInt(dictPieces["p"+node].annee)-minYear)*yearWidth), y: y};
-         $("#lignees").append('<a href="#p' + dictPieces["p"+node].id + '"><g id="node'+id+'" class="node">\n<title>' + dictPieces["p"+node].auteur + ' - ' + dictPieces["p"+node].titre + '</title>\n<ellipse fill="black" stroke="black" cx="' + nodeLocation[node].x + '" cy="' + y + '" rx="4" ry="4"></ellipse></g></a>');
-         y += 5
+         var svgAttributes = 'fill="gray" stroke="gray" ';
+         if(dictPieces["p"+node].texte != ""){
+            svgAttributes = 'fill="black" stroke="black" ';
+         }
+         $("#lignees").append('<a href="#p' + dictPieces["p"+node].id + '"><g id="node'+id+'" class="node">\n<title>' + dictPieces["p"+node].auteur + ' - ' + dictPieces["p"+node].titre + '</title>\n<ellipse ' + svgAttributes + 'cx="' + nodeLocation[node].x + '" cy="' + y + '" rx="3" ry="3"></ellipse></g></a>');
+         y += 7;
       }
       
       var arcs = components[component].arcs;
+      var teiFiles = {
+"47":"Georges de Scudéry, La Comédie des comédiens (1632), Paris : A. Courbé, 1635.",
+"66":"Pierre Corneille, L’Illusion comique (été 1635), Paris : F. Targa, 1639.",
+"294":"François L’Hermite sieur du Soliers dit Tristan L’Hermite, La Mariane (1636), Paris : A. Courbé, 1637.",
+"311":"Gautier de Coste sieur de La Calprenède, La Mort des enfans d’Hérodes ou Suite de Mariane (1638), Paris : A. Courbé, 1639.",
+"290":"Guyon Guérin de Bouscal, La Mort de Brute et de Porcie, ou la Vengeance de la mort de César (1635-1636), Paris : T. Quinet, 1637.",
+"354":"Claude Boyer, La Porcie romaine (1645), Paris : A. Courbé, 1646.",
+"353":"Pierre Corneille, Rodogune, princesse des Parthes (1644-1645), Paris : A. de Sommaville, 1647.",
+"582":"Gabriel Gilbert, Rodogune (1645), Paris : A. Courbé, 1646."
+};
+
       for(arc in arcs){
         var sourceLocation = nodeLocation[arcs[arc].source];
         var targetLocation = nodeLocation[arcs[arc].target];
-        $("#lignees").append('<path fill="none" stroke="black" d="M'+sourceLocation.x+','+sourceLocation.y+'C'+sourceLocation.x+','+sourceLocation.y+' '+targetLocation.x+','+targetLocation.y+' '+targetLocation.x+','+targetLocation.y+'"></path>')
-        //$("#lignees").append('<path fill="none" stroke="black" d="M148,-162C188,-162 188,-162 228,-162"></path>')
+        var linkStart = "";
+        var linkStop = "";
+        var svgAttributes = "";
+        if(arcs[arc].source in teiFiles && arcs[arc].target in teiFiles){
+           linkStart = '<a href="2pieces.html?text1='+arcs[arc].source+'&text2='+arcs[arc].target+'"><title>Cliquez pour comparer les deux pièces !</title>';
+           linkStop = '</a>';
+           svgAttributes = ' stroke-width="3"';
+        }
+        $("#lignees").prepend(linkStart+'<path fill="none" stroke="black"' + svgAttributes + ' d="M'+sourceLocation.x+','+sourceLocation.y+'C'+sourceLocation.x+','+sourceLocation.y+' '+targetLocation.x+','+targetLocation.y+' '+targetLocation.x+','+targetLocation.y+'"></path>'+linkStop);
       }
       
       y += 10;
@@ -1806,28 +1828,6 @@ $(".bouton-ok").on("click",function(){
    $("#lignees").attr("height", (y+20) + "px")
    $("#lignees").attr("viewBox","0.00 0.00 " + x + ".00 " + (y+20) + ".00")
    $("#lignees").html($("#lignees").html());
- 
-/*
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
-<!-- Hardy Alexandre &#45; Felismene -->
-<g id="node1" class="node">
-<title>Hardy Alexandre - Felismene</title>
-<ellipse fill="black" stroke="black" cx="138" cy="-162" rx="10" ry="10"></ellipse>
-</g>
-
-<g id="node2" class="node">
-<title>Hardy Alexandre - Felismene 2</title>
-<ellipse fill="black" stroke="black" cx="238" cy="-162" rx="10" ry="10"></ellipse>
-</g>
-
-<g id="node2" class="node">
-<title>Blabla</title>
-<path fill="none" stroke="black" d="M148,-162C188,-162 188,-162 228,-162"></path>
-<polygon fill="black" stroke="black" points="228,-162 218,-157 218,-167 228,-162"></polygon>
-
-*/
-
-
 
 
 
