@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Pièces</title>
+  <title>Hyperpièces - Comparaison de deux pièces</title>
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css">
   <!--
@@ -94,7 +94,8 @@ select{
   <h1><a href="index.html"><span style="font-size:2em">Hyperpièces</span><br><em>Aux sources de la création dramatique</em></a></h1>
   <h2>Comparaison de graphes de personnages</h2>
   <p>
-  Cette interface utilise le code de l'outil <a href="http://obvil.lip6.fr/Dramagraph/">Dramagraph</a> 
+  Cette interface <strong>en cours de développement [il manque notamment quelques références bibliographiques sur cette page et le contexte de préparation de cet outil, lié au stage d’Aaron Boussidan au LIGM]</strong> 
+  utilise le code de l’outil <a href="http://obvil.lip6.fr/Dramagraph/">Dramagraph</a> 
   de <a href="https://resultats.hypotheses.org/">Frédéric Glorieux</a>, 
   <a href="https://github.com/dramacode/Dramagraph">mis à disposition</a> sous licence LGPL, 
   inspiré du <a href="http://litlab.stanford.edu/LiteraryLabPamphlet6.pdf"><i>Literary Lab Pamphlet 6</i></a> 
@@ -104,13 +105,14 @@ select{
   <p>
   Elle permet de charger des pièces en XML-TEI où les scènes sont codées par des balises <tt>div2</tt> comme dans
   les fichiers XML du site <a href="http://www.theatre-classique.fr/pages/programmes/PageEdition.php">Theatre-Classique.fr</a>,
-  ou dans des balises <tt>div</tt> avec l'attribut <tt>scene</tt> comme dans 
-  les fichiers TEI de <a href="http://bibdramatique.huma-num.fr/">la Bibliothèque dramatique du Cellf</a>.
-  Les noms des personnages, dans l'attribut <tt>who</tt> de la balise <tt>sp</tt>, ne doivent pas contenir d'espaces, et peuvent être séparés par des espaces.
+  ou dans des balises <tt>div</tt> avec l’attribut <tt>scene</tt> comme dans 
+  les fichiers TEI de <a href="http://bibdramatique.huma-num.fr/">la Bibliothèque dramatique du CELLF</a>.
+  Les noms des personnages, dans l’attribut <tt>who</tt> de la balise <tt>sp</tt>, ne doivent pas contenir d’espaces, et peuvent être séparés par des espaces.
   </p>
   <p>
-  Les cercles représentant les personnages, ci-dessous, sont colorés en fonction de leur ordre d'apparition dans la pièce (rouge au début, bleu à la fin) 
-  et les épaisseurs des flèches d'un personnage à l'autre reflètent le nombre de caractères dans les répliques dites par ce personnage dans toutes les scènes où apparait le deuxième.
+  Les cercles représentant les personnages, ci-dessous, sont colorés en fonction de leur ordre d’apparition dans la pièce (rouge au début, bleu à la fin) 
+  et les épaisseurs des flèches d’un personnage à l’autre reflètent le nombre de caractères dans les répliques dites par ce personnage dans toutes les scènes où apparait le deuxième.
+  Les flèches sont en rouge en cas de &laquo;&nbsp;domination&nbsp;&raquo;, quand elles vont d’un personnage à un autre qui apparait seulement dans les scènes du premier.
   </p>
   </div>
   <div class="graphs">
@@ -126,6 +128,7 @@ select{
     </div>
   </div>
   <script type="text/javascript">
+"use strict;"
 // Get the graphs corresponding to the plays ids in the URL
 var parameterList = window.location.href.replace("2pieces.html?","&").split("&");
 var parameters = {}
@@ -259,6 +262,16 @@ $(document).on("click", ".loadTei", function(){
   $("#realLoadTei"+$(this).attr("id").replace("loadTei","")).trigger("click");
 })
 
+// superset test
+function isSuperset(set, subset){
+  for(var item of subset){
+    if(!set.has(item)){
+      return false;
+    }
+  }
+  return true;
+}
+
 // Load an XML file
 $(document).on("change", ".realLoadTei", function(e){
   textNb = $(this).attr("id").replace("realLoadTei","");
@@ -282,15 +295,17 @@ $(document).on("change", ".realLoadTei", function(e){
      }
      
      // Compute the size of the text of each speaker, and each pair of speakers, in each scene
-     speakers = {};
-     speakerPairs = {};
-     nbChar = 0
+     var speakers = {};
+     var speakerPairs = {};
+     var nbChar = 0
+     var sceneNb = 0
      allScenes.each(function(){
         // Focus on a scene
-        sceneSpeakers = {}
-        nbCharScene = 0
+        sceneNb ++;
+        var sceneSpeakers = {};
+        var nbCharScene = 0;
         // Find all speakers in the scene
-        allSpeakingBlocks = $(this).find("sp");
+        var allSpeakingBlocks = $(this).find("sp");
         allSpeakingBlocks.each(function(){
            // Focus on a speaker
            var speaker = $(this).attr("who");
@@ -330,8 +345,9 @@ $(document).on("change", ".realLoadTei", function(e){
               speakers[speaker].sv += sceneSpeakers[speaker].sv;
               speakers[speaker].nbChar += sceneSpeakers[speaker].nbChar;
               speakers[speaker].nbCharScenes += nbCharScene;
+              speakers[speaker].sceneSet.add(sceneNb);
            } else {
-              speakers[speaker] = {"sv":sceneSpeakers[speaker].sv, "nbChar":sceneSpeakers[speaker].nbChar, "nbCharScenes":nbCharScene, "order":Object.keys(speakers).length};
+              speakers[speaker] = {"sv":sceneSpeakers[speaker].sv, "nbChar":sceneSpeakers[speaker].nbChar, "nbCharScenes":nbCharScene, "order":Object.keys(speakers).length, "sceneSet":new Set().add(sceneNb)};
               speakerNb++;
            }
            
@@ -349,16 +365,22 @@ $(document).on("change", ".realLoadTei", function(e){
         }
         nbChar += nbCharScene;
      })
-     //console.log(speakers)
+     console.log(speakers)
      //console.log(speakerPairs)
-     
+
      // Build data for Dramagraph
      // Build edges
      var edges = [];
      var i = 0;
      for(speakerPair in speakerPairs){
        var pairMembers = speakerPair.split("¤");
-       edges.push({"id":"e" + i, "source":pairMembers[0], "target":pairMembers[1], "size":Math.floor(speakerPairs[speakerPair].nbChar/10), "color":"rgba(190,190,190,0.8)", "type":"drama"});
+       // Check domination to compute color
+       var color = "rgba(190,190,190,0.8)";
+       if(isSuperset(speakers[pairMembers[0]].sceneSet, speakers[pairMembers[1]].sceneSet)){
+          color = "rgba(255,50,50,0.8)";
+       }
+       // Create arc
+       edges.push({"id":"e" + i, "source":pairMembers[0], "target":pairMembers[1], "size":Math.floor((speakerPairs[speakerPair].nbChar/10)), "color":color, "type":"drama"});
        i++;
      }
      // Build nodes
