@@ -1345,6 +1345,7 @@ $(document).ready(function(){
    //$(".sankey-sources svg").hide();
    $(".sankey-sources h3").on("click",function(){
       $(this).parent().find("svg").toggle();
+      $(this).parent().find("p").toggle();
    })
 
    var genre = "";
@@ -1992,7 +1993,8 @@ lorsque l’état des recherches permet de déterminer ces dates, à défaut ell
 <p>
 Dans la mesure du possible, nous avons ajouté une image miniature avec un lien vers l’édition numérisée dans Gallica. 
 À défaut, nous avons opté pour un lien vers une autre édition dans Gallica, ou dans une autre bibliothèque numérique.
-Dans le cas où aucun lien n'a été trouvé vers une version numérisée, une photographie de la page de titre a parfois été ajoutée, ou bien une marque d'imprimeur correspondant à l'éditeur.
+Dans le cas où aucun lien n’a été trouvé vers une version numérisée, une photographie de la page de titre a parfois été ajoutée, 
+ou bien une marque d’imprimeur correspondant à l’éditeur.
 </p>
 <p>
 La ou les sources principales des pièces sont indiquées : passez la souris sur le symbole ci-dessous, quand il apparaît, pour découvrir la source qui a inspiré la pièce.
@@ -2352,9 +2354,10 @@ $(document).ready(function(){
 
 <div class="sankey-sources">
 <h3>Les «&nbsp;lignées&nbsp;» de pièces françaises</h3>
-<p>Les points ci-dessous représentent chacun une pièce en français écrite ou publiée entre 1550 et 1650.
-Passez la souris au-dessus d'un point pour découvrir la pièce correspondante.
-Chaque lien relie une pièce avec une pièce source.</p>
+<p style="display:none">Les points ci-dessous représentent chacun une pièce en français écrite ou publiée entre 1550 et 1650.
+Passez la souris au-dessus d’un point pour découvrir la pièce correspondante, 
+cliquez dessus pour accéder à la pièce.</p>
+<p style="display:none">Chaque lien relie une pièce identifiée comme source d’une autre.</p>
 <div style="overflow-x:auto">
 <svg id="lignees" style="display:none" width="1400px" height="300px" viewBox="0.00 0.00 1400.00 300.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
