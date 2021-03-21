@@ -1,0 +1,332 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "LAONICE",
+            "target": "TIMAGENE",
+            "size": 564,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "TIMAGENE",
+            "target": "LAONICE",
+            "size": 151,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "ANTIOCHUS",
+            "target": "TIMAGENE",
+            "size": 259,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "TIMAGENE",
+            "target": "ANTIOCHUS",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "SÉLEUCUS",
+            "target": "ANTIOCHUS",
+            "size": 788,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "ANTIOCHUS",
+            "target": "SÉLEUCUS",
+            "size": 627,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "RODOGUNE",
+            "target": "LAONICE",
+            "size": 359,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "LAONICE",
+            "target": "RODOGUNE",
+            "size": 240,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "CLÉOPÂTRE",
+            "target": "LAONICE",
+            "size": 397,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "LAONICE",
+            "target": "CLÉOPÂTRE",
+            "size": 168,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "CLÉOPÂTRE",
+            "target": "ANTIOCHUS",
+            "size": 676,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "CLÉOPÂTRE",
+            "target": "SÉLEUCUS",
+            "size": 467,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ANTIOCHUS",
+            "target": "CLÉOPÂTRE",
+            "size": 441,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "SÉLEUCUS",
+            "target": "CLÉOPÂTRE",
+            "size": 157,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "RODOGUNE",
+            "target": "ORONTE",
+            "size": 97,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "ORONTE",
+            "target": "RODOGUNE",
+            "size": 198,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "ANTIOCHUS",
+            "target": "RODOGUNE",
+            "size": 434,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "RODOGUNE",
+            "target": "ANTIOCHUS",
+            "size": 575,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "RODOGUNE",
+            "target": "SÉLEUCUS",
+            "size": 201,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "SÉLEUCUS",
+            "target": "RODOGUNE",
+            "size": 68,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "CLÉOPÂTRE",
+            "target": "RODOGUNE",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "CLÉOPÂTRE",
+            "target": "ORONTE",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "RODOGUNE",
+            "target": "CLÉOPÂTRE",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "ANTIOCHUS",
+            "target": "ORONTE",
+            "size": 116,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "ORONTE",
+            "target": "CLÉOPÂTRE",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "ORONTE",
+            "target": "ANTIOCHUS",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "TIMAGENE",
+            "target": "CLÉOPÂTRE",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "TIMAGENE",
+            "target": "RODOGUNE",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "TIMAGENE",
+            "target": "ORONTE",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "CLÉOPÂTRE",
+            "target": "TIMAGENE",
+            "size": 75,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "RODOGUNE",
+            "target": "TIMAGENE",
+            "size": 55,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "ORONTE",
+            "target": "TIMAGENE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "LAONICE",
+            "label": "LAONICE",
+            "size": 972,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "TIMAGENE",
+            "label": "TIMAGENE",
+            "size": 306,
+            "y": -62.34898018587336,
+            "x": 78.18314824680299,
+            "color": "rgba(218, 50, 36,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ANTIOCHUS",
+            "label": "ANTIOCHUS",
+            "size": 2000,
+            "y": 22.252093395631434,
+            "x": 97.49279121818236,
+            "color": "rgba(182, 50, 72,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "SÉLEUCUS",
+            "label": "SÉLEUCUS",
+            "size": 1014,
+            "y": 90.09688679024191,
+            "x": 43.38837391175582,
+            "color": "rgba(145, 50, 109,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "RODOGUNE",
+            "label": "RODOGUNE",
+            "size": 1602,
+            "y": 90.09688679024191,
+            "x": -43.3883739117558,
+            "color": "rgba(109, 50, 145,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CLÉOPÂTRE",
+            "label": "CLÉOPÂTRE",
+            "size": 2380,
+            "y": 22.25209339563146,
+            "x": -97.49279121818236,
+            "color": "rgba(72, 50, 182,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ORONTE",
+            "label": "ORONTE",
+            "size": 225,
+            "y": -62.34898018587334,
+            "x": -78.18314824680299,
+            "color": "rgba(36, 50, 218,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

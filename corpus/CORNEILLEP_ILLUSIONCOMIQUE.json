@@ -1,0 +1,574 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "DORANTE",
+            "target": "PRIDAMANT",
+            "size": 287,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "PRIDAMANT",
+            "target": "DORANTE",
+            "size": 199,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "DORANTE",
+            "target": "ALCANDRE",
+            "size": 30,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "ALCANDRE",
+            "target": "DORANTE",
+            "size": 85,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "ALCANDRE",
+            "target": "PRIDAMANT",
+            "size": 750,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "PRIDAMANT",
+            "target": "ALCANDRE",
+            "size": 257,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "CLINDOR",
+            "target": "MATAMORE",
+            "size": 277,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "MATAMORE",
+            "target": "CLINDOR",
+            "size": 863,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "ADRASTE",
+            "target": "ISABELLE",
+            "size": 125,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "ISABELLE",
+            "target": "ADRASTE",
+            "size": 163,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "MATAMORE",
+            "target": "ISABELLE",
+            "size": 165,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "ISABELLE",
+            "target": "MATAMORE",
+            "size": 126,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ISABELLE",
+            "target": "CLINDOR",
+            "size": 446,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "CLINDOR",
+            "target": "ISABELLE",
+            "size": 350,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "PAGE",
+            "target": "MATAMORE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "PAGE",
+            "target": "CLINDOR",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "PAGE",
+            "target": "ISABELLE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "MATAMORE",
+            "target": "PAGE",
+            "size": 16,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "CLINDOR",
+            "target": "PAGE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "ISABELLE",
+            "target": "PAGE",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "ADRASTE",
+            "target": "CLINDOR",
+            "size": 143,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "CLINDOR",
+            "target": "ADRASTE",
+            "size": 82,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "ADRASTE",
+            "target": "LYSE",
+            "size": 94,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "LYSE",
+            "target": "ADRASTE",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "GÉRONTE",
+            "target": "ISABELLE",
+            "size": 121,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "ISABELLE",
+            "target": "GÉRONTE",
+            "size": 101,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "MATAMORE",
+            "target": "GÉRONTE",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "CLINDOR",
+            "target": "GÉRONTE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "GÉRONTE",
+            "target": "MATAMORE",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "GÉRONTE",
+            "target": "CLINDOR",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "CLINDOR",
+            "target": "LYSE",
+            "size": 393,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "LYSE",
+            "target": "CLINDOR",
+            "size": 96,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "ADRASTE",
+            "target": "MATAMORE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "ADRASTE",
+            "target": "GÉRONTE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "MATAMORE",
+            "target": "ADRASTE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "GÉRONTE",
+            "target": "ADRASTE",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "LYSE",
+            "target": "ISABELLE",
+            "size": 540,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "ISABELLE",
+            "target": "LYSE",
+            "size": 550,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "MATAMORE",
+            "target": "LYSE",
+            "size": 61,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "LYSE",
+            "target": "MATAMORE",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "ISABELLE",
+            "target": "LE-GEÔLIER",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "LE-GEÔLIER",
+            "target": "ISABELLE",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "LE-GEÔLIER",
+            "target": "LYSE",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "LYSE",
+            "target": "LE-GEÔLIER",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "LE-GEÔLIER",
+            "target": "CLINDOR",
+            "size": 44,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "CLINDOR",
+            "target": "LE-GEÔLIER",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "ÉRASTE",
+            "target": "PRIDAMANT",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "ÉRASTE",
+            "target": "ISABELLE",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "ÉRASTE",
+            "target": "LYSE",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "PRIDAMANT",
+            "target": "ÉRASTE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "PRIDAMANT",
+            "target": "ISABELLE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "PRIDAMANT",
+            "target": "LYSE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "ISABELLE",
+            "target": "ÉRASTE",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "ISABELLE",
+            "target": "PRIDAMANT",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "LYSE",
+            "target": "ÉRASTE",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "LYSE",
+            "target": "PRIDAMANT",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "DORANTE",
+            "label": "DORANTE",
+            "size": 317,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PRIDAMANT",
+            "label": "PRIDAMANT",
+            "size": 462,
+            "y": -86.60254037844388,
+            "x": 49.99999999999999,
+            "color": "rgba(233, 50, 21,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ALCANDRE",
+            "label": "ALCANDRE",
+            "size": 835,
+            "y": -50.000000000000014,
+            "x": 86.60254037844386,
+            "color": "rgba(212, 50, 42,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CLINDOR",
+            "label": "CLINDOR",
+            "size": 1417,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MATAMORE",
+            "label": "MATAMORE",
+            "size": 1266,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ADRASTE",
+            "label": "ADRASTE",
+            "size": 367,
+            "y": 86.60254037844388,
+            "x": 49.99999999999999,
+            "color": "rgba(148, 50, 106,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ISABELLE",
+            "label": "ISABELLE",
+            "size": 1614,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PAGE",
+            "label": "PAGE",
+            "size": 6,
+            "y": 86.60254037844388,
+            "x": -49.99999999999997,
+            "color": "rgba(106, 50, 148,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LYSE",
+            "label": "LYSE",
+            "size": 1058,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "GÉRONTE",
+            "label": "GÉRONTE",
+            "size": 301,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LE-GEÔLIER",
+            "label": "LE-GEÔLIER",
+            "size": 101,
+            "y": -50.000000000000014,
+            "x": -86.60254037844386,
+            "color": "rgba(42, 50, 212,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ÉRASTE",
+            "label": "ÉRASTE",
+            "size": 57,
+            "y": -86.60254037844383,
+            "x": -50.00000000000004,
+            "color": "rgba(21, 50, 233,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

@@ -1,0 +1,522 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "GLAPHIRA",
+            "target": "ALEXANDRE",
+            "size": 303,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "ALEXANDRE",
+            "target": "GLAPHIRA",
+            "size": 485,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "HÉRODE",
+            "target": "ALEXANDRE",
+            "size": 553,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "ALEXANDRE",
+            "target": "HÉRODE",
+            "size": 492,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "HÉRODE",
+            "target": "PHÉRORE",
+            "size": 144,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "PHÉRORE",
+            "target": "HÉRODE",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "PHÉRORE",
+            "target": "ALEXANDRE",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "ALEXANDRE",
+            "target": "PHÉRORE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "ARISTOBULE",
+            "target": "ANTIPATRE",
+            "size": 325,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "ANTIPATRE",
+            "target": "ARISTOBULE",
+            "size": 137,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "ALEXANDRE",
+            "target": "ARISTOBULE",
+            "size": 779,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "ARISTOBULE",
+            "target": "ALEXANDRE",
+            "size": 227,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ARISTOBULE",
+            "target": "GLAPHIRA",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "GLAPHIRA",
+            "target": "ARISTOBULE",
+            "size": 35,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "ANTIPATRE",
+            "target": "DIOPHANTE",
+            "size": 115,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "DIOPHANTE",
+            "target": "ANTIPATRE",
+            "size": 52,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "HÉRODE",
+            "target": "SALOMÉ",
+            "size": 180,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "SALOMÉ",
+            "target": "HÉRODE",
+            "size": 163,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "HÉRODE",
+            "target": "ANTIPATRE",
+            "size": 158,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "HÉRODE",
+            "target": "DIOPHANTE",
+            "size": 113,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "ANTIPATRE",
+            "target": "HÉRODE",
+            "size": 69,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "DIOPHANTE",
+            "target": "HÉRODE",
+            "size": 32,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "HÉRODE",
+            "target": "ARISTOBULE",
+            "size": 301,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "ARISTOBULE",
+            "target": "HÉRODE",
+            "size": 69,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "GLAPHIRA",
+            "target": "SALOMÉ",
+            "size": 431,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "SALOMÉ",
+            "target": "GLAPHIRA",
+            "size": 211,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "HÉRODE",
+            "target": "MÉLAS",
+            "size": 194,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "MÉLAS",
+            "target": "HÉRODE",
+            "size": 341,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "ANTIPATRE",
+            "target": "MÉLAS",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "DIOPHANTE",
+            "target": "MÉLAS",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "MÉLAS",
+            "target": "ANTIPATRE",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "MÉLAS",
+            "target": "DIOPHANTE",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "HÉRODE",
+            "target": "GLAPHIRA",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "HÉRODE",
+            "target": "RACHEL",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "GLAPHIRA",
+            "target": "HÉRODE",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "GLAPHIRA",
+            "target": "RACHEL",
+            "size": 494,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "GLAPHIRA",
+            "target": "MÉLAS",
+            "size": 44,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "ALEXANDRE",
+            "target": "RACHEL",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "ALEXANDRE",
+            "target": "MÉLAS",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "RACHEL",
+            "target": "HÉRODE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "RACHEL",
+            "target": "GLAPHIRA",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "RACHEL",
+            "target": "ALEXANDRE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "RACHEL",
+            "target": "MÉLAS",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "MÉLAS",
+            "target": "GLAPHIRA",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "MÉLAS",
+            "target": "ALEXANDRE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "MÉLAS",
+            "target": "RACHEL",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "ARISTOBULE",
+            "target": "DIOPHANTE",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "DIOPHANTE",
+            "target": "ARISTOBULE",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "DIOPHANTE",
+            "target": "ALEXANDRE",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "ALEXANDRE",
+            "target": "DIOPHANTE",
+            "size": 84,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "ANTIPATRE",
+            "target": "SALOMÉ",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "SALOMÉ",
+            "target": "ANTIPATRE",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "GLAPHIRA",
+            "label": "GLAPHIRA",
+            "size": 1433,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ALEXANDRE",
+            "label": "ALEXANDRE",
+            "size": 1943,
+            "y": -80.90169943749474,
+            "x": 58.778525229247315,
+            "color": "rgba(229, 50, 25,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "HÉRODE",
+            "label": "HÉRODE",
+            "size": 2074,
+            "y": -30.901699437494745,
+            "x": 95.10565162951535,
+            "color": "rgba(204, 50, 51,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PHÉRORE",
+            "label": "PHÉRORE",
+            "size": 13,
+            "y": 30.901699437494734,
+            "x": 95.10565162951536,
+            "color": "rgba(178, 50, 76,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ARISTOBULE",
+            "label": "ARISTOBULE",
+            "size": 654,
+            "y": 80.90169943749473,
+            "x": 58.77852522924732,
+            "color": "rgba(153, 50, 102,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ANTIPATRE",
+            "label": "ANTIPATRE",
+            "size": 352,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "DIOPHANTE",
+            "label": "DIOPHANTE",
+            "size": 130,
+            "y": 80.90169943749474,
+            "x": -58.7785252292473,
+            "color": "rgba(102, 50, 153,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "SALOMÉ",
+            "label": "SALOMÉ",
+            "size": 465,
+            "y": 30.901699437494756,
+            "x": -95.10565162951535,
+            "color": "rgba(76, 50, 178,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MÉLAS",
+            "label": "MÉLAS",
+            "size": 404,
+            "y": -30.901699437494724,
+            "x": -95.10565162951536,
+            "color": "rgba(51, 50, 204,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "RACHEL",
+            "label": "RACHEL",
+            "size": 20,
+            "y": -80.90169943749473,
+            "x": -58.778525229247336,
+            "color": "rgba(25, 50, 229,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

@@ -1,0 +1,992 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "THARE",
+            "target": "HÉRODE",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "THARE",
+            "target": "PHERORE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "HÉRODE",
+            "target": "THARE",
+            "size": 211,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "HÉRODE",
+            "target": "PHERORE",
+            "size": 946,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "PHERORE",
+            "target": "THARE",
+            "size": 110,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "PHERORE",
+            "target": "HÉRODE",
+            "size": 249,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "SALOME",
+            "target": "HÉRODE",
+            "size": 299,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "SALOME",
+            "target": "PHERORE",
+            "size": 204,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "HÉRODE",
+            "target": "SALOME",
+            "size": 1052,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "PHERORE",
+            "target": "SALOME",
+            "size": 151,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "MARIANE",
+            "target": "DINA",
+            "size": 405,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "DINA",
+            "target": "MARIANE",
+            "size": 211,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "MARIANE",
+            "target": "SALOME",
+            "size": 165,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "SALOME",
+            "target": "MARIANE",
+            "size": 247,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "L-ÉCHANSON",
+            "target": "SALOME",
+            "size": 148,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "SALOME",
+            "target": "L-ÉCHANSON",
+            "size": 259,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "HUISSIER",
+            "target": "HÉRODE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "HUISSIER",
+            "target": "SALOME",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "HUISSIER",
+            "target": "L-ÉCHANSON",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "HUISSIER",
+            "target": "THARE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "HÉRODE",
+            "target": "HUISSIER",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "HÉRODE",
+            "target": "L-ÉCHANSON",
+            "size": 124,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "SALOME",
+            "target": "HUISSIER",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "SALOME",
+            "target": "THARE",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "L-ÉCHANSON",
+            "target": "HUISSIER",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "L-ÉCHANSON",
+            "target": "HÉRODE",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "L-ÉCHANSON",
+            "target": "THARE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "THARE",
+            "target": "HUISSIER",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "THARE",
+            "target": "SALOME",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "THARE",
+            "target": "L-ÉCHANSON",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "HÉRODE",
+            "target": "MARIANE",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "HÉRODE",
+            "target": "PREMIER_JUGE",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "HÉRODE",
+            "target": "SECOND_JUGE",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "HÉRODE",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 186,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "MARIANE",
+            "target": "HÉRODE",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "MARIANE",
+            "target": "L-ÉCHANSON",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "MARIANE",
+            "target": "PHERORE",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "MARIANE",
+            "target": "PREMIER_JUGE",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "MARIANE",
+            "target": "SECOND_JUGE",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "MARIANE",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 45,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "L-ÉCHANSON",
+            "target": "MARIANE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "L-ÉCHANSON",
+            "target": "PHERORE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "L-ÉCHANSON",
+            "target": "PREMIER_JUGE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "L-ÉCHANSON",
+            "target": "SECOND_JUGE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "L-ÉCHANSON",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "PHERORE",
+            "target": "MARIANE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "PHERORE",
+            "target": "L-ÉCHANSON",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "PHERORE",
+            "target": "PREMIER_JUGE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "PHERORE",
+            "target": "SECOND_JUGE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "PHERORE",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "SALOME",
+            "target": "PREMIER_JUGE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "SALOME",
+            "target": "SECOND_JUGE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "SALOME",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "PREMIER_JUGE",
+            "target": "HÉRODE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "PREMIER_JUGE",
+            "target": "MARIANE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "PREMIER_JUGE",
+            "target": "L-ÉCHANSON",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "PREMIER_JUGE",
+            "target": "PHERORE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "PREMIER_JUGE",
+            "target": "SALOME",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "PREMIER_JUGE",
+            "target": "SECOND_JUGE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "PREMIER_JUGE",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "SECOND_JUGE",
+            "target": "HÉRODE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "SECOND_JUGE",
+            "target": "MARIANE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "SECOND_JUGE",
+            "target": "L-ÉCHANSON",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "SECOND_JUGE",
+            "target": "PHERORE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "SECOND_JUGE",
+            "target": "SALOME",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "SECOND_JUGE",
+            "target": "PREMIER_JUGE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "SECOND_JUGE",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "HÉRODE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "MARIANE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "L-ÉCHANSON",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "PHERORE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "SALOME",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "PREMIER_JUGE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "SECOND_JUGE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "HÉRODE",
+            "target": "SOESME",
+            "size": 82,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "SOESME",
+            "target": "HÉRODE",
+            "size": 73,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "SOESME",
+            "target": "LE_GRAND_PRÉVÔT",
+            "size": 73,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "LE_GRAND_PRÉVÔT",
+            "target": "SOESME",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "HÉRODE",
+            "target": "L-EUNUQUE",
+            "size": 67,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "L-EUNUQUE",
+            "target": "HÉRODE",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "LE_CONCIERGE",
+            "target": "MARIANE",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "MARIANE",
+            "target": "LE_CONCIERGE",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "ALEXANDRA",
+            "target": "LE-CHEVALIER-D-HONNEUR",
+            "size": 114,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "LE-CHEVALIER-D-HONNEUR",
+            "target": "ALEXANDRA",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "THARE",
+            "target": "MARIANE",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "MARIANE",
+            "target": "THARE",
+            "size": 242,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "MARIANE",
+            "target": "ALEXANDRA",
+            "size": 21,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "ALEXANDRA",
+            "target": "MARIANE",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "ALEXANDRA",
+            "target": "THARE",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "ALEXANDRA",
+            "target": "DINA",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "THARE",
+            "target": "ALEXANDRA",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "THARE",
+            "target": "DINA",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "DINA",
+            "target": "ALEXANDRA",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "DINA",
+            "target": "THARE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "NARBAL",
+            "target": "HÉRODE",
+            "size": 388,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "HÉRODE",
+            "target": "NARBAL",
+            "size": 759,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "SALOME",
+            "target": "NARBAL",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "NARBAL",
+            "target": "SALOME",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e98",
+            "source": "NARBAL",
+            "target": "PHERORE",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e99",
+            "source": "NARBAL",
+            "target": "THARE",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e100",
+            "source": "PHERORE",
+            "target": "NARBAL",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e101",
+            "source": "THARE",
+            "target": "NARBAL",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "HÉRODE",
+            "label": "HÉRODE",
+            "size": 4092,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "THARE",
+            "label": "THARE",
+            "size": 64,
+            "y": -93.24722294043558,
+            "x": 36.12416661871529,
+            "color": "rgba(240, 50, 15,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PHERORE",
+            "label": "PHERORE",
+            "size": 528,
+            "y": -73.90089172206591,
+            "x": 67.36956436465572,
+            "color": "rgba(225, 50, 30,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "SALOME",
+            "label": "SALOME",
+            "size": 1054,
+            "y": -44.57383557765383,
+            "x": 89.51632913550624,
+            "color": "rgba(210, 50, 45,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MARIANE",
+            "label": "MARIANE",
+            "size": 1278,
+            "y": -9.226835946330201,
+            "x": 99.57341762950345,
+            "color": "rgba(195, 50, 60,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "DINA",
+            "label": "DINA",
+            "size": 214,
+            "y": 27.36629900720829,
+            "x": 96.1825643172819,
+            "color": "rgba(180, 50, 75,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "L-ÉCHANSON",
+            "label": "L-ÉCHANSON",
+            "size": 179,
+            "y": 60.26346363792563,
+            "x": 79.80172272802396,
+            "color": "rgba(165, 50, 90,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "HUISSIER",
+            "label": "HUISSIER",
+            "size": 16,
+            "y": 85.0217135729614,
+            "x": 52.643216287735605,
+            "color": "rgba(150, 50, 105,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PREMIER_JUGE",
+            "label": "PREMIER_JUGE",
+            "size": 9,
+            "y": 98.29730996839018,
+            "x": 18.374951781657035,
+            "color": "rgba(135, 50, 120,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "SECOND_JUGE",
+            "label": "SECOND_JUGE",
+            "size": 8,
+            "y": 98.29730996839018,
+            "x": -18.37495178165701,
+            "color": "rgba(120, 50, 135,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LE_GRAND_PRÉVÔT",
+            "label": "LE_GRAND_PRÉVÔT",
+            "size": 6,
+            "y": 85.02171357296142,
+            "x": -52.643216287735584,
+            "color": "rgba(105, 50, 150,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "SOESME",
+            "label": "SOESME",
+            "size": 147,
+            "y": 60.26346363792572,
+            "x": -79.80172272802389,
+            "color": "rgba(90, 50, 165,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "L-EUNUQUE",
+            "label": "L-EUNUQUE",
+            "size": 12,
+            "y": 27.366299007208312,
+            "x": -96.1825643172819,
+            "color": "rgba(75, 50, 180,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LE_CONCIERGE",
+            "label": "LE_CONCIERGE",
+            "size": 18,
+            "y": -9.226835946330244,
+            "x": -99.57341762950345,
+            "color": "rgba(60, 50, 195,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ALEXANDRA",
+            "label": "ALEXANDRA",
+            "size": 208,
+            "y": -44.57383557765377,
+            "x": -89.51632913550625,
+            "color": "rgba(45, 50, 210,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LE-CHEVALIER-D-HONNEUR",
+            "label": "LE-CHEVALIER-D-HONNEUR",
+            "size": 4,
+            "y": -73.90089172206586,
+            "x": -67.36956436465577,
+            "color": "rgba(30, 50, 225,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "NARBAL",
+            "label": "NARBAL",
+            "size": 451,
+            "y": -93.24722294043558,
+            "x": -36.1241666187153,
+            "color": "rgba(15, 50, 240,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

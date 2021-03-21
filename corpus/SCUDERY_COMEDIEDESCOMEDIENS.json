@@ -1,0 +1,1014 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "BELLE-FLEUR",
+            "target": "ARLEQUIN",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "BELLE-FLEUR",
+            "target": "BELLE-ÉPINE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "BELLE-FLEUR",
+            "target": "BEAU-SEJOUR",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "BELLE-FLEUR",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "BELLE-FLEUR",
+            "target": "BEAU-SOLEIL",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "BELLE-FLEUR",
+            "target": "LA-BELLE-EPINE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "BELLE-FLEUR",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "BELLE-FLEUR",
+            "target": "BELLE-OMBRE",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "ARLEQUIN",
+            "target": "BELLE-FLEUR",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "ARLEQUIN",
+            "target": "BELLE-ÉPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "ARLEQUIN",
+            "target": "BEAU-SEJOUR",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "ARLEQUIN",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ARLEQUIN",
+            "target": "BEAU-SOLEIL",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "ARLEQUIN",
+            "target": "LA-BELLE-EPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "ARLEQUIN",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "ARLEQUIN",
+            "target": "BELLE-OMBRE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "BELLE-ÉPINE",
+            "target": "BELLE-FLEUR",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "BELLE-ÉPINE",
+            "target": "ARLEQUIN",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "BELLE-ÉPINE",
+            "target": "BEAU-SEJOUR",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "BELLE-ÉPINE",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "BELLE-ÉPINE",
+            "target": "BEAU-SOLEIL",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "BELLE-ÉPINE",
+            "target": "LA-BELLE-EPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "BELLE-ÉPINE",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "BELLE-ÉPINE",
+            "target": "BELLE-OMBRE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "BEAU-SEJOUR",
+            "target": "BELLE-FLEUR",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "BEAU-SEJOUR",
+            "target": "ARLEQUIN",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "BEAU-SEJOUR",
+            "target": "BELLE-ÉPINE",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "BEAU-SEJOUR",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "BEAU-SEJOUR",
+            "target": "BEAU-SOLEIL",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "BEAU-SEJOUR",
+            "target": "LA-BELLE-EPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "BEAU-SEJOUR",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "BEAU-SEJOUR",
+            "target": "BELLE-OMBRE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "BELLE-FLEUR",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "ARLEQUIN",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "BELLE-ÉPINE",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "BEAU-SEJOUR",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "BEAU-SOLEIL",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "LA-BELLE-EPINE",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "MADAME-BELLE-EPINE",
+            "target": "BELLE-OMBRE",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "BEAU-SOLEIL",
+            "target": "BELLE-FLEUR",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "BEAU-SOLEIL",
+            "target": "ARLEQUIN",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "BEAU-SOLEIL",
+            "target": "BELLE-ÉPINE",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "BEAU-SOLEIL",
+            "target": "BEAU-SEJOUR",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "BEAU-SOLEIL",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "BEAU-SOLEIL",
+            "target": "LA-BELLE-EPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "BEAU-SOLEIL",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "BEAU-SOLEIL",
+            "target": "BELLE-OMBRE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "LA-BELLE-EPINE",
+            "target": "BELLE-FLEUR",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "LA-BELLE-EPINE",
+            "target": "ARLEQUIN",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "LA-BELLE-EPINE",
+            "target": "BELLE-ÉPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "LA-BELLE-EPINE",
+            "target": "BEAU-SEJOUR",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "LA-BELLE-EPINE",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "LA-BELLE-EPINE",
+            "target": "BEAU-SOLEIL",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "LA-BELLE-EPINE",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "LA-BELLE-EPINE",
+            "target": "BELLE-OMBRE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "BELLE-FLEUR",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "ARLEQUIN",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "BELLE-ÉPINE",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "BEAU-SEJOUR",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "BEAU-SOLEIL",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "LA-BELLE-EPINE",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "BELLE-OMBRE",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "BELLE-OMBRE",
+            "target": "BELLE-FLEUR",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "BELLE-OMBRE",
+            "target": "ARLEQUIN",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "BELLE-OMBRE",
+            "target": "BELLE-ÉPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "BELLE-OMBRE",
+            "target": "BEAU-SEJOUR",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "BELLE-OMBRE",
+            "target": "MADAME-BELLE-EPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "BELLE-OMBRE",
+            "target": "BEAU-SOLEIL",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "BELLE-OMBRE",
+            "target": "LA-BELLE-EPINE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "BELLE-OMBRE",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "L-HOTE",
+            "size": 157,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "L-HOTE",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 38,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "BELLE-OMBRE",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 86,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "BELLE-OMBRE",
+            "size": 183,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "MADAME-BEAU-SOLEIL",
+            "size": 138,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "BEAU-SEJOUR",
+            "size": 75,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "BELLE-ÉPINE",
+            "size": 138,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "BELLE-FLEUR",
+            "size": 75,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "MONSIEUR_DE_BLANDIMARE",
+            "target": "BEAU-SOLEIL",
+            "size": 138,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "MADAME-BEAU-SOLEIL",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "BEAU-SEJOUR",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "BELLE-ÉPINE",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "BELLE-FLEUR",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "BEAU-SOLEIL",
+            "target": "MONSIEUR_DE_BLANDIMARE",
+            "size": 24,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "TANCRÈDE",
+            "target": "IRIS",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "TANCRÈDE",
+            "target": "CLORICE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "TANCRÈDE",
+            "target": "ALCIDON",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "TANCRÈDE",
+            "target": "CLORlCE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "IRIS",
+            "target": "TANCRÈDE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "IRIS",
+            "target": "CLORICE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "IRIS",
+            "target": "ALCIDON",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "IRIS",
+            "target": "CLORlCE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "CLORICE",
+            "target": "TANCRÈDE",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "CLORICE",
+            "target": "IRIS",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "CLORICE",
+            "target": "ALCIDON",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "CLORICE",
+            "target": "CLORlCE",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e98",
+            "source": "ALCIDON",
+            "target": "TANCRÈDE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e99",
+            "source": "ALCIDON",
+            "target": "IRIS",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e100",
+            "source": "ALCIDON",
+            "target": "CLORICE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e101",
+            "source": "ALCIDON",
+            "target": "CLORlCE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e102",
+            "source": "CLORlCE",
+            "target": "TANCRÈDE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e103",
+            "source": "CLORlCE",
+            "target": "IRIS",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e104",
+            "source": "CLORlCE",
+            "target": "CLORICE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e105",
+            "source": "CLORlCE",
+            "target": "ALCIDON",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "MONSIEUR_DE_BLANDIMARE",
+            "label": "MONSIEUR_DE_BLANDIMARE",
+            "size": 1168,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BELLE-OMBRE",
+            "label": "BELLE-OMBRE",
+            "size": 283,
+            "y": -92.38795325112868,
+            "x": 38.268343236508976,
+            "color": "rgba(239, 50, 15,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ARLEQUIN",
+            "label": "ARLEQUIN",
+            "size": 117,
+            "y": -70.71067811865476,
+            "x": 70.71067811865474,
+            "color": "rgba(223, 50, 31,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BELLE-FLEUR",
+            "label": "BELLE-FLEUR",
+            "size": 59,
+            "y": -38.26834323650898,
+            "x": 92.38795325112868,
+            "color": "rgba(207, 50, 47,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BELLE-ÉPINE",
+            "label": "BELLE-ÉPINE",
+            "size": 33,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BEAU-SEJOUR",
+            "label": "BEAU-SEJOUR",
+            "size": 49,
+            "y": 38.268343236508976,
+            "x": 92.38795325112868,
+            "color": "rgba(175, 50, 79,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MADAME-BELLE-EPINE",
+            "label": "MADAME-BELLE-EPINE",
+            "size": 25,
+            "y": 70.71067811865474,
+            "x": 70.71067811865476,
+            "color": "rgba(159, 50, 95,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BEAU-SOLEIL",
+            "label": "BEAU-SOLEIL",
+            "size": 131,
+            "y": 92.38795325112868,
+            "x": 38.26834323650899,
+            "color": "rgba(143, 50, 111,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LA-BELLE-EPINE",
+            "label": "LA-BELLE-EPINE",
+            "size": 13,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MADAME-BEAU-SOLEIL",
+            "label": "MADAME-BEAU-SOLEIL",
+            "size": 351,
+            "y": 92.38795325112868,
+            "x": -38.26834323650897,
+            "color": "rgba(111, 50, 143,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "L-HOTE",
+            "label": "L-HOTE",
+            "size": 38,
+            "y": 70.71067811865477,
+            "x": -70.71067811865474,
+            "color": "rgba(95, 50, 159,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "TANCRÈDE",
+            "label": "TANCRÈDE",
+            "size": 54,
+            "y": 38.26834323650903,
+            "x": -92.38795325112865,
+            "color": "rgba(79, 50, 175,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "IRIS",
+            "label": "IRIS",
+            "size": 52,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CLORICE",
+            "label": "CLORICE",
+            "size": 46,
+            "y": -38.268343236509,
+            "x": -92.38795325112866,
+            "color": "rgba(47, 50, 207,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ALCIDON",
+            "label": "ALCIDON",
+            "size": 53,
+            "y": -70.71067811865474,
+            "x": -70.71067811865477,
+            "color": "rgba(31, 50, 223,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CLORlCE",
+            "label": "CLORlCE",
+            "size": 8,
+            "y": -92.38795325112865,
+            "x": -38.26834323650904,
+            "color": "rgba(15, 50, 239,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "maxime",
+            "target": "brute",
+            "size": 83,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "brute",
+            "target": "maxime",
+            "size": 297,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "cassie",
+            "target": "brute",
+            "size": 439,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "brute",
+            "target": "cassie",
+            "size": 635,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "brute",
+            "target": "porcie",
+            "size": 1385,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "porcie",
+            "target": "brute",
+            "size": 962,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "porcie",
+            "target": "maxime",
+            "size": 879,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "maxime",
+            "target": "porcie",
+            "size": 559,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "porcie",
+            "target": "julie",
+            "size": 776,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "julie",
+            "target": "porcie",
+            "size": 233,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "julie",
+            "target": "cassie",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "julie",
+            "target": "philipe",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "cassie",
+            "target": "julie",
+            "size": 274,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "cassie",
+            "target": "philipe",
+            "size": 274,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "philipe",
+            "target": "julie",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "philipe",
+            "target": "cassie",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "philipe",
+            "target": "porcie",
+            "size": 392,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "porcie",
+            "target": "philipe",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "octave",
+            "target": "valere",
+            "size": 175,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "valere",
+            "target": "octave",
+            "size": 472,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "porcie",
+            "target": "octave",
+            "size": 572,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "octave",
+            "target": "porcie",
+            "size": 100,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "tite",
+            "target": "maxime",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "tite",
+            "target": "octave",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "maxime",
+            "target": "tite",
+            "size": 134,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "maxime",
+            "target": "octave",
+            "size": 134,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "octave",
+            "target": "tite",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "octave",
+            "target": "maxime",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "brute",
+            "label": "brute",
+            "size": 2531,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "maxime",
+            "label": "maxime",
+            "size": 912,
+            "y": -76.60444431189781,
+            "x": 64.27876096865393,
+            "color": "rgba(226, 50, 28,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "cassie",
+            "label": "cassie",
+            "size": 1197,
+            "y": -17.36481776669304,
+            "x": 98.4807753012208,
+            "color": "rgba(198, 50, 56,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "porcie",
+            "label": "porcie",
+            "size": 3424,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "julie",
+            "label": "julie",
+            "size": 292,
+            "y": 93.96926207859083,
+            "x": 34.20201433256689,
+            "color": "rgba(141, 50, 113,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "philipe",
+            "label": "philipe",
+            "size": 470,
+            "y": 93.96926207859084,
+            "x": -34.20201433256687,
+            "color": "rgba(113, 50, 141,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "octave",
+            "label": "octave",
+            "size": 426,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "valere",
+            "label": "valere",
+            "size": 472,
+            "y": -17.364817766692997,
+            "x": -98.48077530122082,
+            "color": "rgba(56, 50, 198,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "tite",
+            "label": "tite",
+            "size": 15,
+            "y": -76.60444431189778,
+            "x": -64.27876096865396,
+            "color": "rgba(28, 50, 226,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

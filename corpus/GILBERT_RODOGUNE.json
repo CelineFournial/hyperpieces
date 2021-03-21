@@ -1,0 +1,200 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "RODOGUNE",
+            "target": "ARTAXERCE",
+            "size": 1027,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "RODOGUNE",
+            "target": "DARIE",
+            "size": 948,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "ARTAXERCE",
+            "target": "RODOGUNE",
+            "size": 254,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "ARTAXERCE",
+            "target": "DARIE",
+            "size": 692,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "DARIE",
+            "target": "RODOGUNE",
+            "size": 311,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "DARIE",
+            "target": "ARTAXERCE",
+            "size": 898,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "RODOGUNE",
+            "target": "ORONTE",
+            "size": 481,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "ORONTE",
+            "target": "RODOGUNE",
+            "size": 388,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "ORONTE",
+            "target": "DARIE",
+            "size": 132,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "ORONTE",
+            "target": "ARTAXERCE",
+            "size": 132,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "DARIE",
+            "target": "ORONTE",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "ARTAXERCE",
+            "target": "ORONTE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "RODOGUNE",
+            "target": "LIDIE",
+            "size": 625,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "LIDIE",
+            "target": "RODOGUNE",
+            "size": 644,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "LIDIE",
+            "target": "ARTAXERCE",
+            "size": 206,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "LIDIE",
+            "target": "DARIE",
+            "size": 173,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "ARTAXERCE",
+            "target": "LIDIE",
+            "size": 162,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "DARIE",
+            "target": "LIDIE",
+            "size": 220,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "RODOGUNE",
+            "label": "RODOGUNE",
+            "size": 3263,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ARTAXERCE",
+            "label": "ARTAXERCE",
+            "size": 1170,
+            "y": -30.901699437494745,
+            "x": 95.10565162951535,
+            "color": "rgba(204, 50, 51,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "DARIE",
+            "label": "DARIE",
+            "size": 1432,
+            "y": 80.90169943749473,
+            "x": 58.77852522924732,
+            "color": "rgba(153, 50, 102,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ORONTE",
+            "label": "ORONTE",
+            "size": 653,
+            "y": 80.90169943749474,
+            "x": -58.7785252292473,
+            "color": "rgba(102, 50, 153,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LIDIE",
+            "label": "LIDIE",
+            "size": 1023,
+            "y": -30.901699437494724,
+            "x": -95.10565162951536,
+            "color": "rgba(51, 50, 204,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

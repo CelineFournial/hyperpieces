@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Pièces</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <!--
+  <script src="dist/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="dist/sigma/sigma.min.js"></script>
+  <script src="dist/sigma/sigma.layout.forceAtlas2.min.js"></script>
+  <script src="dist/sigma/sigma.plugins.dragNodes.min.js"></script>
+  <script src="dist/sigma/sigma.exporters.image.min.js"></script>
+  <script src="dist/Rolenet.js"></script>
+  <style>
+*{
+  margin: 0px;
+}
+
+div.graphs {
+  position: relative;
+}
+
+div.text {
+  position: absolute;
+  width: 50%;
+  left: 0%;
+  height: 600px; 
+}
+
+div.histogram {
+  position: absolute;
+  width: 100%;
+  top: 650px; 
+  height: 400px;
+}
+
+div.graph {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  height: 600px; 
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+div#text2 {
+  left: 50%;  
+}
+
+.textChoice{
+  position: relative;
+  font-size: 10pt;
+  width:70%;
+}
+
+.loadTei{
+  width:29%;
+  padding:0px;
+  margin:0px;
+  font-family: 'im_fell_english_proregular';
+}
+
+.hidden{
+  display:none;
+}
+
+h2{
+  padding:10px;
+}
+
+.presentation{
+  padding:10px;
+}
+
+.presentation p{
+  padding-bottom:10px;
+}
+
+select{
+  font-family: 'im_fell_english_proregular';
+}
+  </style>
+</head>
+<body>
+  <div class="presentation">
+  <a href="index.html"><img src="img/haut.png" alt="" style="width:100%"></a>
+  <h1><a href="index.html"><span style="font-size:2em">Hyperpièces</span><br><em>Aux sources de la création dramatique</em></a></h1>
+  <h2>Comparaison de graphes de personnages</h2>
+  <p>
+  Cette interface utilise le code de l'outil <a href="http://obvil.lip6.fr/Dramagraph/">Dramagraph</a> 
+  de <a href="https://resultats.hypotheses.org/">Frédéric Glorieux</a>, 
+  <a href="https://github.com/dramacode/Dramagraph">mis à disposition</a> sous licence LGPL, 
+  inspiré du <a href="http://litlab.stanford.edu/LiteraryLabPamphlet6.pdf"><i>Literary Lab Pamphlet 6</i></a> 
+  de <a href="https://english.stanford.edu/people/franco-moretti">Franco Moretti</a>.
+  Elle a été codée en Javascript par <a href="https://github.com/PhilippeGambette">Philippe Gambette</a>.
+  </p>
+  <p>
+  Elle permet de charger des pièces en XML-TEI où les scènes sont codées par des balises <tt>div2</tt> comme dans
+  les fichiers XML du site <a href="http://www.theatre-classique.fr/pages/programmes/PageEdition.php">Theatre-Classique.fr</a>,
+  ou dans des balises <tt>div</tt> avec l'attribut <tt>scene</tt> comme dans 
+  les fichiers TEI de <a href="http://bibdramatique.huma-num.fr/">la Bibliothèque dramatique du Cellf</a>.
+  Les noms des personnages, dans l'attribut <tt>who</tt> de la balise <tt>sp</tt>, ne doivent pas contenir d'espaces, et peuvent être séparés par des espaces.
+  </p>
+  <p>
+  Les cercles représentant les personnages, ci-dessous, sont colorés en fonction de leur ordre d'apparition dans la pièce (rouge au début, bleu à la fin) 
+  et les épaisseurs des flèches d'un personnage à l'autre reflètent le nombre de caractères dans les répliques dites par ce personnage dans toutes les scènes où apparait le deuxième.
+  </p>
+  </div>
+  <div class="graphs">
+    <div id="text1" class="text">
+      <div id="graph1" class="graph" oncontextmenu="return false">
+      </div>
+      <div id="histogram1" class="histogram"></div>
+    </div>
+    <div id="text2" class="text">
+      <div id="graph2" class="graph" oncontextmenu="return false">
+      </div>
+      <div id="histogram2" class="histogram"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+// Get the graphs corresponding to the plays ids in the URL
+var parameterList = window.location.href.replace("2pieces.html?","&").split("&");
+var parameters = {}
+for(var i in parameterList){
+   if(i > 0){
+     parameters[parameterList[i].split("=")[0]] = parameterList[i].split("=")[1];
+   }
+   i++;
+}
+
+var emptyText = {text1:true, text2:true};
+var initialText = {text1:"", text2:""};
+var chosenText = {text1:"", text2:""};
+
+// List of all available theater plays
+var pieces = {
+"SCUDERY_COMEDIEDESCOMEDIENS":"Georges de Scudéry, La Comédie des comédiens (1632), Paris : A. Courbé, 1635.",
+"CORNEILLEP_ILLUSIONCOMIQUE":"Pierre Corneille, L’Illusion comique (été 1635), Paris : F. Targa, 1639.",
+"TRISTAN_MARIANE":"François L’Hermite sieur du Soliers dit Tristan L’Hermite, La Mariane (1636), Paris : A. Courbé, 1637.",
+"LACALPRENEDE_ENFANTSDHERODE":"Gautier de Coste sieur de La Calprenède, La Mort des enfans d’Hérodes ou Suite de Mariane (1638), Paris : A. Courbé, 1639.",
+"guerindebouscal_mortbrute":"Guyon Guérin de Bouscal, La Mort de Brute et de Porcie, ou la Vengeance de la mort de César (1635-1636), Paris : T. Quinet, 1637.",
+"boyer_porcieromaine":"Claude Boyer, La Porcie romaine (1645), Paris : A. Courbé, 1646.",
+"CORNEILLEP_RODOGUNE":"Pierre Corneille, Rodogune, princesse des Parthes (1644-1645), Paris : A. de Sommaville, 1647.",
+"GILBERT_RODOGUNE":"Gabriel Gilbert, Rodogune (1645), Paris : A. Courbé, 1646."
+};
+
+// Add the list of text choices
+$("#text1").prepend('<select id="textChoice1" class="textChoice"></select><button id="loadTei1" class="loadTei">Charger TEI</button><input type="file" id="realLoadTei1" class="realLoadTei hidden"><div id="xml1" class="hidden"></div><br>');
+$("#text2").prepend('<select id="textChoice2" class="textChoice"></select><button id="loadTei2" class="loadTei">Charger TEI</button><input type="file" id="realLoadTei2" class="realLoadTei hidden"><div id="xml2" class="hidden""></div><br>');
+function addTextChoice(){
+  var codesPieces = Object.keys(pieces);
+  var i = 0;
+  while(i < codesPieces.length){
+    try{
+      $.get("./corpus/" + codesPieces[i] + ".json")
+      .done(function(data, textStatus, errorThrown){
+        var codePiece = $(this)[0].url.replace(".json","").replace("./corpus/","");
+
+        // Check if the text was already chosen, either before (variable chosenText) or in the URL (variable parameters)
+        var selected1 = "";
+        if(codePiece == chosenText["text1"] || (("text1" in parameters) && (parameters["text1"]==codePiece))){
+           selected1 = "selected";
+        }
+        var selected2 = "";
+        if(codePiece == chosenText["text2"] || (("text2" in parameters) && (parameters["text2"]==codePiece))){
+           selected2 = "selected";
+        }
+        
+        // Add the text to the scrollable list
+        $("#textChoice1").append('<option value="' + codePiece + '"' + selected1 + '>' + pieces[codePiece] + '</option>');
+        $("#textChoice2").append('<option value="' + codePiece + '"' + selected2 + '>' + pieces[codePiece] + '</option>');
+        
+        // Load the graph if the text was present in the URL
+        if(("text1" in parameters) && (parameters["text1"]==codePiece)){
+          parameters["text1"] = "";
+          $(".textChoice").trigger("change");
+        }
+        if(("text2" in parameters) && (parameters["text2"]==codePiece)){
+          parameters["text2"] = "";
+          $(".textChoice").trigger("change");
+        }
+      })
+      .fail(function(jqXHR, textStatus, errorThrown) {
+        console.log(errorThrown);
+   });
+    } catch(error){
+      console.log(error)
+    }
+    i++;
+  }
+  
+  // Add the default option if no text is selected: an empty line
+  $("#textChoice1").prepend('<option value="">');
+  $("#textChoice2").prepend('<option value="">');
+}
+
+addTextChoice();
+
+var graph;
+
+// Reset the chosen graph
+function resetGraph(textId){
+     if(emptyText[textId]){
+        // The div block containing the graph has just been initialized, save its content to restore it later
+        initialText[textId] = $("#" + textId).html();
+        emptyText[textId] = false;
+        // Add the buttons below the graph
+        addButtons(textId);
+     } else {
+        // Restore the content of the div block containing the graph (except the graph)
+        $("#" + textId).html(initialText[textId]);
+        // Select the right element in the scrollable list
+        $("#" + textId + " option").prop("selected","false");
+        $("#" + textId + " option[value='" + chosenText[textId] + "']").prop("selected","true");
+        // Add the buttons below the graph
+        addButtons(textId);
+     }
+}
+
+// Add the buttons below the graph
+function addButtons(textId){
+  $("#" + textId + " .graph").append('      <div style="position: absolute; bottom: 0; right: 2px; z-index: 2; "></div>')
+  $("#" + textId + " .graph div").append('        <button class="colors but" title="Gris ou couleurs">◐</button>')
+  $("#" + textId + " .graph div").append('        <button class="shot but" type="button" title="Prendre une photo">📷</button>')
+  $("#" + textId + " .graph div").append('        <button class="turnleft but" type="button" title="Rotation vers la gauche">⤴</button>')
+  $("#" + textId + " .graph div").append('        <button class="turnright but" type="button" title="Rotation vers la droite">⤵</button>')
+  $("#" + textId + " .graph div").append('        <button class="zoomin but" style="cursor: zoom-in; " type="button" title="Grossir">+</button>')
+  $("#" + textId + " .graph div").append('        <button class="zoomout but" style="cursor: zoom-out; " type="button" title="Diminuer">–</button>')
+  $("#" + textId + " .graph div").append('        <button class="but restore" type="button" title="Recharger">O</button>')
+  $("#" + textId + " .graph div").append('        <button class="mix but" type="button" title="Mélanger le graphe">♻</button>')
+  $("#" + textId + " .graph div").append('        <button class="grav but" type="button" title="Démarrer ou arrêter la gravité">►</button>')
+  $("#" + textId + " .graph div").append('        <span class="resize interface" style="cursor: se-resize; font-size: 1.3em; " title="Redimensionner la feuille">⬊</span>')
+}
+
+// Display the graph for the chosen play
+$(document).on("change", ".textChoice", function(){
+   var textId = $(this).attr("id").replace("textChoice", "text");
+   chosenText[textId] = $(this).val();
+   $.get("./corpus/" + $(this).val() + ".json")
+   .done(function createGraph(data){
+     resetGraph(textId);
+     graph = new Rolenet(textId, data);
+   })
+   .fail(function(jqXHR, textStatus, errorThrown) {
+      console.log(errorThrown);
+   });
+})
+
+// Trigger the click to load an XML file
+$(document).on("click", ".loadTei", function(){
+  $("#realLoadTei"+$(this).attr("id").replace("loadTei","")).trigger("click");
+})
+
+// Load an XML file
+$(document).on("change", ".realLoadTei", function(e){
+  textNb = $(this).attr("id").replace("realLoadTei","");
+  file = e.target.files[0]
+  var reader = new FileReader();
+  reader.readAsText(file);
+  reader.onloadend = function(){
+     var xmlData = $(reader.result);
+     var i = 0;
+     while(i<xmlData.length){
+        if(xmlData[i].tagName != undefined && xmlData[i].tagName.toLowerCase()=="tei"){
+           $("#xml" + textNb).html(xmlData[i].outerHTML);
+        }
+        i++;
+     }
+     
+     // Build the list of scenes depending on whether they are coded by div2 tags or div tags with type scene
+     var allScenes = $('#xml' + textNb + ' div2');
+     if(allScenes.length == 0){
+       allScenes = $('#xml' + textNb + ' div[type="scene"]');
+     }
+     
+     // Compute the size of the text of each speaker, and each pair of speakers, in each scene
+     speakers = {};
+     speakerPairs = {};
+     nbChar = 0
+     allScenes.each(function(){
+        // Focus on a scene
+        sceneSpeakers = {}
+        nbCharScene = 0
+        // Find all speakers in the scene
+        allSpeakingBlocks = $(this).find("sp");
+        allSpeakingBlocks.each(function(){
+           // Focus on a speaker
+           var speaker = $(this).attr("who");
+           // Count their number of verses or sentences
+           var nbVers = $(this).find("l").length + $(this).find("s").length;
+           // Count their number of characters
+           var nbChar = 0;
+           $(this).find("l").each(function(){
+              nbChar += $(this).text().length;
+              nbCharScene += $(this).text().length;
+           })
+           $(this).find("s").each(function(){
+              nbChar += $(this).text().length;
+              nbCharScene += $(this).text().length;
+           })
+           // console.log(speaker + " : " + nbVers + " vers ou phrase ; " + nbChar + " caractères.");
+
+           // There may be several speakers, whose names are separated by a white space
+           var speakers = speaker.split(" ");
+           var i = 0;
+           while(i < speakers.length){
+              // Store the quantity of text said by each speaker
+              if((speakers[i] in sceneSpeakers)){
+                 sceneSpeakers[speakers[i]].sv += nbVers;
+                 sceneSpeakers[speakers[i]].nbChar += nbChar;
+              } else {
+                 sceneSpeakers[speakers[i]] = {"sv":nbVers, "nbChar":nbChar};
+              }
+              i++;
+           }
+        })
+        
+        // Build data about speakers and speaker pairs
+        for(const speaker in sceneSpeakers){
+           // Add the quantity of text said by each speaker during the scene
+           if(speaker in speakers){
+              speakers[speaker].sv += sceneSpeakers[speaker].sv;
+              speakers[speaker].nbChar += sceneSpeakers[speaker].nbChar;
+              speakers[speaker].nbCharScenes += nbCharScene;
+           } else {
+              speakers[speaker] = {"sv":sceneSpeakers[speaker].sv, "nbChar":sceneSpeakers[speaker].nbChar, "nbCharScenes":nbCharScene, "order":Object.keys(speakers).length};
+              speakerNb++;
+           }
+           
+           // Add the quantity of text said by each speaker to other speakers during the scene
+           for(const speaker2 in sceneSpeakers){
+             if(speaker != speaker2){
+               if(speaker+"¤"+speaker2 in speakerPairs){
+                 speakerPairs[speaker+"¤"+speaker2].sv += sceneSpeakers[speaker].sv/(Object.keys(sceneSpeakers).length-1);
+                 speakerPairs[speaker+"¤"+speaker2].nbChar += sceneSpeakers[speaker].nbChar/(Object.keys(sceneSpeakers).length-1);
+               } else {
+                 speakerPairs[speaker+"¤"+speaker2] = {"sv":sceneSpeakers[speaker].sv/(Object.keys(sceneSpeakers).length-1), "nbChar":sceneSpeakers[speaker].nbChar/(Object.keys(sceneSpeakers).length-1)}
+               }
+             }
+           }        
+        }
+        nbChar += nbCharScene;
+     })
+     //console.log(speakers)
+     //console.log(speakerPairs)
+     
+     // Build data for Dramagraph
+     // Build edges
+     var edges = [];
+     var i = 0;
+     for(speakerPair in speakerPairs){
+       var pairMembers = speakerPair.split("¤");
+       edges.push({"id":"e" + i, "source":pairMembers[0], "target":pairMembers[1], "size":Math.floor(speakerPairs[speakerPair].nbChar/10), "color":"rgba(190,190,190,0.8)", "type":"drama"});
+       i++;
+     }
+     // Build nodes
+     var nodes = []
+     var i = 0;
+     var speakerNb = Object.keys(speakers).length;
+     for(speaker in speakers){
+       nodes.push({
+         "id":speaker, 
+         "label":speaker, 
+         "size":Math.floor(speakers[speaker].nbChar/10), 
+         "y":-100*Math.cos(2*Math.PI*speakers[speaker].order/speakerNb), 
+         "x":100*Math.sin(2*Math.PI*speakers[speaker].order/speakerNb), 
+         "color":"rgba(" + Math.floor(255-255*speakers[speaker].order/speakerNb) + ", 50, " + Math.floor(255*speakers[speaker].order/speakerNb) + ",0.8)", 
+         "title":null, 
+         "type":"drama"
+       });
+       i++;
+     }
+     
+     // Draw the graph
+     var data = {edges:edges, nodes:nodes}
+     console.log(data)
+     var textId = "text" + textNb;
+     resetGraph(textId);
+     graph = new Rolenet("text" + textNb, data);
+
+
+     // Build a histogram about the importance of speakers
+     // Build the list of speakers
+     var speakerList = Object.keys(speakers);
+     speakerList = speakerList.sort(function(i,j){return speakers[i].nbChar-speakers[j].nbChar});
+     
+     // Compute the number of characters pronounced by each speaker or in their scenes
+     speakerNbChar = [];
+     speakerNbCharScenes = [];
+     for(sp in speakerList){
+       speakerNbChar.push(speakers[speakerList[sp]].nbChar/nbChar*100);
+       speakerNbCharScenes.push(speakers[speakerList[sp]].nbCharScenes/nbChar*100);
+     }
+     var barres = [{
+         x: speakerList,
+         y: speakerNbChar,
+         name: '% du texte total dans ses répliques',
+         type: 'bar',
+      },
+      {
+         x: speakerList,
+         y: speakerNbCharScenes,
+         name: '% du texte total dans ses scènes',
+         type: 'bar',
+      }];
+
+     // Layout of the histogram
+     var layout = {barmode: 'stack',
+      title: 'Importance des personnages',
+      barmode: 'group',
+      font:{ family: 'im_fell_english_proregular, serif' },
+        legend: {
+          x: 0,
+          y: -1.0,
+          bgcolor: 'rgba(255, 255, 255, 0)',
+          bordercolor: 'rgba(255, 255, 255, 0)'
+        },
+     };
+
+     // Draw the histogram
+     Plotly.newPlot('histogram' + textNb, barres, layout);
+
+  };  
+})
+
+/*
+function (){
+  const parser = new DOMParser();
+  var data = {edges:[], nodes:[]}
+  
+  return data;
+}  
+*/
+
+</script>
+</body>
+</html>
