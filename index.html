@@ -1703,6 +1703,144 @@ $(".bouton-ok").on("click",function(){
     construitGraphique();
 })
 
+
+
+
+
+
+
+
+// Lignées de pièces
+   var arcs = [];
+   var components = [];
+   var minYear = 1650;
+   var maxYear = 1550;
+   var minPossibleYear = maxYear;
+   var maxPossibleYear = minYear;
+   for(source in sources){
+      if(sources[source].id != "" && dictPieces["p"+sources[source].id] != undefined){
+      console.log("p"+sources[source].piece)
+         var arc = {source:sources[source].id,target:sources[source].piece}
+         arcs.push(arc);
+         
+         //console.log(dictPieces["p"+sources[source].id]);
+         // Mettre à jour minYear et maxYear
+         var anneeSource = parseInt(dictPieces["p"+sources[source].id].annee)
+         var anneePiece = parseInt(dictPieces["p"+sources[source].piece].annee)
+         var anneeMin = Math.min(anneeSource, anneePiece)
+         var anneeMax = Math.max(anneeSource, anneePiece)
+         if(anneeMin != "" && anneeMin < minYear){
+            minYear = anneeMin;
+         }
+         if(anneeMax != "" && anneeMax > maxYear){
+            maxYear = anneeMax;
+         }
+
+         // Créer ou mettre à jour une composante connexe du graphe des pièces et sources
+         var newComponent = true;
+         for(component in components){
+            if(components[component].nodes.has(sources[source].id) || components[component].nodes.has(sources[source].piece)){
+               components[component].nodes.add(sources[source].id);
+               components[component].nodes.add(sources[source].piece);
+               components[component].arcs.push(arc);
+               if(anneeMin < components[component].minYear){
+                  components[component].minYear = anneeMin;
+               }
+               newComponent = false;
+            }            
+         }
+         if(newComponent){
+            components.push({"arcs":[arc], "nodes":new Set([sources[source].id, sources[source].piece]), "minYear":anneeMin});
+         }
+      }
+   }
+   //console.log(arcs)
+   
+   // Création de la ligne des années
+   $("#lignees").html("");
+   minYear = Math.floor(minYear/10)*10;
+   maxYear = Math.floor(maxYear/10)*10 + 10;
+   var year = minYear;
+   var x = 20;
+   while(year <= maxYear){
+      $("#lignees").append('<path fill="none" stroke="black" d="M'+x+',25C'+x+',25 '+x+',20 '+x+',20"></path>');
+      $("#lignees").append('<text text-anchor="middle" x="' + (x+30) + '" y="15" font-family="im_fell_english_proregular" font-size="12.00">' + year + '</text>');
+      year += 10;
+      x += 100;
+   }
+   $("#lignees").append('<path fill="none" stroke="black" d="M10,25C10,25 '+x+',25 '+x+',25"></path>');
+   
+   // Affichage des composantes de sources/pièces sur la frise chronologique
+   // Tri chronologique croissant des composantes
+   components.sort(function(a,b){return a.minYear - b.minYear;})
+   var y = 30;
+   for(component in components){
+      var nodes = components[component].nodes;
+      // reorder nodes to avoid having arcs covering each other
+      var chronologicallyOrderedNodes = Array.from(nodes).sort(function(a,b){return dictPieces["p"+a].annee - dictPieces["p"+b].annee});
+      console.log(chronologicallyOrderedNodes);
+      var temp = chronologicallyOrderedNodes[chronologicallyOrderedNodes.length-1];
+      chronologicallyOrderedNodes[chronologicallyOrderedNodes.length-1] = chronologicallyOrderedNodes[1];
+      chronologicallyOrderedNodes[1] = temp;
+      var nodeLocation = {}
+      for(id in chronologicallyOrderedNodes){
+         var node = chronologicallyOrderedNodes[id]
+         $("#lignees").append('<a href="#p' + dictPieces["p"+node].id + '"><g id="node'+id+'" class="node">\n<title>' + dictPieces["p"+node].auteur + ' - ' + dictPieces["p"+node].titre + '</title>\n<ellipse fill="black" stroke="black" cx="' + (20+(parseInt(dictPieces["p"+node].annee)-minYear)*10) + '" cy="' + y + '" rx="4" ry="4"></ellipse></g></a>');
+         nodeLocation[node] = {x:(20+(parseInt(dictPieces["p"+node].annee)-minYear)*10) , y:y}
+         y += 5
+      }
+      
+      var arcs = components[component].arcs;
+      for(arc in arcs){
+        var sourceLocation = nodeLocation[arcs[arc].source];
+        var targetLocation = nodeLocation[arcs[arc].target];
+        $("#lignees").append('<path fill="none" stroke="black" d="M'+sourceLocation.x+','+sourceLocation.y+'C'+sourceLocation.x+','+sourceLocation.y+' '+targetLocation.x+','+targetLocation.y+' '+targetLocation.x+','+targetLocation.y+'"></path>')
+        //$("#lignees").append('<path fill="none" stroke="black" d="M148,-162C188,-162 188,-162 228,-162"></path>')
+      }
+      
+      y += 10;
+   }
+   $("#lignees").attr("width", x + "px")
+   $("#lignees").attr("height", (y+20) + "px")
+   $("#lignees").attr("viewBox","0.00 0.00 " + x + ".00 " + (y+20) + ".00")
+   $("#lignees").html($("#lignees").html());
+ 
+/*
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<!-- Hardy Alexandre &#45; Felismene -->
+<g id="node1" class="node">
+<title>Hardy Alexandre - Felismene</title>
+<ellipse fill="black" stroke="black" cx="138" cy="-162" rx="10" ry="10"></ellipse>
+</g>
+
+<g id="node2" class="node">
+<title>Hardy Alexandre - Felismene 2</title>
+<ellipse fill="black" stroke="black" cx="238" cy="-162" rx="10" ry="10"></ellipse>
+</g>
+
+<g id="node2" class="node">
+<title>Blabla</title>
+<path fill="none" stroke="black" d="M148,-162C188,-162 188,-162 228,-162"></path>
+<polygon fill="black" stroke="black" points="228,-162 218,-157 218,-167 228,-162"></polygon>
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function construitGraphique(){
 
    // Construction du graphique : création de la liste des pièces affichées
@@ -2206,530 +2344,20 @@ Cliquez sur un type de sources pour faire apparaître ou disparaître une visual
 
 
 
-
+<script type="text/javascript">
+$(document).ready(function(){
+   
+})
+</script>
 
 <div class="sankey-sources">
 <h3>Les «&nbsp;lignées&nbsp;» de pièces françaises</h3>
+<p>Les points ci-dessous représentent chacun une pièce en français écrite ou publiée entre 1550 et 1650.
+Passez la souris au-dessus d'un point pour découvrir la pièce correspondante.
+Chaque lien relie une pièce avec une pièce source.</p>
 <div style="overflow-x:auto">
-<svg style="display:none" width="14801pt" height="188pt" viewBox="0.00 0.00 14801.00 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="lignees" style="display:none" width="1400px" height="300px" viewBox="0.00 0.00 1400.00 300.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
-<title>G</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-184 14797,-184 14797,4 -4,4"></polygon>
-<!-- Hardy Alexandre &#45; Felismene -->
-<g id="node1" class="node"><title>Hardy Alexandre - Felismene</title>
-<ellipse fill="none" stroke="black" cx="138" cy="-162" rx="132.162" ry="18"></ellipse>
-<text text-anchor="middle" x="138" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - Felismene</text>
-</g>
-<!-- Rotrou Jean de &#45; La Celimene -->
-<g id="node2" class="node"><title>Rotrou Jean de - La Celimene</title>
-<ellipse fill="none" stroke="black" cx="138" cy="-90" rx="138.527" ry="18"></ellipse>
-<text text-anchor="middle" x="138" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Rotrou Jean de - La Celimene</text>
-</g>
-<!-- Hardy Alexandre &#45; Felismene&#45;&gt;Rotrou Jean de &#45; La Celimene -->
-<g id="edge1" class="edge"><title>Hardy Alexandre - Felismene-&gt;Rotrou Jean de - La Celimene</title>
-<path fill="none" stroke="black" d="M138,-143.697C138,-135.983 138,-126.712 138,-118.112"></path>
-<polygon fill="black" stroke="black" points="141.5,-118.104 138,-108.104 134.5,-118.104 141.5,-118.104"></polygon>
-</g>
-<!-- Corneille Pierre &#45; Melite ou les Fausses Lettres -->
-<g id="node3" class="node"><title>Corneille Pierre - Melite ou les Fausses Lettres</title>
-<ellipse fill="none" stroke="black" cx="498" cy="-162" rx="209.221" ry="18"></ellipse>
-<text text-anchor="middle" x="498" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Corneille Pierre - Melite ou les Fausses Lettres</text>
-</g>
-<!-- Rotrou Jean de &#45; Clorinde -->
-<g id="node4" class="node"><title>Rotrou Jean de - Clorinde</title>
-<ellipse fill="none" stroke="black" cx="498" cy="-90" rx="120.185" ry="18"></ellipse>
-<text text-anchor="middle" x="498" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Rotrou Jean de - Clorinde</text>
-</g>
-<!-- Corneille Pierre &#45; Melite ou les Fausses Lettres&#45;&gt;Rotrou Jean de &#45; Clorinde -->
-<g id="edge2" class="edge"><title>Corneille Pierre - Melite ou les Fausses Lettres-&gt;Rotrou Jean de - Clorinde</title>
-<path fill="none" stroke="black" d="M498,-143.697C498,-135.983 498,-126.712 498,-118.112"></path>
-<polygon fill="black" stroke="black" points="501.5,-118.104 498,-108.104 494.5,-118.104 501.5,-118.104"></polygon>
-</g>
-<!-- Rotrou Jean de &#45; Diane -->
-<g id="node5" class="node"><title>Rotrou Jean de - Diane</title>
-<ellipse fill="none" stroke="black" cx="835" cy="-162" rx="109.578" ry="18"></ellipse>
-<text text-anchor="middle" x="835" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Rotrou Jean de - Diane</text>
-</g>
-<!-- Scudery Georges de &#45; Le Fils suppose -->
-<g id="node6" class="node"><title>Scudery Georges de - Le Fils suppose</title>
-<ellipse fill="none" stroke="black" cx="835" cy="-90" rx="171.411" ry="18"></ellipse>
-<text text-anchor="middle" x="835" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Scudery Georges de - Le Fils suppose</text>
-</g>
-<!-- Rotrou Jean de &#45; Diane&#45;&gt;Scudery Georges de &#45; Le Fils suppose -->
-<g id="edge3" class="edge"><title>Rotrou Jean de - Diane-&gt;Scudery Georges de - Le Fils suppose</title>
-<path fill="none" stroke="black" d="M835,-143.697C835,-135.983 835,-126.712 835,-118.112"></path>
-<polygon fill="black" stroke="black" points="838.5,-118.104 835,-108.104 831.5,-118.104 838.5,-118.104"></polygon>
-</g>
-<!-- Scudery Georges de &#45; La Comedie des comediens -->
-<g id="node7" class="node"><title>Scudery Georges de - La Comedie des comediens</title>
-<ellipse fill="none" stroke="black" cx="1191" cy="-162" rx="220.3" ry="18"></ellipse>
-<text text-anchor="middle" x="1191" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Scudery Georges de - La Comedie des comediens</text>
-</g>
-<!-- Corneille Pierre &#45; L Illusion comique -->
-<g id="node8" class="node"><title>Corneille Pierre - L Illusion comique</title>
-<ellipse fill="none" stroke="black" cx="1191" cy="-90" rx="166.069" ry="18"></ellipse>
-<text text-anchor="middle" x="1191" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Corneille Pierre - L Illusion comique</text>
-</g>
-<!-- Scudery Georges de &#45; La Comedie des comediens&#45;&gt;Corneille Pierre &#45; L Illusion comique -->
-<g id="edge4" class="edge"><title>Scudery Georges de - La Comedie des comediens-&gt;Corneille Pierre - L Illusion comique</title>
-<path fill="none" stroke="black" d="M1191,-143.697C1191,-135.983 1191,-126.712 1191,-118.112"></path>
-<polygon fill="black" stroke="black" points="1194.5,-118.104 1191,-108.104 1187.5,-118.104 1194.5,-118.104"></polygon>
-</g>
-<!-- Garnier Robert &#45; Bradamante -->
-<g id="node9" class="node"><title>Garnier Robert - Bradamante</title>
-<ellipse fill="none" stroke="black" cx="1753" cy="-162" rx="131.24" ry="18"></ellipse>
-<text text-anchor="middle" x="1753" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Garnier Robert - Bradamante</text>
-</g>
-<!-- Bauter Charles (pseudonyme Meliglosse -->
-<g id="node10" class="node"><title>Bauter Charles (pseudonyme Meliglosse</title>
-<ellipse fill="none" stroke="black" cx="1651" cy="-90" rx="175.243" ry="18"></ellipse>
-<text text-anchor="middle" x="1651" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Bauter Charles (pseudonyme Meliglosse</text>
-</g>
-<!-- Garnier Robert &#45; Bradamante&#45;&gt;Bauter Charles (pseudonyme Meliglosse -->
-<g id="edge5" class="edge"><title>Garnier Robert - Bradamante-&gt;Bauter Charles (pseudonyme Meliglosse</title>
-<path fill="none" stroke="black" d="M1728.57,-144.233C1715.17,-135.037 1698.37,-123.51 1683.84,-113.536"></path>
-<polygon fill="black" stroke="black" points="1685.81,-110.645 1675.59,-107.873 1681.85,-116.417 1685.81,-110.645"></polygon>
-</g>
-<!-- La Calprenede Gautier de Coste &#45; Bradamante -->
-<g id="node54" class="node"><title>La Calprenede Gautier de Coste - Bradamante</title>
-<ellipse fill="none" stroke="black" cx="2048" cy="-90" rx="204.149" ry="18"></ellipse>
-<text text-anchor="middle" x="2048" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">La Calprenede Gautier de Coste - Bradamante</text>
-</g>
-<!-- Garnier Robert &#45; Bradamante&#45;&gt;La Calprenede Gautier de Coste &#45; Bradamante -->
-<g id="edge29" class="edge"><title>Garnier Robert - Bradamante-&gt;La Calprenede Gautier de Coste - Bradamante</title>
-<path fill="none" stroke="black" d="M1815.56,-146.155C1860.82,-135.417 1922.25,-120.839 1970.59,-109.367"></path>
-<polygon fill="black" stroke="black" points="1971.47,-112.757 1980.39,-107.043 1969.85,-105.946 1971.47,-112.757"></polygon>
-</g>
-<!-- Jodelle Estienne &#45; Didon se sacrifiant -->
-<g id="node11" class="node"><title>Jodelle Estienne - Didon se sacrifiant</title>
-<ellipse fill="none" stroke="black" cx="2441" cy="-162" rx="167.161" ry="18"></ellipse>
-<text text-anchor="middle" x="2441" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Jodelle Estienne - Didon se sacrifiant</text>
-</g>
-<!-- Hardy Alexandre &#45; Didon se sacrifiant -->
-<g id="node12" class="node"><title>Hardy Alexandre - Didon se sacrifiant</title>
-<ellipse fill="none" stroke="black" cx="2441" cy="-90" rx="170.27" ry="18"></ellipse>
-<text text-anchor="middle" x="2441" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - Didon se sacrifiant</text>
-</g>
-<!-- Jodelle Estienne &#45; Didon se sacrifiant&#45;&gt;Hardy Alexandre &#45; Didon se sacrifiant -->
-<g id="edge6" class="edge"><title>Jodelle Estienne - Didon se sacrifiant-&gt;Hardy Alexandre - Didon se sacrifiant</title>
-<path fill="none" stroke="black" d="M2441,-143.697C2441,-135.983 2441,-126.712 2441,-118.112"></path>
-<polygon fill="black" stroke="black" points="2444.5,-118.104 2441,-108.104 2437.5,-118.104 2444.5,-118.104"></polygon>
-</g>
-<!-- Scudery Georges de &#45; Didon -->
-<g id="node24" class="node"><title>Scudery Georges de - Didon</title>
-<ellipse fill="none" stroke="black" cx="2441" cy="-18" rx="130.452" ry="18"></ellipse>
-<text text-anchor="middle" x="2441" y="-13.8" font-family="im_fell_english_proregular" font-size="14.00">Scudery Georges de - Didon</text>
-</g>
-<!-- Hardy Alexandre &#45; Didon se sacrifiant&#45;&gt;Scudery Georges de &#45; Didon -->
-<g id="edge13" class="edge"><title>Hardy Alexandre - Didon se sacrifiant-&gt;Scudery Georges de - Didon</title>
-<path fill="none" stroke="black" d="M2441,-71.6966C2441,-63.9827 2441,-54.7125 2441,-46.1124"></path>
-<polygon fill="black" stroke="black" points="2444.5,-46.1043 2441,-36.1043 2437.5,-46.1044 2444.5,-46.1043"></polygon>
-</g>
-<!-- La Taille de Bondaroy Jacques de &#45; La Mort de Daire -->
-<g id="node13" class="node"><title>La Taille de Bondaroy Jacques de - La Mort de Daire</title>
-<ellipse fill="none" stroke="black" cx="2868" cy="-162" rx="241.466" ry="18"></ellipse>
-<text text-anchor="middle" x="2868" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">La Taille de Bondaroy Jacques de - La Mort de Daire</text>
-</g>
-<!-- Hardy Alexandre &#45; La Mort de Daire -->
-<g id="node14" class="node"><title>Hardy Alexandre - La Mort de Daire</title>
-<ellipse fill="none" stroke="black" cx="2868" cy="-90" rx="167.434" ry="18"></ellipse>
-<text text-anchor="middle" x="2868" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - La Mort de Daire</text>
-</g>
-<!-- La Taille de Bondaroy Jacques de &#45; La Mort de Daire&#45;&gt;Hardy Alexandre &#45; La Mort de Daire -->
-<g id="edge7" class="edge"><title>La Taille de Bondaroy Jacques de - La Mort de Daire-&gt;Hardy Alexandre - La Mort de Daire</title>
-<path fill="none" stroke="black" d="M2868,-143.697C2868,-135.983 2868,-126.712 2868,-118.112"></path>
-<polygon fill="black" stroke="black" points="2871.5,-118.104 2868,-108.104 2864.5,-118.104 2871.5,-118.104"></polygon>
-</g>
-<!-- La Taille de Bondaroy Jacques de &#45; Alexandre -->
-<g id="node15" class="node"><title>La Taille de Bondaroy Jacques de - Alexandre</title>
-<ellipse fill="none" stroke="black" cx="3335" cy="-162" rx="206.978" ry="18"></ellipse>
-<text text-anchor="middle" x="3335" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">La Taille de Bondaroy Jacques de - Alexandre</text>
-</g>
-<!-- Hardy Alexandre &#45; La Mort d Alexandre -->
-<g id="node16" class="node"><title>Hardy Alexandre - La Mort d Alexandre</title>
-<ellipse fill="none" stroke="black" cx="3335" cy="-90" rx="182.163" ry="18"></ellipse>
-<text text-anchor="middle" x="3335" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - La Mort d Alexandre</text>
-</g>
-<!-- La Taille de Bondaroy Jacques de &#45; Alexandre&#45;&gt;Hardy Alexandre &#45; La Mort d Alexandre -->
-<g id="edge8" class="edge"><title>La Taille de Bondaroy Jacques de - Alexandre-&gt;Hardy Alexandre - La Mort d Alexandre</title>
-<path fill="none" stroke="black" d="M3335,-143.697C3335,-135.983 3335,-126.712 3335,-118.112"></path>
-<polygon fill="black" stroke="black" points="3338.5,-118.104 3335,-108.104 3331.5,-118.104 3338.5,-118.104"></polygon>
-</g>
-<!-- Hardy Alexandre &#45; La Mort d Achille -->
-<g id="node17" class="node"><title>Hardy Alexandre - La Mort d Achille</title>
-<ellipse fill="none" stroke="black" cx="3860" cy="-162" rx="169.976" ry="18"></ellipse>
-<text text-anchor="middle" x="3860" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - La Mort d Achille</text>
-</g>
-<!-- Boree Vincent &#45; Achille victorieux -->
-<g id="node18" class="node"><title>Boree Vincent - Achille victorieux</title>
-<ellipse fill="none" stroke="black" cx="3775" cy="-90" rx="154.154" ry="18"></ellipse>
-<text text-anchor="middle" x="3775" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Boree Vincent - Achille victorieux</text>
-</g>
-<!-- Hardy Alexandre &#45; La Mort d Achille&#45;&gt;Boree Vincent &#45; Achille victorieux -->
-<g id="edge9" class="edge"><title>Hardy Alexandre - La Mort d Achille-&gt;Boree Vincent - Achille victorieux</title>
-<path fill="none" stroke="black" d="M3839.42,-144.055C3828.65,-135.179 3815.28,-124.169 3803.52,-114.483"></path>
-<polygon fill="black" stroke="black" points="3805.63,-111.687 3795.68,-108.032 3801.18,-117.09 3805.63,-111.687"></polygon>
-</g>
-<!-- Benserade Isaac de &#45; La Mort d Achille -->
-<g id="node23" class="node"><title>Benserade Isaac de - La Mort d Achille</title>
-<ellipse fill="none" stroke="black" cx="4128" cy="-90" rx="179.441" ry="18"></ellipse>
-<text text-anchor="middle" x="4128" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Benserade Isaac de - La Mort d Achille</text>
-</g>
-<!-- Hardy Alexandre &#45; La Mort d Achille&#45;&gt;Benserade Isaac de &#45; La Mort d Achille -->
-<g id="edge12" class="edge"><title>Hardy Alexandre - La Mort d Achille-&gt;Benserade Isaac de - La Mort d Achille</title>
-<path fill="none" stroke="black" d="M3920.81,-145.116C3961.36,-134.525 4014.8,-120.566 4057.26,-109.478"></path>
-<polygon fill="black" stroke="black" points="4058.17,-112.856 4066.96,-106.942 4056.4,-106.083 4058.17,-112.856"></polygon>
-</g>
-<!-- Montchrestien Anthoine de &#45; Sophonisbe -->
-<g id="node19" class="node"><title>Montchrestien Anthoine de - Sophonisbe</title>
-<ellipse fill="none" stroke="black" cx="4443" cy="-162" rx="179.196" ry="18"></ellipse>
-<text text-anchor="middle" x="4443" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Montchrestien Anthoine de - Sophonisbe</text>
-</g>
-<!-- Mairet Jean &#45; Sophonisbe -->
-<g id="node20" class="node"><title>Mairet Jean - Sophonisbe</title>
-<ellipse fill="none" stroke="black" cx="4443" cy="-90" rx="116.548" ry="18"></ellipse>
-<text text-anchor="middle" x="4443" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Mairet Jean - Sophonisbe</text>
-</g>
-<!-- Montchrestien Anthoine de &#45; Sophonisbe&#45;&gt;Mairet Jean &#45; Sophonisbe -->
-<g id="edge10" class="edge"><title>Montchrestien Anthoine de - Sophonisbe-&gt;Mairet Jean - Sophonisbe</title>
-<path fill="none" stroke="black" d="M4443,-143.697C4443,-135.983 4443,-126.712 4443,-118.112"></path>
-<polygon fill="black" stroke="black" points="4446.5,-118.104 4443,-108.104 4439.5,-118.104 4446.5,-118.104"></polygon>
-</g>
-<!-- Garnier Robert &#45; Marc&#45;Antoine -->
-<g id="node21" class="node"><title>Garnier Robert - Marc-Antoine</title>
-<ellipse fill="none" stroke="black" cx="4780" cy="-162" rx="139.305" ry="18"></ellipse>
-<text text-anchor="middle" x="4780" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Garnier Robert - Marc-Antoine</text>
-</g>
-<!-- Benserade Isaac de &#45; Cleopâtre -->
-<g id="node22" class="node"><title>Benserade Isaac de - Cleopâtre</title>
-<ellipse fill="none" stroke="black" cx="4780" cy="-90" rx="144.032" ry="18"></ellipse>
-<text text-anchor="middle" x="4780" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Benserade Isaac de - Cleopâtre</text>
-</g>
-<!-- Garnier Robert &#45; Marc&#45;Antoine&#45;&gt;Benserade Isaac de &#45; Cleopâtre -->
-<g id="edge11" class="edge"><title>Garnier Robert - Marc-Antoine-&gt;Benserade Isaac de - Cleopâtre</title>
-<path fill="none" stroke="black" d="M4780,-143.697C4780,-135.983 4780,-126.712 4780,-118.112"></path>
-<polygon fill="black" stroke="black" points="4783.5,-118.104 4780,-108.104 4776.5,-118.104 4783.5,-118.104"></polygon>
-</g>
-<!-- Hardy Alexandre &#45; Coriolan -->
-<g id="node25" class="node"><title>Hardy Alexandre - Coriolan</title>
-<ellipse fill="none" stroke="black" cx="5131" cy="-162" rx="126.315" ry="18"></ellipse>
-<text text-anchor="middle" x="5131" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - Coriolan</text>
-</g>
-<!-- Chapoton Francois &#45; Le Veritable Coriolan -->
-<g id="node26" class="node"><title>Chapoton Francois - Le Veritable Coriolan</title>
-<ellipse fill="none" stroke="black" cx="5131" cy="-90" rx="189.159" ry="18"></ellipse>
-<text text-anchor="middle" x="5131" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Chapoton Francois - Le Veritable Coriolan</text>
-</g>
-<!-- Hardy Alexandre &#45; Coriolan&#45;&gt;Chapoton Francois &#45; Le Veritable Coriolan -->
-<g id="edge14" class="edge"><title>Hardy Alexandre - Coriolan-&gt;Chapoton Francois - Le Veritable Coriolan</title>
-<path fill="none" stroke="black" d="M5131,-143.697C5131,-135.983 5131,-126.712 5131,-118.112"></path>
-<polygon fill="black" stroke="black" points="5134.5,-118.104 5131,-108.104 5127.5,-118.104 5134.5,-118.104"></polygon>
-</g>
-<!-- Garnier Robert &#45; Antigone ou la Piete -->
-<g id="node27" class="node"><title>Garnier Robert - Antigone ou la Piete</title>
-<ellipse fill="none" stroke="black" cx="5461" cy="-162" rx="170.3" ry="18"></ellipse>
-<text text-anchor="middle" x="5461" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Garnier Robert - Antigone ou la Piete</text>
-</g>
-<!-- Rotrou Jean de &#45; Antigone -->
-<g id="node28" class="node"><title>Rotrou Jean de - Antigone</title>
-<ellipse fill="none" stroke="black" cx="5461" cy="-90" rx="122.402" ry="18"></ellipse>
-<text text-anchor="middle" x="5461" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Rotrou Jean de - Antigone</text>
-</g>
-<!-- Garnier Robert &#45; Antigone ou la Piete&#45;&gt;Rotrou Jean de &#45; Antigone -->
-<g id="edge15" class="edge"><title>Garnier Robert - Antigone ou la Piete-&gt;Rotrou Jean de - Antigone</title>
-<path fill="none" stroke="black" d="M5461,-143.697C5461,-135.983 5461,-126.712 5461,-118.112"></path>
-<polygon fill="black" stroke="black" points="5464.5,-118.104 5461,-108.104 5457.5,-118.104 5464.5,-118.104"></polygon>
-</g>
-<!-- Le Trebuchement de Phaeton -->
-<g id="node29" class="node"><title>Le Trebuchement de Phaeton</title>
-<ellipse fill="none" stroke="black" cx="5870" cy="-162" rx="131.557" ry="18"></ellipse>
-<text text-anchor="middle" x="5870" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Le Trebuchement de Phaeton</text>
-</g>
-<!-- L Hermite de Vauzelle Jean&#45;Baptiste &#45; La Cheute de Phaeton -->
-<g id="node30" class="node"><title>L Hermite de Vauzelle Jean-Baptiste - La Cheute de Phaeton</title>
-<ellipse fill="none" stroke="black" cx="5870" cy="-90" rx="268.194" ry="18"></ellipse>
-<text text-anchor="middle" x="5870" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">L Hermite de Vauzelle Jean-Baptiste - La Cheute de Phaeton</text>
-</g>
-<!-- Le Trebuchement de Phaeton&#45;&gt;L Hermite de Vauzelle Jean&#45;Baptiste &#45; La Cheute de Phaeton -->
-<g id="edge16" class="edge"><title>Le Trebuchement de Phaeton-&gt;L Hermite de Vauzelle Jean-Baptiste - La Cheute de Phaeton</title>
-<path fill="none" stroke="black" d="M5870,-143.697C5870,-135.983 5870,-126.712 5870,-118.112"></path>
-<polygon fill="black" stroke="black" points="5873.5,-118.104 5870,-108.104 5866.5,-118.104 5873.5,-118.104"></polygon>
-</g>
-<!-- Hardy Alexandre &#45; Panthee -->
-<g id="node31" class="node"><title>Hardy Alexandre - Panthee</title>
-<ellipse fill="none" stroke="black" cx="6456" cy="-162" rx="123.476" ry="18"></ellipse>
-<text text-anchor="middle" x="6456" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - Panthee</text>
-</g>
-<!-- Tristan L Hermite Francois L Hermite sieur du Soliers dit &#45; Panthee -->
-<g id="node32" class="node"><title>Tristan L Hermite Francois L Hermite sieur du Soliers dit - Panthee</title>
-<ellipse fill="none" stroke="black" cx="6456" cy="-90" rx="299.088" ry="18"></ellipse>
-<text text-anchor="middle" x="6456" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Tristan L Hermite Francois L Hermite sieur du Soliers dit - Panthee</text>
-</g>
-<!-- Hardy Alexandre &#45; Panthee&#45;&gt;Tristan L Hermite Francois L Hermite sieur du Soliers dit &#45; Panthee -->
-<g id="edge17" class="edge"><title>Hardy Alexandre - Panthee-&gt;Tristan L Hermite Francois L Hermite sieur du Soliers dit - Panthee</title>
-<path fill="none" stroke="black" d="M6456,-143.697C6456,-135.983 6456,-126.712 6456,-118.112"></path>
-<polygon fill="black" stroke="black" points="6459.5,-118.104 6456,-108.104 6452.5,-118.104 6459.5,-118.104"></polygon>
-</g>
-<!-- Tristan L Hermite Francois L Hermite sieur du Soliers dit &#45; La Mariane -->
-<g id="node33" class="node"><title>Tristan L Hermite Francois L Hermite sieur du Soliers dit - La Mariane</title>
-<ellipse fill="none" stroke="black" cx="7187" cy="-162" rx="315.513" ry="18"></ellipse>
-<text text-anchor="middle" x="7187" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Tristan L Hermite Francois L Hermite sieur du Soliers dit - La Mariane</text>
-</g>
-<!-- La Calprenede Gautier de Coste sieur de &#45; La Mort des enfans d Herodes ou Suite de Mariane -->
-<g id="node34" class="node"><title>La Calprenede Gautier de Coste sieur de - La Mort des enfans d Herodes ou Suite de Mariane</title>
-<ellipse fill="none" stroke="black" cx="7187" cy="-90" rx="413.208" ry="18"></ellipse>
-<text text-anchor="middle" x="7187" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">La Calprenede Gautier de Coste sieur de - La Mort des enfans d Herodes ou Suite de Mariane</text>
-</g>
-<!-- Tristan L Hermite Francois L Hermite sieur du Soliers dit &#45; La Mariane&#45;&gt;La Calprenede Gautier de Coste sieur de &#45; La Mort des enfans d Herodes ou Suite de Mariane -->
-<g id="edge18" class="edge"><title>Tristan L Hermite Francois L Hermite sieur du Soliers dit - La Mariane-&gt;La Calprenede Gautier de Coste sieur de - La Mort des enfans d Herodes ou Suite de Mariane</title>
-<path fill="none" stroke="black" d="M7187,-143.697C7187,-135.983 7187,-126.712 7187,-118.112"></path>
-<polygon fill="black" stroke="black" points="7190.5,-118.104 7187,-108.104 7183.5,-118.104 7190.5,-118.104"></polygon>
-</g>
-<!-- Garnier Robert &#45; La Troade -->
-<g id="node35" class="node"><title>Garnier Robert - La Troade</title>
-<ellipse fill="none" stroke="black" cx="7722" cy="-162" rx="126.298" ry="18"></ellipse>
-<text text-anchor="middle" x="7722" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Garnier Robert - La Troade</text>
-</g>
-<!-- Sallebray &#45; La Troade -->
-<g id="node36" class="node"><title>Sallebray - La Troade</title>
-<ellipse fill="none" stroke="black" cx="7722" cy="-90" rx="102.602" ry="18"></ellipse>
-<text text-anchor="middle" x="7722" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Sallebray - La Troade</text>
-</g>
-<!-- Garnier Robert &#45; La Troade&#45;&gt;Sallebray &#45; La Troade -->
-<g id="edge19" class="edge"><title>Garnier Robert - La Troade-&gt;Sallebray - La Troade</title>
-<path fill="none" stroke="black" d="M7722,-143.697C7722,-135.983 7722,-126.712 7722,-118.112"></path>
-<polygon fill="black" stroke="black" points="7725.5,-118.104 7722,-108.104 7718.5,-118.104 7725.5,-118.104"></polygon>
-</g>
-<!-- Hardy Alexandre &#45; Meleagre -->
-<g id="node37" class="node"><title>Hardy Alexandre - Meleagre</title>
-<ellipse fill="none" stroke="black" cx="7996" cy="-162" rx="129.31" ry="18"></ellipse>
-<text text-anchor="middle" x="7996" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - Meleagre</text>
-</g>
-<!-- Benserade Isaac de &#45; Meleagre -->
-<g id="node38" class="node"><title>Benserade Isaac de - Meleagre</title>
-<ellipse fill="none" stroke="black" cx="7996" cy="-90" rx="139.275" ry="18"></ellipse>
-<text text-anchor="middle" x="7996" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Benserade Isaac de - Meleagre</text>
-</g>
-<!-- Hardy Alexandre &#45; Meleagre&#45;&gt;Benserade Isaac de &#45; Meleagre -->
-<g id="edge20" class="edge"><title>Hardy Alexandre - Meleagre-&gt;Benserade Isaac de - Meleagre</title>
-<path fill="none" stroke="black" d="M7996,-143.697C7996,-135.983 7996,-126.712 7996,-118.112"></path>
-<polygon fill="black" stroke="black" points="7999.5,-118.104 7996,-108.104 7992.5,-118.104 7999.5,-118.104"></polygon>
-</g>
-<!-- Galaut Jean &#45; Phalante -->
-<g id="node39" class="node"><title>Galaut Jean - Phalante</title>
-<ellipse fill="none" stroke="black" cx="8358" cy="-162" rx="104.332" ry="18"></ellipse>
-<text text-anchor="middle" x="8358" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Galaut Jean - Phalante</text>
-</g>
-<!-- La Calprenede Gautier de Coste de &#45; Phalante -->
-<g id="node40" class="node"><title>La Calprenede Gautier de Coste de - Phalante</title>
-<ellipse fill="none" stroke="black" cx="8358" cy="-90" rx="204.461" ry="18"></ellipse>
-<text text-anchor="middle" x="8358" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">La Calprenede Gautier de Coste de - Phalante</text>
-</g>
-<!-- Galaut Jean &#45; Phalante&#45;&gt;La Calprenede Gautier de Coste de &#45; Phalante -->
-<g id="edge21" class="edge"><title>Galaut Jean - Phalante-&gt;La Calprenede Gautier de Coste de - Phalante</title>
-<path fill="none" stroke="black" d="M8358,-143.697C8358,-135.983 8358,-126.712 8358,-118.112"></path>
-<polygon fill="black" stroke="black" points="8361.5,-118.104 8358,-108.104 8354.5,-118.104 8361.5,-118.104"></polygon>
-</g>
-<!-- Aubignac Francois Hedelin abbe d  &#45; La Pucelle d Orleans -->
-<g id="node41" class="node"><title>Aubignac Francois Hedelin abbe d  - La Pucelle d Orleans</title>
-<ellipse fill="none" stroke="black" cx="8958" cy="-162" rx="260.138" ry="18"></ellipse>
-<text text-anchor="middle" x="8958" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Aubignac Francois Hedelin abbe d  - La Pucelle d Orleans</text>
-</g>
-<!-- Benserade Isaac de ou La Mesnardiere Hippolyte Jules Pilet de &#45; La Pucelle d Orleans -->
-<g id="node42" class="node"><title>Benserade Isaac de ou La Mesnardiere Hippolyte Jules Pilet de - La Pucelle d Orleans</title>
-<ellipse fill="none" stroke="black" cx="8958" cy="-90" rx="376.995" ry="18"></ellipse>
-<text text-anchor="middle" x="8958" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Benserade Isaac de ou La Mesnardiere Hippolyte Jules Pilet de - La Pucelle d Orleans</text>
-</g>
-<!-- Aubignac Francois Hedelin abbe d  &#45; La Pucelle d Orleans&#45;&gt;Benserade Isaac de ou La Mesnardiere Hippolyte Jules Pilet de &#45; La Pucelle d Orleans -->
-<g id="edge22" class="edge"><title>Aubignac Francois Hedelin abbe d  - La Pucelle d Orleans-&gt;Benserade Isaac de ou La Mesnardiere Hippolyte Jules Pilet de - La Pucelle d Orleans</title>
-<path fill="none" stroke="black" d="M8958,-143.697C8958,-135.983 8958,-126.712 8958,-118.112"></path>
-<polygon fill="black" stroke="black" points="8961.5,-118.104 8958,-108.104 8954.5,-118.104 8961.5,-118.104"></polygon>
-</g>
-<!-- Boisrobert Francois Le Metel de &#45; Le Couronnement de Darie -->
-<g id="node43" class="node"><title>Boisrobert Francois Le Metel de - Le Couronnement de Darie</title>
-<ellipse fill="none" stroke="black" cx="9508" cy="-162" rx="271.536" ry="18"></ellipse>
-<text text-anchor="middle" x="9508" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Boisrobert Francois Le Metel de - Le Couronnement de Darie</text>
-</g>
-<!-- Magnon Jean &#45; Artaxerce -->
-<g id="node44" class="node"><title>Magnon Jean - Artaxerce</title>
-<ellipse fill="none" stroke="black" cx="9508" cy="-90" rx="116.208" ry="18"></ellipse>
-<text text-anchor="middle" x="9508" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Magnon Jean - Artaxerce</text>
-</g>
-<!-- Boisrobert Francois Le Metel de &#45; Le Couronnement de Darie&#45;&gt;Magnon Jean &#45; Artaxerce -->
-<g id="edge23" class="edge"><title>Boisrobert Francois Le Metel de - Le Couronnement de Darie-&gt;Magnon Jean - Artaxerce</title>
-<path fill="none" stroke="black" d="M9508,-143.697C9508,-135.983 9508,-126.712 9508,-118.112"></path>
-<polygon fill="black" stroke="black" points="9511.5,-118.104 9508,-108.104 9504.5,-118.104 9511.5,-118.104"></polygon>
-</g>
-<!-- Garnier Robert &#45; Porcie -->
-<g id="node45" class="node"><title>Garnier Robert - Porcie</title>
-<ellipse fill="none" stroke="black" cx="9907" cy="-162" rx="109.262" ry="18"></ellipse>
-<text text-anchor="middle" x="9907" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Garnier Robert - Porcie</text>
-</g>
-<!-- Boyer Claude &#45; La Porcie romaine -->
-<g id="node46" class="node"><title>Boyer Claude - La Porcie romaine</title>
-<ellipse fill="none" stroke="black" cx="10183" cy="-90" rx="155.264" ry="18"></ellipse>
-<text text-anchor="middle" x="10183" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Boyer Claude - La Porcie romaine</text>
-</g>
-<!-- Garnier Robert &#45; Porcie&#45;&gt;Boyer Claude &#45; La Porcie romaine -->
-<g id="edge24" class="edge"><title>Garnier Robert - Porcie-&gt;Boyer Claude - La Porcie romaine</title>
-<path fill="none" stroke="black" d="M9963.85,-146.581C10006.6,-135.73 10065.6,-120.787 10111.5,-109.128"></path>
-<polygon fill="black" stroke="black" points="10112.6,-112.468 10121.4,-106.617 10110.9,-105.683 10112.6,-112.468"></polygon>
-</g>
-<!-- Guerin de Bouscal Guyon &#45; La Mort de Brute et de Porcie ou la Vengeance de la mort de Cesar -->
-<g id="node47" class="node"><title>Guerin de Bouscal Guyon - La Mort de Brute et de Porcie ou la Vengeance de la mort de Cesar</title>
-<ellipse fill="none" stroke="black" cx="10459" cy="-162" rx="425.117" ry="18"></ellipse>
-<text text-anchor="middle" x="10459" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Guerin de Bouscal Guyon - La Mort de Brute et de Porcie ou la Vengeance de la mort de Cesar</text>
-</g>
-<!-- Guerin de Bouscal Guyon &#45; La Mort de Brute et de Porcie ou la Vengeance de la mort de Cesar&#45;&gt;Boyer Claude &#45; La Porcie romaine -->
-<g id="edge25" class="edge"><title>Guerin de Bouscal Guyon - La Mort de Brute et de Porcie ou la Vengeance de la mort de Cesar-&gt;Boyer Claude - La Porcie romaine</title>
-<path fill="none" stroke="black" d="M10392.5,-144.144C10350.8,-133.56 10297,-119.917 10254.4,-109.104"></path>
-<polygon fill="black" stroke="black" points="10255.2,-105.697 10244.6,-106.631 10253.5,-112.482 10255.2,-105.697"></polygon>
-</g>
-<!-- Des Roches Catherine &#45; Tobie -->
-<g id="node48" class="node"><title>Des Roches Catherine - Tobie</title>
-<ellipse fill="none" stroke="black" cx="11039" cy="-162" rx="137.107" ry="18"></ellipse>
-<text text-anchor="middle" x="11039" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Des Roches Catherine - Tobie</text>
-</g>
-<!-- Ouyn Jacques &#45; Thobie Tragi&#45;comedie nouvelle -->
-<g id="node49" class="node"><title>Ouyn Jacques - Thobie Tragi-comedie nouvelle</title>
-<ellipse fill="none" stroke="black" cx="11039" cy="-90" rx="206.994" ry="18"></ellipse>
-<text text-anchor="middle" x="11039" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Ouyn Jacques - Thobie Tragi-comedie nouvelle</text>
-</g>
-<!-- Des Roches Catherine &#45; Tobie&#45;&gt;Ouyn Jacques &#45; Thobie Tragi&#45;comedie nouvelle -->
-<g id="edge26" class="edge"><title>Des Roches Catherine - Tobie-&gt;Ouyn Jacques - Thobie Tragi-comedie nouvelle</title>
-<path fill="none" stroke="black" d="M11039,-143.697C11039,-135.983 11039,-126.712 11039,-118.112"></path>
-<polygon fill="black" stroke="black" points="11042.5,-118.104 11039,-108.104 11035.5,-118.104 11042.5,-118.104"></polygon>
-</g>
-<!-- Le Jars Louys &#45; Lucelle -->
-<g id="node50" class="node"><title>Le Jars Louys - Lucelle</title>
-<ellipse fill="none" stroke="black" cx="11394" cy="-162" rx="111.29" ry="18"></ellipse>
-<text text-anchor="middle" x="11394" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Le Jars Louys - Lucelle</text>
-</g>
-<!-- Du Hamel Jacques &#45; Lucelle -->
-<g id="node51" class="node"><title>Du Hamel Jacques - Lucelle</title>
-<ellipse fill="none" stroke="black" cx="11394" cy="-90" rx="130.134" ry="18"></ellipse>
-<text text-anchor="middle" x="11394" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Du Hamel Jacques - Lucelle</text>
-</g>
-<!-- Le Jars Louys &#45; Lucelle&#45;&gt;Du Hamel Jacques &#45; Lucelle -->
-<g id="edge27" class="edge"><title>Le Jars Louys - Lucelle-&gt;Du Hamel Jacques - Lucelle</title>
-<path fill="none" stroke="black" d="M11394,-143.697C11394,-135.983 11394,-126.712 11394,-118.112"></path>
-<polygon fill="black" stroke="black" points="11397.5,-118.104 11394,-108.104 11390.5,-118.104 11397.5,-118.104"></polygon>
-</g>
-<!-- Du Ryer Pierre &#45; Alcimedon tragi&#45;comedie -->
-<g id="node52" class="node"><title>Du Ryer Pierre - Alcimedon tragi-comedie</title>
-<ellipse fill="none" stroke="black" cx="11811" cy="-162" rx="188.33" ry="18"></ellipse>
-<text text-anchor="middle" x="11811" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Du Ryer Pierre - Alcimedon tragi-comedie</text>
-</g>
-<!-- Rayssiguier &#45; La Bourgeoise ou la Promenade de Saint&#45;Cloud -->
-<g id="node53" class="node"><title>Rayssiguier - La Bourgeoise ou la Promenade de Saint-Cloud</title>
-<ellipse fill="none" stroke="black" cx="11811" cy="-90" rx="268.246" ry="18"></ellipse>
-<text text-anchor="middle" x="11811" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Rayssiguier - La Bourgeoise ou la Promenade de Saint-Cloud</text>
-</g>
-<!-- Du Ryer Pierre &#45; Alcimedon tragi&#45;comedie&#45;&gt;Rayssiguier &#45; La Bourgeoise ou la Promenade de Saint&#45;Cloud -->
-<g id="edge28" class="edge"><title>Du Ryer Pierre - Alcimedon tragi-comedie-&gt;Rayssiguier - La Bourgeoise ou la Promenade de Saint-Cloud</title>
-<path fill="none" stroke="black" d="M11811,-143.697C11811,-135.983 11811,-126.712 11811,-118.112"></path>
-<polygon fill="black" stroke="black" points="11814.5,-118.104 11811,-108.104 11807.5,-118.104 11814.5,-118.104"></polygon>
-</g>
-<!-- Hardy Alexandre &#45; Gesippe -->
-<g id="node55" class="node"><title>Hardy Alexandre - Gesippe</title>
-<ellipse fill="none" stroke="black" cx="12255" cy="-162" rx="124.584" ry="18"></ellipse>
-<text text-anchor="middle" x="12255" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - Gesippe</text>
-</g>
-<!-- Chevreau Urbain &#45; Les Deux Amis -->
-<g id="node56" class="node"><title>Chevreau Urbain - Les Deux Amis</title>
-<ellipse fill="none" stroke="black" cx="12255" cy="-90" rx="157.481" ry="18"></ellipse>
-<text text-anchor="middle" x="12255" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Chevreau Urbain - Les Deux Amis</text>
-</g>
-<!-- Hardy Alexandre &#45; Gesippe&#45;&gt;Chevreau Urbain &#45; Les Deux Amis -->
-<g id="edge30" class="edge"><title>Hardy Alexandre - Gesippe-&gt;Chevreau Urbain - Les Deux Amis</title>
-<path fill="none" stroke="black" d="M12255,-143.697C12255,-135.983 12255,-126.712 12255,-118.112"></path>
-<polygon fill="black" stroke="black" points="12258.5,-118.104 12255,-108.104 12251.5,-118.104 12258.5,-118.104"></polygon>
-</g>
-<!-- Hardy Alexandre &#45; La Belle Egyptienne -->
-<g id="node57" class="node"><title>Hardy Alexandre - La Belle Egyptienne</title>
-<ellipse fill="none" stroke="black" cx="12575" cy="-162" rx="176.933" ry="18"></ellipse>
-<text text-anchor="middle" x="12575" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Hardy Alexandre - La Belle Egyptienne</text>
-</g>
-<!-- Sallebray &#45; La Belle egyptienne -->
-<g id="node58" class="node"><title>Sallebray - La Belle egyptienne</title>
-<ellipse fill="none" stroke="black" cx="12575" cy="-90" rx="142.455" ry="18"></ellipse>
-<text text-anchor="middle" x="12575" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Sallebray - La Belle egyptienne</text>
-</g>
-<!-- Hardy Alexandre &#45; La Belle Egyptienne&#45;&gt;Sallebray &#45; La Belle egyptienne -->
-<g id="edge31" class="edge"><title>Hardy Alexandre - La Belle Egyptienne-&gt;Sallebray - La Belle egyptienne</title>
-<path fill="none" stroke="black" d="M12575,-143.697C12575,-135.983 12575,-126.712 12575,-118.112"></path>
-<polygon fill="black" stroke="black" points="12578.5,-118.104 12575,-108.104 12571.5,-118.104 12578.5,-118.104"></polygon>
-</g>
-<!-- Du Ryer Pierre &#45; Alcionee -->
-<g id="node59" class="node"><title>Du Ryer Pierre - Alcionee</title>
-<ellipse fill="none" stroke="black" cx="12919" cy="-162" rx="122.069" ry="18"></ellipse>
-<text text-anchor="middle" x="12919" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Du Ryer Pierre - Alcionee</text>
-</g>
-<!-- Desmarets de Saint&#45;Sorlin Jean &#45; Mirame -->
-<g id="node60" class="node"><title>Desmarets de Saint-Sorlin Jean - Mirame</title>
-<ellipse fill="none" stroke="black" cx="12919" cy="-90" rx="182.491" ry="18"></ellipse>
-<text text-anchor="middle" x="12919" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Desmarets de Saint-Sorlin Jean - Mirame</text>
-</g>
-<!-- Du Ryer Pierre &#45; Alcionee&#45;&gt;Desmarets de Saint&#45;Sorlin Jean &#45; Mirame -->
-<g id="edge32" class="edge"><title>Du Ryer Pierre - Alcionee-&gt;Desmarets de Saint-Sorlin Jean - Mirame</title>
-<path fill="none" stroke="black" d="M12919,-143.697C12919,-135.983 12919,-126.712 12919,-118.112"></path>
-<polygon fill="black" stroke="black" points="12922.5,-118.104 12919,-108.104 12915.5,-118.104 12922.5,-118.104"></polygon>
-</g>
-<!-- Aubignac Francois Hedelin abbe d  &#45; Cyminde -->
-<g id="node61" class="node"><title>Aubignac Francois Hedelin abbe d  - Cyminde</title>
-<ellipse fill="none" stroke="black" cx="13351" cy="-162" rx="207.323" ry="18"></ellipse>
-<text text-anchor="middle" x="13351" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Aubignac Francois Hedelin abbe d  - Cyminde</text>
-</g>
-<!-- Colletet Guillaume &#45; Cyminde ou les Deux Victimes -->
-<g id="node62" class="node"><title>Colletet Guillaume - Cyminde ou les Deux Victimes</title>
-<ellipse fill="none" stroke="black" cx="13351" cy="-90" rx="230.443" ry="18"></ellipse>
-<text text-anchor="middle" x="13351" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Colletet Guillaume - Cyminde ou les Deux Victimes</text>
-</g>
-<!-- Aubignac Francois Hedelin abbe d  &#45; Cyminde&#45;&gt;Colletet Guillaume &#45; Cyminde ou les Deux Victimes -->
-<g id="edge33" class="edge"><title>Aubignac Francois Hedelin abbe d  - Cyminde-&gt;Colletet Guillaume - Cyminde ou les Deux Victimes</title>
-<path fill="none" stroke="black" d="M13351,-143.697C13351,-135.983 13351,-126.712 13351,-118.112"></path>
-<polygon fill="black" stroke="black" points="13354.5,-118.104 13351,-108.104 13347.5,-118.104 13354.5,-118.104"></polygon>
-</g>
-<!-- Guerin de Bouscal Guyon &#45; L Amant liberal -->
-<g id="node63" class="node"><title>Guerin de Bouscal Guyon - L Amant liberal</title>
-<ellipse fill="none" stroke="black" cx="13775" cy="-162" rx="198.336" ry="18"></ellipse>
-<text text-anchor="middle" x="13775" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Guerin de Bouscal Guyon - L Amant liberal</text>
-</g>
-<!-- L Estoile Claude de &#45; La Belle Esclave -->
-<g id="node64" class="node"><title>L Estoile Claude de - La Belle Esclave</title>
-<ellipse fill="none" stroke="black" cx="13971" cy="-90" rx="177.253" ry="18"></ellipse>
-<text text-anchor="middle" x="13971" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">L Estoile Claude de - La Belle Esclave</text>
-</g>
-<!-- Guerin de Bouscal Guyon &#45; L Amant liberal&#45;&gt;L Estoile Claude de &#45; La Belle Esclave -->
-<g id="edge34" class="edge"><title>Guerin de Bouscal Guyon - L Amant liberal-&gt;L Estoile Claude de - La Belle Esclave</title>
-<path fill="none" stroke="black" d="M13821.4,-144.411C13849.5,-134.386 13885.5,-121.543 13915.1,-110.964"></path>
-<polygon fill="black" stroke="black" points="13916.6,-114.129 13924.9,-107.47 13914.3,-107.537 13916.6,-114.129"></polygon>
-</g>
-<!-- Scudery Georges de &#45; L Amant liberal -->
-<g id="node65" class="node"><title>Scudery Georges de - L Amant liberal</title>
-<ellipse fill="none" stroke="black" cx="14164" cy="-162" rx="173.001" ry="18"></ellipse>
-<text text-anchor="middle" x="14164" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Scudery Georges de - L Amant liberal</text>
-</g>
-<!-- Scudery Georges de &#45; L Amant liberal&#45;&gt;L Estoile Claude de &#45; La Belle Esclave -->
-<g id="edge35" class="edge"><title>Scudery Georges de - L Amant liberal-&gt;L Estoile Claude de - La Belle Esclave</title>
-<path fill="none" stroke="black" d="M14118.8,-144.588C14091,-134.531 14055.3,-121.59 14026,-110.945"></path>
-<polygon fill="black" stroke="black" points="14026.9,-107.55 14016.3,-107.43 14024.5,-114.13 14026.9,-107.55"></polygon>
-</g>
-<!-- Corneille Pierre &#45; Rodogune princesse des Parthes -->
-<g id="node66" class="node"><title>Corneille Pierre - Rodogune princesse des Parthes</title>
-<ellipse fill="none" stroke="black" cx="14574" cy="-162" rx="219.2" ry="18"></ellipse>
-<text text-anchor="middle" x="14574" y="-157.8" font-family="im_fell_english_proregular" font-size="14.00">Corneille Pierre - Rodogune princesse des Parthes</text>
-</g>
-<!-- Gilbert Gabriel &#45; Rodogune -->
-<g id="node67" class="node"><title>Gilbert Gabriel - Rodogune</title>
-<ellipse fill="none" stroke="black" cx="14574" cy="-90" rx="124.613" ry="18"></ellipse>
-<text text-anchor="middle" x="14574" y="-85.8" font-family="im_fell_english_proregular" font-size="14.00">Gilbert Gabriel - Rodogune</text>
-</g>
-<!-- Corneille Pierre &#45; Rodogune princesse des Parthes&#45;&gt;Gilbert Gabriel &#45; Rodogune -->
-<g id="edge36" class="edge"><title>Corneille Pierre - Rodogune princesse des Parthes-&gt;Gilbert Gabriel - Rodogune</title>
-<path fill="none" stroke="black" d="M14574,-143.697C14574,-135.983 14574,-126.712 14574,-118.112"></path>
-<polygon fill="black" stroke="black" points="14577.5,-118.104 14574,-108.104 14570.5,-118.104 14577.5,-118.104"></polygon>
-</g>
 </g>
 </svg>
 </div>
