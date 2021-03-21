@@ -1761,20 +1761,21 @@ $(".bouton-ok").on("click",function(){
    $("#lignees").html("");
    minYear = Math.floor(minYear/10)*10;
    maxYear = Math.floor(maxYear/10)*10 + 10;
+   var yearWidth = 6.8;
    var year = minYear;
-   var x = 20;
-   while(year <= maxYear){
+   var x = 1;
+   while(year < maxYear){
       $("#lignees").append('<path fill="none" stroke="black" d="M'+x+',25C'+x+',25 '+x+',20 '+x+',20"></path>');
-      $("#lignees").append('<text text-anchor="middle" x="' + (x+30) + '" y="15" font-family="im_fell_english_proregular" font-size="12.00">' + year + '</text>');
+      $("#lignees").append('<text text-anchor="left" x="' + x + '" y="15" font-family="im_fell_english_proregular" font-size="14.00">' + year + '</text>');
       year += 10;
-      x += 100;
+      x += 10*yearWidth;
    }
-   $("#lignees").append('<path fill="none" stroke="black" d="M10,25C10,25 '+x+',25 '+x+',25"></path>');
+   $("#lignees").append('<path fill="none" stroke="black" d="M1,25C1,25 '+x+',25 '+x+',25"></path>');
    
    // Affichage des composantes de sources/pièces sur la frise chronologique
    // Tri chronologique croissant des composantes
    components.sort(function(a,b){return a.minYear - b.minYear;})
-   var y = 30;
+   var y = 32;
    for(component in components){
       var nodes = components[component].nodes;
       // reorder nodes to avoid having arcs covering each other
@@ -1785,9 +1786,9 @@ $(".bouton-ok").on("click",function(){
       chronologicallyOrderedNodes[1] = temp;
       var nodeLocation = {}
       for(id in chronologicallyOrderedNodes){
-         var node = chronologicallyOrderedNodes[id]
-         $("#lignees").append('<a href="#p' + dictPieces["p"+node].id + '"><g id="node'+id+'" class="node">\n<title>' + dictPieces["p"+node].auteur + ' - ' + dictPieces["p"+node].titre + '</title>\n<ellipse fill="black" stroke="black" cx="' + (20+(parseInt(dictPieces["p"+node].annee)-minYear)*10) + '" cy="' + y + '" rx="4" ry="4"></ellipse></g></a>');
-         nodeLocation[node] = {x:(20+(parseInt(dictPieces["p"+node].annee)-minYear)*10) , y:y}
+         var node = chronologicallyOrderedNodes[id];
+         nodeLocation[node] = {x:(1+(parseInt(dictPieces["p"+node].annee)-minYear)*yearWidth), y: y};
+         $("#lignees").append('<a href="#p' + dictPieces["p"+node].id + '"><g id="node'+id+'" class="node">\n<title>' + dictPieces["p"+node].auteur + ' - ' + dictPieces["p"+node].titre + '</title>\n<ellipse fill="black" stroke="black" cx="' + nodeLocation[node].x + '" cy="' + y + '" rx="4" ry="4"></ellipse></g></a>');
          y += 5
       }
       
