@@ -1798,10 +1798,25 @@ $(".bouton-ok").on("click",function(){
       for(id in chronologicallyOrderedNodes){
          var node = chronologicallyOrderedNodes[id];
          nodeLocation[node] = {x:(1+(parseInt(dictPieces["p"+node].annee)-minYear)*yearWidth), y: y};
-         var svgAttributes = 'fill="gray" stroke="gray" ';
-         if(dictPieces["p"+node].texte != ""){
-            svgAttributes = 'fill="black" stroke="black" ';
+         
+         // Coloration selon le type de pièce
+         var couleurTypePiece = "#CC40CC";
+         console.log(dictPieces["p"+node].type)
+         if(dictPieces["p"+node].type == "tragédie"){
+            couleurTypePiece = "#CC4040";
+            console.log(dictPieces["p"+node].titre)
          }
+         if(dictPieces["p"+node].type == "comédie"){
+            couleurTypePiece = "#4040CC";
+            console.log(dictPieces["p"+node].titre)
+         }
+         
+         // Coloration selon la disponibilité de la pièce
+         var svgAttributes = 'fill="gray" stroke-width="2" stroke="' + couleurTypePiece + '" ';
+         if(dictPieces["p"+node].texte != ""){
+            svgAttributes = 'fill="black" stroke-width="2" stroke="' + couleurTypePiece + '" ';
+         }
+         
          $("#lignees").append('<a href="#p' + dictPieces["p"+node].id + '"><g id="node'+id+'" class="node">\n<title>' + dictPieces["p"+node].auteur + ' - ' + dictPieces["p"+node].titre + '</title>\n<ellipse ' + svgAttributes + 'cx="' + nodeLocation[node].x + '" cy="' + y + '" rx="3" ry="3"></ellipse></g></a>');
          y += 7;
       }
@@ -2366,7 +2381,11 @@ $(document).ready(function(){
 
 <div class="sankey-sources">
 <h3>Les «&nbsp;lignées&nbsp;» de pièces françaises</h3>
-<p style="display:none">Les points ci-dessous représentent chacun une pièce en français écrite ou publiée entre 1550 et 1650.
+<p style="display:none">Les points ci-dessous représentent chacun une pièce 
+(<span style="color:#4040CC">comédie</span>,
+<span style="color:#CC4040">tragédie</span>
+ou <span style="color:#CC40CC">tragédi-comédie</span>) 
+en français écrite ou publiée entre 1550 et 1650.
 Passez la souris au-dessus d’un point pour découvrir la pièce correspondante, 
 cliquez dessus pour accéder à la pièce.</p>
 <p style="display:none">Chaque lien relie une pièce identifiée comme source d’une autre.</p>
@@ -2404,9 +2423,10 @@ bibliothèques numériques sources des ouvrages
 Le lien vers une version scannée de l’œuvre est fourni pour <span id="nbLiensComedies"></span> comédies sur <span id="nbComedies"></span>, <span id="nbLiensTragedies"></span> tragédies sur <span id="nbTragedies"></span> et <span id="nbLiensTragCom"></span> tragi-comédies sur <span id="nbTragCom"></span>.
 </p>
 <p>
-Liens vers les textes des pièces sur la <a href="http://bibdramatique.huma-num.fr/">Bibliothèque dramatique du CELLF</a> (<span id="nbCellf">48</span>&nbsp;pièces), 
-<a href="https://www.theatre-classique.fr/">Théâtre classique</a> (<span id="nbTC">117</span>&nbsp;pièces), 
-<a href="https://classiques-garnier.com/databases">Classiques Garnier</a> (<span id="nbGarnier">32</span>&nbsp;pièces),
+Liens vers les textes des pièces sur 
+<a href="https://www.theatre-classique.fr/">Théâtre classique</a> (<span id="nbTC">118</span>&nbsp;pièces), 
+la <a href="http://bibdramatique.huma-num.fr/">Bibliothèque dramatique du CELLF</a> (<span id="nbCellf">48</span>&nbsp;pièces), 
+<a href="https://classiques-garnier.com/databases">Classiques Garnier</a> (<span id="nbGarnier">29</span>&nbsp;pièces),
 <a href="http://théâtre-documentation.com">théâtre-documentation.com</a> (<span id="nbTD">20</span>&nbsp;pièces),
 <a href="https://emothe.uv.es/biblioteca-digital/">EMOTHE, The Classics of Early Modern European Theatre</a> (<span id="nbEmothe">7</span>&nbsp;pièces)
 et <a href="http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.do">Domínio Público</a> (<span id="nbDPBr">1</span>&nbsp;pièce).
