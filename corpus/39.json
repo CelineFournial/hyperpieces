@@ -1,0 +1,544 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "ERASTE",
+            "target": "TIRCIS",
+            "size": 481,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "TIRCIS",
+            "target": "ERASTE",
+            "size": 533,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "ERASTE",
+            "target": "MÉLITE",
+            "size": 232,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "MÉLITE",
+            "target": "ERASTE",
+            "size": 192,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "MÉLITE",
+            "target": "TIRCIS",
+            "size": 326,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "TIRCIS",
+            "target": "MÉLITE",
+            "size": 416,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "PHILANDRE",
+            "target": "CLORIS",
+            "size": 350,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "CLORIS",
+            "target": "PHILANDRE",
+            "size": 453,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "TIRCIS",
+            "target": "PHILANDRE",
+            "size": 261,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "TIRCIS",
+            "target": "CLORIS",
+            "size": 378,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "PHILANDRE",
+            "target": "TIRCIS",
+            "size": 371,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "CLORIS",
+            "target": "TIRCIS",
+            "size": 508,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ERASTE",
+            "target": "CLITON",
+            "size": 455,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "CLITON",
+            "target": "ERASTE",
+            "size": 163,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "PHILANDRE",
+            "target": "CLITON",
+            "size": 53,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "PHILANDRE",
+            "target": "ERASTE",
+            "size": 93,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "CLITON",
+            "target": "PHILANDRE",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "ERASTE",
+            "target": "PHILANDRE",
+            "size": 164,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "LA",
+            "target": "NOURRICE",
+            "size": 227,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "LA",
+            "target": "MÉLITE",
+            "size": 149,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "NOURRICE",
+            "target": "LA",
+            "size": 236,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "NOURRICE",
+            "target": "MÉLITE",
+            "size": 158,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "MÉLITE",
+            "target": "LA",
+            "size": 96,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "MÉLITE",
+            "target": "NOURRICE",
+            "size": 96,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "CLORIS",
+            "target": "MÉLITE",
+            "size": 251,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "MÉLITE",
+            "target": "CLORIS",
+            "size": 168,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "LISIS",
+            "target": "MÉLITE",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "LISIS",
+            "target": "CLORIS",
+            "size": 107,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "MÉLITE",
+            "target": "LISIS",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "CLORIS",
+            "target": "LISIS",
+            "size": 54,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "CLITON",
+            "target": "NOURRICE",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "CLITON",
+            "target": "CLORIS",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "CLITON",
+            "target": "LA",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "CLITON",
+            "target": "LISIS",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "NOURRICE",
+            "target": "CLITON",
+            "size": 14,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "NOURRICE",
+            "target": "CLORIS",
+            "size": 26,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "NOURRICE",
+            "target": "LISIS",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "CLORIS",
+            "target": "CLITON",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "CLORIS",
+            "target": "NOURRICE",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "CLORIS",
+            "target": "LA",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "LA",
+            "target": "CLITON",
+            "size": 14,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "LA",
+            "target": "CLORIS",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "LA",
+            "target": "LISIS",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "LISIS",
+            "target": "CLITON",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "LISIS",
+            "target": "NOURRICE",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "LISIS",
+            "target": "LA",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "LA",
+            "target": "ERASTE",
+            "size": 91,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "NOURRICE",
+            "target": "ERASTE",
+            "size": 99,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "ERASTE",
+            "target": "LA",
+            "size": 193,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "ERASTE",
+            "target": "NOURRICE",
+            "size": 193,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "TIRCIS",
+            "target": "LA",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "TIRCIS",
+            "target": "NOURRICE",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "LA",
+            "target": "TIRCIS",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "NOURRICE",
+            "target": "TIRCIS",
+            "size": 23,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "ERASTE",
+            "target": "CLORIS",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "CLORIS",
+            "target": "ERASTE",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "ERASTE",
+            "label": "ERASTE",
+            "size": 2142,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "TIRCIS",
+            "label": "TIRCIS",
+            "size": 1883,
+            "y": -76.60444431189781,
+            "x": 64.27876096865393,
+            "color": "rgba(226, 50, 28,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MÉLITE",
+            "label": "MÉLITE",
+            "size": 884,
+            "y": -17.36481776669304,
+            "x": 98.4807753012208,
+            "color": "rgba(198, 50, 56,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PHILANDRE",
+            "label": "PHILANDRE",
+            "size": 1055,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CLORIS",
+            "label": "CLORIS",
+            "size": 1501,
+            "y": 93.96926207859083,
+            "x": 34.20201433256689,
+            "color": "rgba(141, 50, 113,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CLITON",
+            "label": "CLITON",
+            "size": 240,
+            "y": 93.96926207859084,
+            "x": -34.20201433256687,
+            "color": "rgba(113, 50, 141,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LA",
+            "label": "LA",
+            "size": 519,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "NOURRICE",
+            "label": "NOURRICE",
+            "size": 563,
+            "y": -17.364817766692997,
+            "x": -98.48077530122082,
+            "color": "rgba(56, 50, 198,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LISIS",
+            "label": "LISIS",
+            "size": 130,
+            "y": -76.60444431189778,
+            "x": -64.27876096865396,
+            "color": "rgba(28, 50, 226,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

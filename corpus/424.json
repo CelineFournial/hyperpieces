@@ -1,0 +1,1262 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "dom-jean",
+            "target": "précieuse",
+            "size": 411,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "dom-jean",
+            "target": "vieille-égyptienne",
+            "size": 384,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "précieuse",
+            "target": "dom-jean",
+            "size": 221,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "précieuse",
+            "target": "vieille-égyptienne",
+            "size": 291,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "vieille-égyptienne",
+            "target": "dom-jean",
+            "size": 84,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "vieille-égyptienne",
+            "target": "précieuse",
+            "size": 128,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "précieuse",
+            "target": "clément",
+            "size": 71,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "clément",
+            "target": "précieuse",
+            "size": 68,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "clément",
+            "target": "vieille-égyptienne",
+            "size": 68,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "vieille-égyptienne",
+            "target": "clément",
+            "size": 40,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "dom-jean",
+            "target": "garçon-égyptien",
+            "size": 187,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "garçon-égyptien",
+            "target": "dom-jean",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "dom-ferdinand",
+            "target": "guiomar",
+            "size": 248,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "guiomar",
+            "target": "dom-ferdinand",
+            "size": 174,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "capitaine-égyptien",
+            "target": "dom-jean",
+            "size": 61,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "capitaine-égyptien",
+            "target": "précieuse",
+            "size": 65,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "capitaine-égyptien",
+            "target": "troupe-d'égyptiens",
+            "size": 61,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "capitaine-égyptien",
+            "target": "andres",
+            "size": 65,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "dom-jean",
+            "target": "capitaine-égyptien",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "dom-jean",
+            "target": "troupe-d'égyptiens",
+            "size": 27,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "dom-jean",
+            "target": "andres",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "précieuse",
+            "target": "capitaine-égyptien",
+            "size": 40,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "précieuse",
+            "target": "troupe-d'égyptiens",
+            "size": 33,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "précieuse",
+            "target": "andres",
+            "size": 101,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "troupe-d'égyptiens",
+            "target": "capitaine-égyptien",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "troupe-d'égyptiens",
+            "target": "dom-jean",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "troupe-d'égyptiens",
+            "target": "précieuse",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "troupe-d'égyptiens",
+            "target": "andres",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "andres",
+            "target": "capitaine-égyptien",
+            "size": 48,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "andres",
+            "target": "dom-jean",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "andres",
+            "target": "précieuse",
+            "size": 180,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "andres",
+            "target": "troupe-d'égyptiens",
+            "size": 36,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "clément",
+            "target": "i-égyptien",
+            "size": 87,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "clément",
+            "target": "ii-égyptien",
+            "size": 44,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "i-égyptien",
+            "target": "clément",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "i-égyptien",
+            "target": "ii-égyptien",
+            "size": 13,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "ii-égyptien",
+            "target": "clément",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "ii-égyptien",
+            "target": "i-égyptien",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "andres",
+            "target": "vieille-égyptienne",
+            "size": 143,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "andres",
+            "target": "i-égyptien",
+            "size": 112,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "andres",
+            "target": "clément",
+            "size": 228,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "vieille-égyptienne",
+            "target": "andres",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "vieille-égyptienne",
+            "target": "i-égyptien",
+            "size": 35,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "précieuse",
+            "target": "i-égyptien",
+            "size": 35,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "i-égyptien",
+            "target": "andres",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "i-égyptien",
+            "target": "vieille-égyptienne",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "i-égyptien",
+            "target": "précieuse",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "clément",
+            "target": "andres",
+            "size": 106,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "clément",
+            "target": "carduche",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "andres",
+            "target": "carduche",
+            "size": 127,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "carduche",
+            "target": "clément",
+            "size": 93,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "carduche",
+            "target": "andres",
+            "size": 99,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "précieuse",
+            "target": "garçon-égyptien",
+            "size": 171,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "garçon-égyptien",
+            "target": "précieuse",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "mère",
+            "target": "alcade",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "mère",
+            "target": "carduche",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "mère",
+            "target": "troupe-de-villageois",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "mère",
+            "target": "soldat",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "alcade",
+            "target": "mère",
+            "size": 21,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "alcade",
+            "target": "carduche",
+            "size": 21,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "alcade",
+            "target": "troupe-de-villageois",
+            "size": 21,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "alcade",
+            "target": "soldat",
+            "size": 21,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "carduche",
+            "target": "mère",
+            "size": 18,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "carduche",
+            "target": "alcade",
+            "size": 18,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "carduche",
+            "target": "troupe-de-villageois",
+            "size": 18,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "carduche",
+            "target": "soldat",
+            "size": 18,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "troupe-de-villageois",
+            "target": "mère",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "troupe-de-villageois",
+            "target": "alcade",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "troupe-de-villageois",
+            "target": "carduche",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "troupe-de-villageois",
+            "target": "soldat",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "soldat",
+            "target": "mère",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "soldat",
+            "target": "alcade",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "soldat",
+            "target": "carduche",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "soldat",
+            "target": "troupe-de-villageois",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "capitaine-égyptien",
+            "target": "alcade",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "capitaine-égyptien",
+            "target": "vieille-égyptienne",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "capitaine-égyptien",
+            "target": "mère",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "capitaine-égyptien",
+            "target": "carduche",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "capitaine-égyptien",
+            "target": "soldat",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "capitaine-égyptien",
+            "target": "troupe-de-villageois",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "andres",
+            "target": "alcade",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "andres",
+            "target": "mère",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "andres",
+            "target": "soldat",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "andres",
+            "target": "troupe-de-villageois",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "précieuse",
+            "target": "alcade",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "précieuse",
+            "target": "mère",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "précieuse",
+            "target": "carduche",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "précieuse",
+            "target": "soldat",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "précieuse",
+            "target": "troupe-de-villageois",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "alcade",
+            "target": "capitaine-égyptien",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "alcade",
+            "target": "andres",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "alcade",
+            "target": "précieuse",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "alcade",
+            "target": "vieille-égyptienne",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "vieille-égyptienne",
+            "target": "capitaine-égyptien",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "vieille-égyptienne",
+            "target": "alcade",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "vieille-égyptienne",
+            "target": "mère",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "vieille-égyptienne",
+            "target": "carduche",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "vieille-égyptienne",
+            "target": "soldat",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e98",
+            "source": "vieille-égyptienne",
+            "target": "troupe-de-villageois",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e99",
+            "source": "mère",
+            "target": "capitaine-égyptien",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e100",
+            "source": "mère",
+            "target": "andres",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e101",
+            "source": "mère",
+            "target": "précieuse",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e102",
+            "source": "mère",
+            "target": "vieille-égyptienne",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e103",
+            "source": "carduche",
+            "target": "capitaine-égyptien",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e104",
+            "source": "carduche",
+            "target": "précieuse",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e105",
+            "source": "carduche",
+            "target": "vieille-égyptienne",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e106",
+            "source": "soldat",
+            "target": "capitaine-égyptien",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e107",
+            "source": "soldat",
+            "target": "andres",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e108",
+            "source": "soldat",
+            "target": "précieuse",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e109",
+            "source": "soldat",
+            "target": "vieille-égyptienne",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e110",
+            "source": "troupe-de-villageois",
+            "target": "capitaine-égyptien",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e111",
+            "source": "troupe-de-villageois",
+            "target": "andres",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e112",
+            "source": "troupe-de-villageois",
+            "target": "précieuse",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e113",
+            "source": "troupe-de-villageois",
+            "target": "vieille-égyptienne",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e114",
+            "source": "dom-ferdinand",
+            "target": "sénéchal",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e115",
+            "source": "guiomar",
+            "target": "sénéchal",
+            "size": 108,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e116",
+            "source": "sénéchal",
+            "target": "dom-ferdinand",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e117",
+            "source": "sénéchal",
+            "target": "guiomar",
+            "size": 109,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e118",
+            "source": "guiomar",
+            "target": "précieuse",
+            "size": 152,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e119",
+            "source": "précieuse",
+            "target": "guiomar",
+            "size": 167,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e120",
+            "source": "andres",
+            "target": "geôlier",
+            "size": 113,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e121",
+            "source": "geôlier",
+            "target": "andres",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e122",
+            "source": "guiomar",
+            "target": "vieille-égyptienne",
+            "size": 56,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e123",
+            "source": "guiomar",
+            "target": "andres",
+            "size": 56,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e124",
+            "source": "précieuse",
+            "target": "sénéchal",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e125",
+            "source": "vieille-égyptienne",
+            "target": "guiomar",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e126",
+            "source": "vieille-égyptienne",
+            "target": "sénéchal",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e127",
+            "source": "sénéchal",
+            "target": "précieuse",
+            "size": 100,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e128",
+            "source": "sénéchal",
+            "target": "vieille-égyptienne",
+            "size": 100,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e129",
+            "source": "sénéchal",
+            "target": "andres",
+            "size": 100,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e130",
+            "source": "andres",
+            "target": "guiomar",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e131",
+            "source": "andres",
+            "target": "sénéchal",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "dom-jean",
+            "label": "dom-jean",
+            "size": 1064,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "précieuse",
+            "label": "précieuse",
+            "size": 1194,
+            "y": -95.10565162951535,
+            "x": 30.901699437494738,
+            "color": "rgba(242, 50, 12,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "vieille-égyptienne",
+            "label": "vieille-égyptienne",
+            "size": 443,
+            "y": -80.90169943749474,
+            "x": 58.778525229247315,
+            "color": "rgba(229, 50, 25,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "dom-sancho",
+            "label": "dom-sancho",
+            "size": 102,
+            "y": -58.778525229247315,
+            "x": 80.90169943749474,
+            "color": "rgba(216, 50, 38,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "clément",
+            "label": "clément",
+            "size": 440,
+            "y": -30.901699437494745,
+            "x": 95.10565162951535,
+            "color": "rgba(204, 50, 51,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "garçon-égyptien",
+            "label": "garçon-égyptien",
+            "size": 23,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "dom-ferdinand",
+            "label": "dom-ferdinand",
+            "size": 312,
+            "y": 30.901699437494734,
+            "x": 95.10565162951536,
+            "color": "rgba(178, 50, 76,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "guiomar",
+            "label": "guiomar",
+            "size": 548,
+            "y": 58.7785252292473,
+            "x": 80.90169943749474,
+            "color": "rgba(165, 50, 89,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "capitaine-égyptien",
+            "label": "capitaine-égyptien",
+            "size": 279,
+            "y": 80.90169943749473,
+            "x": 58.77852522924732,
+            "color": "rgba(153, 50, 102,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "troupe-d'égyptiens",
+            "label": "troupe-d'égyptiens",
+            "size": 16,
+            "y": 95.10565162951535,
+            "x": 30.901699437494752,
+            "color": "rgba(140, 50, 114,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "andres",
+            "label": "andres",
+            "size": 1112,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "i-égyptien",
+            "label": "i-égyptien",
+            "size": 61,
+            "y": 95.10565162951538,
+            "x": -30.90169943749469,
+            "color": "rgba(114, 50, 140,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ii-égyptien",
+            "label": "ii-égyptien",
+            "size": 25,
+            "y": 80.90169943749474,
+            "x": -58.7785252292473,
+            "color": "rgba(102, 50, 153,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "carduche",
+            "label": "carduche",
+            "size": 424,
+            "y": 58.77852522924732,
+            "x": -80.90169943749473,
+            "color": "rgba(89, 50, 165,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "mère",
+            "label": "mère",
+            "size": 44,
+            "y": 30.901699437494756,
+            "x": -95.10565162951535,
+            "color": "rgba(76, 50, 178,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "alcade",
+            "label": "alcade",
+            "size": 112,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "troupe-de-villageois",
+            "label": "troupe-de-villageois",
+            "size": 67,
+            "y": -30.901699437494724,
+            "x": -95.10565162951536,
+            "color": "rgba(51, 50, 204,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "soldat",
+            "label": "soldat",
+            "size": 33,
+            "y": -58.77852522924729,
+            "x": -80.90169943749476,
+            "color": "rgba(38, 50, 216,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "sénéchal",
+            "label": "sénéchal",
+            "size": 419,
+            "y": -80.90169943749473,
+            "x": -58.778525229247336,
+            "color": "rgba(25, 50, 229,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "geôlier",
+            "label": "geôlier",
+            "size": 25,
+            "y": -95.10565162951535,
+            "x": -30.901699437494763,
+            "color": "rgba(12, 50, 242,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

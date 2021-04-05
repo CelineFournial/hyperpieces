@@ -1,0 +1,406 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "ACHATE",
+            "target": "ASCAIGNE",
+            "size": 147,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "ACHATE",
+            "target": "PALINURE",
+            "size": 147,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "ACHATE",
+            "target": "ENEE",
+            "size": 179,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "ACHATE",
+            "target": "LECHOEUR",
+            "size": 179,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "ASCAIGNE",
+            "target": "ACHATE",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "ASCAIGNE",
+            "target": "PALINURE",
+            "size": 33,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "ASCAIGNE",
+            "target": "ENEE",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "ASCAIGNE",
+            "target": "LECHOEUR",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "PALINURE",
+            "target": "ACHATE",
+            "size": 34,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "PALINURE",
+            "target": "ASCAIGNE",
+            "size": 34,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "PALINURE",
+            "target": "ENEE",
+            "size": 34,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "PALINURE",
+            "target": "LECHOEUR",
+            "size": 34,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ENEE",
+            "target": "ACHATE",
+            "size": 239,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "ENEE",
+            "target": "ASCAIGNE",
+            "size": 130,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "ENEE",
+            "target": "PALINURE",
+            "size": 130,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "ENEE",
+            "target": "LECHOEUR",
+            "size": 594,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "LECHOEUR",
+            "target": "ACHATE",
+            "size": 128,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "LECHOEUR",
+            "target": "ASCAIGNE",
+            "size": 111,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "LECHOEUR",
+            "target": "PALINURE",
+            "size": 111,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "LECHOEUR",
+            "target": "ENEE",
+            "size": 220,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "DIDON",
+            "target": "LECHOEUR",
+            "size": 1281,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "DIDON",
+            "target": "ANNE",
+            "size": 947,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "DIDON",
+            "target": "ENEE",
+            "size": 790,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "LECHOEUR",
+            "target": "DIDON",
+            "size": 292,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "LECHOEUR",
+            "target": "ANNE",
+            "size": 183,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "ANNE",
+            "target": "DIDON",
+            "size": 555,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "ANNE",
+            "target": "LECHOEUR",
+            "size": 555,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "ANNE",
+            "target": "ENEE",
+            "size": 183,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "ENEE",
+            "target": "DIDON",
+            "size": 464,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "ENEE",
+            "target": "ANNE",
+            "size": 464,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "DIDON",
+            "target": "ACHATE",
+            "size": 276,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "ANNE",
+            "target": "ACHATE",
+            "size": 158,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "ACHATE",
+            "target": "DIDON",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "ACHATE",
+            "target": "ANNE",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "ANNE",
+            "target": "BARCE",
+            "size": 372,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "BARCE",
+            "target": "ANNE",
+            "size": 127,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "BARCE",
+            "target": "DIDON",
+            "size": 252,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "BARCE",
+            "target": "LECHOEUR",
+            "size": 252,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "DIDON",
+            "target": "BARCE",
+            "size": 491,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "LECHOEUR",
+            "target": "BARCE",
+            "size": 183,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "ACHATE",
+            "label": "ACHATE",
+            "size": 718,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ASCAIGNE",
+            "label": "ASCAIGNE",
+            "size": 132,
+            "y": -70.71067811865476,
+            "x": 70.71067811865474,
+            "color": "rgba(223, 50, 31,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "PALINURE",
+            "label": "PALINURE",
+            "size": 138,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ENEE",
+            "label": "ENEE",
+            "size": 2023,
+            "y": 70.71067811865474,
+            "x": 70.71067811865476,
+            "color": "rgba(159, 50, 95,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LECHOEUR",
+            "label": "LECHOEUR",
+            "size": 1231,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "DIDON",
+            "label": "DIDON",
+            "size": 3787,
+            "y": 70.71067811865477,
+            "x": -70.71067811865474,
+            "color": "rgba(95, 50, 159,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ANNE",
+            "label": "ANNE",
+            "size": 1826,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BARCE",
+            "label": "BARCE",
+            "size": 632,
+            "y": -70.71067811865474,
+            "x": -70.71067811865477,
+            "color": "rgba(31, 50, 223,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

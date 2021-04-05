@@ -1,0 +1,590 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "achille",
+            "target": "briseide",
+            "size": 504,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "briseide",
+            "target": "achille",
+            "size": 415,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "alcimede",
+            "target": "achille",
+            "size": 238,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "alcimede",
+            "target": "briseide",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "achille",
+            "target": "alcimede",
+            "size": 284,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "briseide",
+            "target": "alcimede",
+            "size": 69,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "achille",
+            "target": "priam",
+            "size": 195,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "achille",
+            "target": "hecube",
+            "size": 195,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "achille",
+            "target": "polixene",
+            "size": 487,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "priam",
+            "target": "achille",
+            "size": 154,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "priam",
+            "target": "hecube",
+            "size": 195,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "priam",
+            "target": "briseide",
+            "size": 90,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "priam",
+            "target": "polixene",
+            "size": 90,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "hecube",
+            "target": "achille",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "hecube",
+            "target": "priam",
+            "size": 54,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "hecube",
+            "target": "briseide",
+            "size": 14,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "hecube",
+            "target": "polixene",
+            "size": 415,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "briseide",
+            "target": "priam",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "briseide",
+            "target": "hecube",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "briseide",
+            "target": "polixene",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "polixene",
+            "target": "achille",
+            "size": 209,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "polixene",
+            "target": "priam",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "polixene",
+            "target": "hecube",
+            "size": 100,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "polixene",
+            "target": "briseide",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "priam",
+            "target": "paris",
+            "size": 105,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "hecube",
+            "target": "paris",
+            "size": 231,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "paris",
+            "target": "priam",
+            "size": 53,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "paris",
+            "target": "hecube",
+            "size": 186,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "achille",
+            "target": "paris",
+            "size": 133,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "paris",
+            "target": "achille",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "achille",
+            "target": "ajax",
+            "size": 94,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "achille",
+            "target": "ulisse",
+            "size": 94,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "ajax",
+            "target": "achille",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "ajax",
+            "target": "ulisse",
+            "size": 910,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "ulisse",
+            "target": "achille",
+            "size": 128,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "ulisse",
+            "target": "ajax",
+            "size": 1043,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "paris",
+            "target": "polixene",
+            "size": 132,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "polixene",
+            "target": "paris",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "hecube",
+            "target": "deiphobe",
+            "size": 144,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "polixene",
+            "target": "deiphobe",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "paris",
+            "target": "deiphobe",
+            "size": 41,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "deiphobe",
+            "target": "hecube",
+            "size": 14,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "deiphobe",
+            "target": "polixene",
+            "size": 14,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "deiphobe",
+            "target": "paris",
+            "size": 16,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "achille",
+            "target": "deiphobe",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "paris",
+            "target": "alcimede",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "deiphobe",
+            "target": "achille",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "deiphobe",
+            "target": "alcimede",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "alcimede",
+            "target": "paris",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "alcimede",
+            "target": "deiphobe",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "soldat",
+            "target": "ulisse",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "soldat",
+            "target": "ajax",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "ulisse",
+            "target": "soldat",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "ajax",
+            "target": "soldat",
+            "size": 13,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "ajax",
+            "target": "agamemnon",
+            "size": 140,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "ulisse",
+            "target": "agamemnon",
+            "size": 54,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "agamemnon",
+            "target": "ajax",
+            "size": 98,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "agamemnon",
+            "target": "ulisse",
+            "size": 98,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "achille",
+            "label": "achille",
+            "size": 2068,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "briseide",
+            "label": "briseide",
+            "size": 609,
+            "y": -86.60254037844388,
+            "x": 49.99999999999999,
+            "color": "rgba(233, 50, 21,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "alcimede",
+            "label": "alcimede",
+            "size": 409,
+            "y": -50.000000000000014,
+            "x": 86.60254037844386,
+            "color": "rgba(212, 50, 42,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "priam",
+            "label": "priam",
+            "size": 637,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "hecube",
+            "label": "hecube",
+            "size": 882,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "polixene",
+            "label": "polixene",
+            "size": 387,
+            "y": 86.60254037844388,
+            "x": 49.99999999999999,
+            "color": "rgba(148, 50, 106,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "paris",
+            "label": "paris",
+            "size": 432,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ajax",
+            "label": "ajax",
+            "size": 1169,
+            "y": 86.60254037844388,
+            "x": -49.99999999999997,
+            "color": "rgba(106, 50, 148,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ulisse",
+            "label": "ulisse",
+            "size": 1231,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "deiphobe",
+            "label": "deiphobe",
+            "size": 49,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "soldat",
+            "label": "soldat",
+            "size": 15,
+            "y": -50.000000000000014,
+            "x": -86.60254037844386,
+            "color": "rgba(42, 50, 212,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "agamemnon",
+            "label": "agamemnon",
+            "size": 196,
+            "y": -86.60254037844383,
+            "x": -50.00000000000004,
+            "color": "rgba(21, 50, 233,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

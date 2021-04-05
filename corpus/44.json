@@ -1,0 +1,522 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "filandre",
+            "target": "orante",
+            "size": 317,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "orante",
+            "target": "filandre",
+            "size": 493,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "filandre",
+            "target": "célimène",
+            "size": 172,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "célimène",
+            "target": "filandre",
+            "size": 103,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "célimène",
+            "target": "félicie",
+            "size": 269,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "célimène",
+            "target": "alidor",
+            "size": 414,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "félicie",
+            "target": "célimène",
+            "size": 267,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "félicie",
+            "target": "alidor",
+            "size": 226,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "alidor",
+            "target": "célimène",
+            "size": 396,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "alidor",
+            "target": "félicie",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "alidor",
+            "target": "lysis",
+            "size": 260,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "lysis",
+            "target": "alidor",
+            "size": 365,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "orante",
+            "target": "célimène",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "orante",
+            "target": "félicie",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "orante",
+            "target": "floridan",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "célimène",
+            "target": "orante",
+            "size": 32,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "célimène",
+            "target": "floridan",
+            "size": 314,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "félicie",
+            "target": "orante",
+            "size": 16,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "félicie",
+            "target": "floridan",
+            "size": 69,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "floridan",
+            "target": "orante",
+            "size": 56,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "floridan",
+            "target": "célimène",
+            "size": 586,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "floridan",
+            "target": "félicie",
+            "size": 81,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "filandre",
+            "target": "floridan",
+            "size": 88,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "floridan",
+            "target": "filandre",
+            "size": 96,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "félicie",
+            "target": "filandre",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "filandre",
+            "target": "félicie",
+            "size": 65,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "lysis",
+            "target": "félicie",
+            "size": 275,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "félicie",
+            "target": "lysis",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "floridan",
+            "target": "lysis",
+            "size": 289,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "floridan",
+            "target": "alidor",
+            "size": 245,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "lysis",
+            "target": "floridan",
+            "size": 93,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "alidor",
+            "target": "floridan",
+            "size": 163,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "le-laquais",
+            "target": "floridan",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "floridan",
+            "target": "le-laquais",
+            "size": 77,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "premier-voleur",
+            "target": "deuxième-voleur",
+            "size": 19,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "premier-voleur",
+            "target": "célimène",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "deuxième-voleur",
+            "target": "premier-voleur",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "deuxième-voleur",
+            "target": "célimène",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "célimène",
+            "target": "premier-voleur",
+            "size": 20,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "célimène",
+            "target": "deuxième-voleur",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "alidor",
+            "target": "premier-voleur",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "premier-voleur",
+            "target": "alidor",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "célimène",
+            "target": "lysis",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "filandre",
+            "target": "alidor",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "filandre",
+            "target": "lysis",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "alidor",
+            "target": "filandre",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "alidor",
+            "target": "orante",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "lysis",
+            "target": "célimène",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "lysis",
+            "target": "filandre",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "lysis",
+            "target": "orante",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "orante",
+            "target": "alidor",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "orante",
+            "target": "lysis",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "orante",
+            "label": "orante",
+            "size": 1178,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "filandre",
+            "label": "filandre",
+            "size": 697,
+            "y": -80.90169943749474,
+            "x": 58.778525229247315,
+            "color": "rgba(229, 50, 25,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "célimène",
+            "label": "célimène",
+            "size": 1391,
+            "y": -30.901699437494745,
+            "x": 95.10565162951535,
+            "color": "rgba(204, 50, 51,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "félicie",
+            "label": "félicie",
+            "size": 875,
+            "y": 30.901699437494734,
+            "x": 95.10565162951536,
+            "color": "rgba(178, 50, 76,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "alidor",
+            "label": "alidor",
+            "size": 953,
+            "y": 80.90169943749473,
+            "x": 58.77852522924732,
+            "color": "rgba(153, 50, 102,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "lysis",
+            "label": "lysis",
+            "size": 812,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "floridan",
+            "label": "floridan",
+            "size": 1433,
+            "y": 80.90169943749474,
+            "x": -58.7785252292473,
+            "color": "rgba(102, 50, 153,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-laquais",
+            "label": "le-laquais",
+            "size": 7,
+            "y": 30.901699437494756,
+            "x": -95.10565162951535,
+            "color": "rgba(76, 50, 178,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "premier-voleur",
+            "label": "premier-voleur",
+            "size": 44,
+            "y": -30.901699437494724,
+            "x": -95.10565162951536,
+            "color": "rgba(51, 50, 204,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "deuxième-voleur",
+            "label": "deuxième-voleur",
+            "size": 14,
+            "y": -80.90169943749473,
+            "x": -58.778525229247336,
+            "color": "rgba(25, 50, 229,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

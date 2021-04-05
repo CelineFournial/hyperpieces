@@ -145,14 +145,28 @@ var chosenText = {text1:"", text2:""};
 
 // List of all available theater plays
 var pieces = {
-"47":"Georges de Scudéry, La Comédie des comédiens (1632), Paris : A. Courbé, 1635.",
-"66":"Pierre Corneille, L’Illusion comique (été 1635), Paris : F. Targa, 1639.",
-"294":"François L’Hermite sieur du Soliers dit Tristan L’Hermite, La Mariane (1636), Paris : A. Courbé, 1637.",
-"311":"Gautier de Coste sieur de La Calprenède, La Mort des enfans d’Hérodes ou Suite de Mariane (1638), Paris : A. Courbé, 1639.",
-"290":"Guyon Guérin de Bouscal, La Mort de Brute et de Porcie, ou la Vengeance de la mort de César (1635-1636), Paris : T. Quinet, 1637.",
-"354":"Claude Boyer, La Porcie romaine (1645), Paris : A. Courbé, 1646.",
-"353":"Pierre Corneille, Rodogune, princesse des Parthes (1644-1645), Paris : A. de Sommaville, 1647.",
-"582":"Gabriel Gilbert, Rodogune (1645), Paris : A. Courbé, 1646."
+"108":"01a : Estienne Jodelle, Didon se sacrifiant (1553-1557), Paris : N. Chesneau et M. Patisson, 1574.",
+"218":"01b : Alexandre Hardy, Didon se sacrifiant (avant 1610), Paris : J. Quesnel, 1624.",
+"383":"02a : Robert Garnier, Bradamante, Paris : Patisson, 1582.",
+"503":"02b : Gautier de Coste La Calprenède, Bradamante (1636), Paris : A. de Sommaville, 1637.",
+"221":"03a : Alexandre Hardy, La Mort d’Achille (c. 1610), Paris : J. Quesnel, 1625.",
+"287":"03b : Isaac de Benserade, La Mort d’Achille (fin 1635), Paris : A. de Sommaville, 1636.",
+"420":"04a : Alexandre Hardy, Félismène (1615-1625), Paris : J. Quesnel, 1626.",
+"44":"04b : Jean de Rotrou, La Célimène (1631), Paris : A. de Sommaville, 1636.",
+"424":"05a : Alexandre Hardy, La Belle Egyptienne (1626), Paris : F. Targa, 1628.",
+"552":"05b : Sallebray, La Belle Égyptienne (1640-41), Paris : A. de Sommaville et A. Courbé, 1642.",
+"39":"06a : Pierre Corneille, Mélite, ou les Fausses Lettres (1629-1630), Paris : F. Targa, 1633.",
+"61":"06b : Jean de Rotrou, Clorinde (début des années 1630), Paris : A. de Sommaville, 1637.",
+"49":"07a : Jean de Rotrou, Diane (1632-33), Paris : F. Targa, 1635.",
+"62":"07b : Georges de Scudéry, Le Fils supposé (début 1635), Paris : A. Courbé, 1636.",
+"47":"08a : Georges de Scudéry, La Comédie des comédiens (1632), Paris : A. Courbé, 1635.",
+"66":"08b : Pierre Corneille, L’Illusion comique (été 1635), Paris : F. Targa, 1639.",
+"294":"09a : François L’Hermite sieur du Soliers dit Tristan L’Hermite, La Mariane (1636), Paris : A. Courbé, 1637.",
+"311":"09b : Gautier de Coste sieur de La Calprenède, La Mort des enfans d’Hérodes ou Suite de Mariane (1638), Paris : A. Courbé, 1639.",
+"290":"10a : Guyon Guérin de Bouscal, La Mort de Brute et de Porcie, ou la Vengeance de la mort de César (1635-1636), Paris : T. Quinet, 1637.",
+"354":"10b : Claude Boyer, La Porcie romaine (1645), Paris : A. Courbé, 1646.",
+"353":"11a : Pierre Corneille, Rodogune, princesse des Parthes (1644-1645), Paris : A. de Sommaville, 1647.",
+"582":"11b : Gabriel Gilbert, Rodogune (1645), Paris : A. Courbé, 1646.",
 };
 
 // Add the list of text choices
@@ -160,6 +174,18 @@ $("#text1").prepend('<select id="textChoice1" class="textChoice"></select><butto
 $("#text2").prepend('<select id="textChoice2" class="textChoice"></select><button id="loadTei2" class="loadTei">Charger TEI</button><input type="file" id="realLoadTei2" class="realLoadTei hidden"><div id="xml2" class="hidden""></div><br>');
 function addTextChoice(){
   var codesPieces = Object.keys(pieces);
+  codesPieces.sort(function(a, b){
+     console.log(pieces[a])
+     if(pieces[a] < pieces[b]){
+        return -1;
+     } else {
+        if(pieces[b] > pieces[a]){
+           return 1;
+        }else{
+           return 0;
+        }
+     }
+  })
   var i = 0;
   while(i < codesPieces.length){
     try{

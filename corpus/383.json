@@ -1,0 +1,970 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "CHARLEMAGNE",
+            "target": "NYMES",
+            "size": 109,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "NYMES",
+            "target": "CHARLEMAGNE",
+            "size": 121,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "AYMON",
+            "target": "BEATRIX",
+            "size": 270,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "BEATRIX",
+            "target": "AYMON",
+            "size": 338,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "RENAUD",
+            "target": "AYMON",
+            "size": 167,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "RENAUD",
+            "target": "LA",
+            "size": 167,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "RENAUD",
+            "target": "ROQUE",
+            "size": 167,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "AYMON",
+            "target": "RENAUD",
+            "size": 110,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "AYMON",
+            "target": "LA",
+            "size": 110,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "AYMON",
+            "target": "ROQUE",
+            "size": 110,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "LA",
+            "target": "RENAUD",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "LA",
+            "target": "AYMON",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "LA",
+            "target": "ROQUE",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "ROQUE",
+            "target": "RENAUD",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "ROQUE",
+            "target": "AYMON",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "ROQUE",
+            "target": "LA",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "BEATRIX",
+            "target": "BRADAMANTE",
+            "size": 828,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "BRADAMANTE",
+            "target": "BEATRIX",
+            "size": 228,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "LÉON",
+            "target": "ROGER",
+            "size": 387,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "ROGER",
+            "target": "LÉON",
+            "size": 403,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "LÉON",
+            "target": "CHARLEMAGNE",
+            "size": 141,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "CHARLEMAGNE",
+            "target": "LÉON",
+            "size": 79,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "BRADAMANTE",
+            "target": "CHARLEMAGNE",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "BRADAMANTE",
+            "target": "HIPPALQUE",
+            "size": 385,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "CHARLEMAGNE",
+            "target": "BRADAMANTE",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "CHARLEMAGNE",
+            "target": "HIPPALQUE",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "HIPPALQUE",
+            "target": "BRADAMANTE",
+            "size": 378,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "HIPPALQUE",
+            "target": "CHARLEMAGNE",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "LA_MONTAGNE",
+            "target": "AYMON",
+            "size": 224,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "LA_MONTAGNE",
+            "target": "BEATRIX",
+            "size": 224,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "AYMON",
+            "target": "LA_MONTAGNE",
+            "size": 30,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "BEATRIX",
+            "target": "LA_MONTAGNE",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "MARPHISE",
+            "target": "BRADAMANTE",
+            "size": 75,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "MARPHISE",
+            "target": "HIPPALQUE",
+            "size": 75,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "BRADAMANTE",
+            "target": "MARPHISE",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "HIPPALQUE",
+            "target": "MARPHISE",
+            "size": 38,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "LÉON",
+            "target": "CHARLES",
+            "size": 26,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "LÉON",
+            "target": "AYMON",
+            "size": 94,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "LÉON",
+            "target": "BEATRIX",
+            "size": 94,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "LÉON",
+            "target": "MARPHISE",
+            "size": 90,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "LÉON",
+            "target": "AYMON,",
+            "size": 26,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "CHARLES",
+            "target": "LÉON",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "CHARLES",
+            "target": "AYMON",
+            "size": 115,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "CHARLES",
+            "target": "BEATRIX",
+            "size": 115,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "CHARLES",
+            "target": "MARPHISE",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "CHARLES",
+            "target": "AYMON,",
+            "size": 46,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "AYMON",
+            "target": "LÉON",
+            "size": 37,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "AYMON",
+            "target": "CHARLES",
+            "size": 35,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "AYMON",
+            "target": "MARPHISE",
+            "size": 32,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "AYMON",
+            "target": "AYMON,",
+            "size": 27,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "BEATRIX",
+            "target": "LÉON",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "BEATRIX",
+            "target": "CHARLES",
+            "size": 9,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "BEATRIX",
+            "target": "MARPHISE",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "BEATRIX",
+            "target": "AYMON,",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "MARPHISE",
+            "target": "LÉON",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "MARPHISE",
+            "target": "CHARLES",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "MARPHISE",
+            "target": "AYMON",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "MARPHISE",
+            "target": "BEATRIX",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "MARPHISE",
+            "target": "AYMON,",
+            "size": 18,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "AYMON,",
+            "target": "LÉON",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "AYMON,",
+            "target": "CHARLES",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "AYMON,",
+            "target": "AYMON",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "AYMON,",
+            "target": "BEATRIX",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "AYMON,",
+            "target": "MARPHISE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "LÉON",
+            "target": "BASILE",
+            "size": 176,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "BASILE",
+            "target": "LÉON",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "AMBASSADEURS",
+            "target": "CHARLEMAGNE",
+            "size": 227,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "CHARLEMAGNE",
+            "target": "AMBASSADEURS",
+            "size": 41,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "LÉON",
+            "target": "AMBASSADEURS",
+            "size": 63,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "CHARLEMAGNE",
+            "target": "AYMON",
+            "size": 34,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "CHARLEMAGNE",
+            "target": "MARPHISE",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "CHARLEMAGNE",
+            "target": "ROGER",
+            "size": 34,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "CHARLEMAGNE",
+            "target": "BEATRIX",
+            "size": 34,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "AYMON",
+            "target": "CHARLEMAGNE",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "AYMON",
+            "target": "ROGER",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "AYMON",
+            "target": "AMBASSADEURS",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "MARPHISE",
+            "target": "CHARLEMAGNE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "MARPHISE",
+            "target": "ROGER",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "MARPHISE",
+            "target": "AMBASSADEURS",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "ROGER",
+            "target": "CHARLEMAGNE",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "ROGER",
+            "target": "AYMON",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "ROGER",
+            "target": "MARPHISE",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "ROGER",
+            "target": "AMBASSADEURS",
+            "size": 13,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "ROGER",
+            "target": "BEATRIX",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "AMBASSADEURS",
+            "target": "LÉON",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "AMBASSADEURS",
+            "target": "AYMON",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "AMBASSADEURS",
+            "target": "MARPHISE",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "AMBASSADEURS",
+            "target": "ROGER",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "AMBASSADEURS",
+            "target": "BEATRIX",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "BEATRIX",
+            "target": "CHARLEMAGNE",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "BEATRIX",
+            "target": "ROGER",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "BEATRIX",
+            "target": "AMBASSADEURS",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "AYMON",
+            "target": "BRADAMANTE",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "ROGER",
+            "target": "BRADAMANTE",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "BRADAMANTE",
+            "target": "AYMON",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "BRADAMANTE",
+            "target": "ROGER",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "BRADAMANTE",
+            "target": "LÉON",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "LÉON",
+            "target": "BRADAMANTE",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "CHARLEMAGNE",
+            "label": "CHARLEMAGNE",
+            "size": 943,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "NYMES",
+            "label": "NYMES",
+            "size": 121,
+            "y": -93.96926207859084,
+            "x": 34.20201433256687,
+            "color": "rgba(240, 50, 14,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "AYMON",
+            "label": "AYMON",
+            "size": 797,
+            "y": -76.60444431189781,
+            "x": 64.27876096865393,
+            "color": "rgba(226, 50, 28,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BEATRIX",
+            "label": "BEATRIX",
+            "size": 1222,
+            "y": -50.000000000000014,
+            "x": 86.60254037844386,
+            "color": "rgba(212, 50, 42,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "RENAUD",
+            "label": "RENAUD",
+            "size": 502,
+            "y": -17.36481776669304,
+            "x": 98.4807753012208,
+            "color": "rgba(198, 50, 56,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LA",
+            "label": "LA",
+            "size": 19,
+            "y": 17.36481776669303,
+            "x": 98.4807753012208,
+            "color": "rgba(184, 50, 70,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ROQUE",
+            "label": "ROQUE",
+            "size": 19,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BRADAMANTE",
+            "label": "BRADAMANTE",
+            "size": 1067,
+            "y": 76.6044443118978,
+            "x": 64.27876096865394,
+            "color": "rgba(155, 50, 99,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LÉON",
+            "label": "LÉON",
+            "size": 1107,
+            "y": 93.96926207859083,
+            "x": 34.20201433256689,
+            "color": "rgba(141, 50, 113,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ROGER",
+            "label": "ROGER",
+            "size": 981,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "HIPPALQUE",
+            "label": "HIPPALQUE",
+            "size": 437,
+            "y": 93.96926207859084,
+            "x": -34.20201433256687,
+            "color": "rgba(113, 50, 141,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "LA_MONTAGNE",
+            "label": "LA_MONTAGNE",
+            "size": 449,
+            "y": 76.60444431189784,
+            "x": -64.2787609686539,
+            "color": "rgba(99, 50, 155,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MARPHISE",
+            "label": "MARPHISE",
+            "size": 269,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "CHARLES",
+            "label": "CHARLES",
+            "size": 370,
+            "y": 17.364817766693033,
+            "x": -98.4807753012208,
+            "color": "rgba(70, 50, 184,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "AYMON,",
+            "label": "AYMON,",
+            "size": 11,
+            "y": -17.364817766692997,
+            "x": -98.48077530122082,
+            "color": "rgba(56, 50, 198,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "BASILE",
+            "label": "BASILE",
+            "size": 64,
+            "y": -49.999999999999936,
+            "x": -86.6025403784439,
+            "color": "rgba(42, 50, 212,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "AMBASSADEURS",
+            "label": "AMBASSADEURS",
+            "size": 280,
+            "y": -76.60444431189778,
+            "x": -64.27876096865396,
+            "color": "rgba(28, 50, 226,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "MELISSE",
+            "label": "MELISSE",
+            "size": 103,
+            "y": -93.96926207859084,
+            "x": -34.20201433256686,
+            "color": "rgba(14, 50, 240,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

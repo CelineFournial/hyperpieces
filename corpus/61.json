@@ -1,0 +1,470 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "céliandre",
+            "target": "clorinde",
+            "size": 287,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "clorinde",
+            "target": "céliandre",
+            "size": 341,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "lisante",
+            "target": "clorinde",
+            "size": 693,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "clorinde",
+            "target": "lisante",
+            "size": 611,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "célimant",
+            "target": "lisante",
+            "size": 202,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "lisante",
+            "target": "célimant",
+            "size": 112,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "polidor",
+            "target": "lisante",
+            "size": 105,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "polidor",
+            "target": "célimant",
+            "size": 57,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "lisante",
+            "target": "polidor",
+            "size": 86,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "célimant",
+            "target": "polidor",
+            "size": 55,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "lisante",
+            "target": "céliandre",
+            "size": 677,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "céliandre",
+            "target": "lisante",
+            "size": 465,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "dorimène",
+            "target": "lisante",
+            "size": 142,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "lisante",
+            "target": "dorimène",
+            "size": 96,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "clorinde",
+            "target": "dorimène",
+            "size": 260,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "dorimène",
+            "target": "clorinde",
+            "size": 356,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "célimant",
+            "target": "clorinde",
+            "size": 171,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "clorinde",
+            "target": "célimant",
+            "size": 345,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "céliandre",
+            "target": "célimant",
+            "size": 212,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "célimant",
+            "target": "céliandre",
+            "size": 79,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "céliandre",
+            "target": "clarimond",
+            "size": 539,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "clarimond",
+            "target": "céliandre",
+            "size": 177,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "polidor",
+            "target": "céliandre",
+            "size": 134,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "céliandre",
+            "target": "polidor",
+            "size": 106,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "clarimond",
+            "target": "clorinde",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "clarimond",
+            "target": "lisante",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "clorinde",
+            "target": "clarimond",
+            "size": 128,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "lisante",
+            "target": "clarimond",
+            "size": 74,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "dorimène",
+            "target": "célimant",
+            "size": 193,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "célimant",
+            "target": "dorimène",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "céliandre",
+            "target": "dorimène",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "dorimène",
+            "target": "céliandre",
+            "size": 147,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "clarimond",
+            "target": "célimant",
+            "size": 14,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "célimant",
+            "target": "clarimond",
+            "size": 23,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "dorimène",
+            "target": "polidor",
+            "size": 105,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "polidor",
+            "target": "dorimène",
+            "size": 75,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "dorimène",
+            "target": "le-serviteur",
+            "size": 105,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "dorimène",
+            "target": "clarimond",
+            "size": 115,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "céliandre",
+            "target": "le-serviteur",
+            "size": 61,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "le-serviteur",
+            "target": "dorimène",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "le-serviteur",
+            "target": "céliandre",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "le-serviteur",
+            "target": "clarimond",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "clarimond",
+            "target": "dorimène",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "clarimond",
+            "target": "le-serviteur",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "clorinde",
+            "target": "polidor",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "clarimond",
+            "target": "polidor",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "polidor",
+            "target": "clorinde",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "polidor",
+            "target": "clarimond",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "céliandre",
+            "label": "céliandre",
+            "size": 1794,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "clorinde",
+            "label": "clorinde",
+            "size": 1714,
+            "y": -70.71067811865476,
+            "x": 70.71067811865474,
+            "color": "rgba(223, 50, 31,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "lisante",
+            "label": "lisante",
+            "size": 1739,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "célimant",
+            "label": "célimant",
+            "size": 592,
+            "y": 70.71067811865474,
+            "x": 70.71067811865476,
+            "color": "rgba(159, 50, 95,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "polidor",
+            "label": "polidor",
+            "size": 388,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "dorimène",
+            "label": "dorimène",
+            "size": 1167,
+            "y": 70.71067811865477,
+            "x": -70.71067811865474,
+            "color": "rgba(95, 50, 159,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "clarimond",
+            "label": "clarimond",
+            "size": 252,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-serviteur",
+            "label": "le-serviteur",
+            "size": 6,
+            "y": -70.71067811865474,
+            "x": -70.71067811865477,
+            "color": "rgba(31, 50, 223,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

@@ -1,0 +1,838 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "énée",
+            "target": "achate",
+            "size": 653,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "énée",
+            "target": "palinure",
+            "size": 217,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "achate",
+            "target": "énée",
+            "size": 245,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "achate",
+            "target": "palinure",
+            "size": 57,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "palinure",
+            "target": "énée",
+            "size": 51,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "palinure",
+            "target": "achate",
+            "size": 90,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "anne",
+            "target": "didon",
+            "size": 318,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "anne",
+            "target": "chœur-des-phéniciennes",
+            "size": 81,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "didon",
+            "target": "anne",
+            "size": 757,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "didon",
+            "target": "chœur-des-phéniciennes",
+            "size": 260,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "chœur-des-phéniciennes",
+            "target": "anne",
+            "size": 68,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "chœur-des-phéniciennes",
+            "target": "didon",
+            "size": 85,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "iarbe",
+            "target": "thérodomante",
+            "size": 282,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "thérodomante",
+            "target": "iarbe",
+            "size": 57,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "jule",
+            "target": "palinure",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "jule",
+            "target": "ascagne",
+            "size": 28,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "jule",
+            "target": "achate",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "jule",
+            "target": "chœur-des-troyens",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "palinure",
+            "target": "jule",
+            "size": 38,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "palinure",
+            "target": "ascagne",
+            "size": 38,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "palinure",
+            "target": "chœur-des-troyens",
+            "size": 38,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "ascagne",
+            "target": "jule",
+            "size": 10,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "ascagne",
+            "target": "palinure",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "ascagne",
+            "target": "achate",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "ascagne",
+            "target": "chœur-des-troyens",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "achate",
+            "target": "jule",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "achate",
+            "target": "ascagne",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "achate",
+            "target": "chœur-des-troyens",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "chœur-des-troyens",
+            "target": "jule",
+            "size": 49,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "chœur-des-troyens",
+            "target": "palinure",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "chœur-des-troyens",
+            "target": "ascagne",
+            "size": 49,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "chœur-des-troyens",
+            "target": "achate",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "didon",
+            "target": "énée",
+            "size": 163,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "didon",
+            "target": "chœur",
+            "size": 262,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "didon",
+            "target": "barce",
+            "size": 262,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "didon",
+            "target": "achate",
+            "size": 163,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "énée",
+            "target": "didon",
+            "size": 77,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "énée",
+            "target": "chœur",
+            "size": 77,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "énée",
+            "target": "barce",
+            "size": 77,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "énée",
+            "target": "chœur-des-phéniciennes",
+            "size": 77,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "chœur",
+            "target": "didon",
+            "size": 48,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "chœur",
+            "target": "énée",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "chœur",
+            "target": "barce",
+            "size": 48,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "chœur",
+            "target": "achate",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "chœur",
+            "target": "chœur-des-phéniciennes",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "barce",
+            "target": "didon",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "barce",
+            "target": "énée",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "barce",
+            "target": "chœur",
+            "size": 31,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "barce",
+            "target": "achate",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "barce",
+            "target": "chœur-des-phéniciennes",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "achate",
+            "target": "didon",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "achate",
+            "target": "chœur",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "achate",
+            "target": "barce",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "achate",
+            "target": "chœur-des-phéniciennes",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "chœur-des-phéniciennes",
+            "target": "énée",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "chœur-des-phéniciennes",
+            "target": "chœur",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "chœur-des-phéniciennes",
+            "target": "barce",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "chœur-des-phéniciennes",
+            "target": "achate",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "didon",
+            "target": "chœur-des-troyens",
+            "size": 132,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "anne",
+            "target": "chœur-des-troyens",
+            "size": 42,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "chœur-des-troyens",
+            "target": "didon",
+            "size": 87,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "chœur-des-troyens",
+            "target": "anne",
+            "size": 87,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "mercure",
+            "target": "énée",
+            "size": 38,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "mercure",
+            "target": "achate",
+            "size": 38,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "énée",
+            "target": "mercure",
+            "size": 45,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "achate",
+            "target": "mercure",
+            "size": 7,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "anne",
+            "target": "énée",
+            "size": 424,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "énée",
+            "target": "anne",
+            "size": 352,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "didon",
+            "target": "chœur-des-[phéniciennes]-[tyriens]",
+            "size": 428,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "anne",
+            "target": "chœur-des-[phéniciennes]-[tyriens]",
+            "size": 74,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "chœur-des-[phéniciennes]-[tyriens]",
+            "target": "didon",
+            "size": 302,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "chœur-des-[phéniciennes]-[tyriens]",
+            "target": "anne",
+            "size": 302,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "didon",
+            "target": "messager",
+            "size": 99,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "barce",
+            "target": "anne",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "barce",
+            "target": "messager",
+            "size": 29,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "anne",
+            "target": "barce",
+            "size": 121,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "anne",
+            "target": "chœur",
+            "size": 121,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "anne",
+            "target": "messager",
+            "size": 121,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "chœur",
+            "target": "anne",
+            "size": 46,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "chœur",
+            "target": "messager",
+            "size": 46,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "messager",
+            "target": "didon",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "messager",
+            "target": "barce",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "messager",
+            "target": "anne",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "messager",
+            "target": "chœur",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "énée",
+            "label": "énée",
+            "size": 1580,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "achate",
+            "label": "achate",
+            "size": 337,
+            "y": -92.38795325112868,
+            "x": 38.268343236508976,
+            "color": "rgba(239, 50, 15,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "palinure",
+            "label": "palinure",
+            "size": 258,
+            "y": -70.71067811865476,
+            "x": 70.71067811865474,
+            "color": "rgba(223, 50, 31,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "anne",
+            "label": "anne",
+            "size": 1303,
+            "y": -38.26834323650898,
+            "x": 92.38795325112868,
+            "color": "rgba(207, 50, 47,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "didon",
+            "label": "didon",
+            "size": 2531,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur-des-phéniciennes",
+            "label": "chœur-des-phéniciennes",
+            "size": 223,
+            "y": 38.268343236508976,
+            "x": 92.38795325112868,
+            "color": "rgba(175, 50, 79,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "iarbe",
+            "label": "iarbe",
+            "size": 282,
+            "y": 70.71067811865474,
+            "x": 70.71067811865476,
+            "color": "rgba(159, 50, 95,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "thérodomante",
+            "label": "thérodomante",
+            "size": 57,
+            "y": 92.38795325112868,
+            "x": 38.26834323650899,
+            "color": "rgba(143, 50, 111,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "jule",
+            "label": "jule",
+            "size": 114,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ascagne",
+            "label": "ascagne",
+            "size": 43,
+            "y": 92.38795325112868,
+            "x": -38.26834323650897,
+            "color": "rgba(111, 50, 143,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur-des-troyens",
+            "label": "chœur-des-troyens",
+            "size": 373,
+            "y": 70.71067811865477,
+            "x": -70.71067811865474,
+            "color": "rgba(95, 50, 159,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur",
+            "label": "chœur",
+            "size": 195,
+            "y": 38.26834323650903,
+            "x": -92.38795325112865,
+            "color": "rgba(79, 50, 175,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "barce",
+            "label": "barce",
+            "size": 128,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "mercure",
+            "label": "mercure",
+            "size": 77,
+            "y": -38.268343236509,
+            "x": -92.38795325112866,
+            "color": "rgba(47, 50, 207,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur-des-[phéniciennes]-[tyriens]",
+            "label": "chœur-des-[phéniciennes]-[tyriens]",
+            "size": 604,
+            "y": -70.71067811865474,
+            "x": -70.71067811865477,
+            "color": "rgba(31, 50, 223,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "messager",
+            "label": "messager",
+            "size": 77,
+            "y": -92.38795325112865,
+            "x": -38.26834323650904,
+            "color": "rgba(15, 50, 239,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

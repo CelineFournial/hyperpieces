@@ -1,0 +1,672 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "rosandre",
+            "target": "luciane",
+            "size": 362,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "luciane",
+            "target": "rosandre",
+            "size": 179,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "oronte",
+            "target": "rosandre",
+            "size": 429,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "rosandre",
+            "target": "oronte",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "almedor",
+            "target": "rosandre",
+            "size": 588,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "rosandre",
+            "target": "almedor",
+            "size": 255,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "philante",
+            "target": "belise",
+            "size": 204,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "belise",
+            "target": "philante",
+            "size": 100,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "clorian",
+            "target": "philante",
+            "size": 153,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "clorian",
+            "target": "belise",
+            "size": 80,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "philante",
+            "target": "clorian",
+            "size": 192,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "belise",
+            "target": "clorian",
+            "size": 86,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "oronte",
+            "target": "luciane",
+            "size": 443,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "luciane",
+            "target": "oronte",
+            "size": 134,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "belise",
+            "target": "doriste",
+            "size": 272,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "doriste",
+            "target": "belise",
+            "size": 217,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "almedor",
+            "target": "doriste",
+            "size": 57,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "almedor",
+            "target": "belise",
+            "size": 62,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "doriste",
+            "target": "almedor",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "belise",
+            "target": "almedor",
+            "size": 128,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "belise",
+            "target": "rosandre",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "belise",
+            "target": "luciane",
+            "size": 290,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "almedor",
+            "target": "luciane",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "rosandre",
+            "target": "belise",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "luciane",
+            "target": "belise",
+            "size": 212,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "luciane",
+            "target": "almedor",
+            "size": 23,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "oronte",
+            "target": "belise",
+            "size": 36,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "belise",
+            "target": "oronte",
+            "size": 17,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "almedor",
+            "target": "oronte",
+            "size": 31,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "oronte",
+            "target": "almedor",
+            "size": 67,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "oronte",
+            "target": "braside",
+            "size": 190,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "braside",
+            "target": "oronte",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "philante",
+            "target": "braside",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "clorian",
+            "target": "braside",
+            "size": 43,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "braside",
+            "target": "philante",
+            "size": 32,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "braside",
+            "target": "clorian",
+            "size": 32,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "oronte",
+            "target": "clorian",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "oronte",
+            "target": "philante",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "clorian",
+            "target": "oronte",
+            "size": 37,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "philante",
+            "target": "oronte",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "luciane",
+            "target": "doriste",
+            "size": 23,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "doriste",
+            "target": "luciane",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "philante",
+            "target": "rosandre",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "philante",
+            "target": "almedor",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "braside",
+            "target": "rosandre",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "braside",
+            "target": "almedor",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "clorian",
+            "target": "rosandre",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "clorian",
+            "target": "almedor",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "rosandre",
+            "target": "philante",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "rosandre",
+            "target": "braside",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "rosandre",
+            "target": "clorian",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "almedor",
+            "target": "philante",
+            "size": 30,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "almedor",
+            "target": "braside",
+            "size": 30,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "almedor",
+            "target": "clorian",
+            "size": 30,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "belise",
+            "target": "braside",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "philante",
+            "target": "doriste",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "philante",
+            "target": "luciane",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "clorian",
+            "target": "doriste",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "clorian",
+            "target": "luciane",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "oronte",
+            "target": "doriste",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "rosandre",
+            "target": "doriste",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "doriste",
+            "target": "philante",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "doriste",
+            "target": "clorian",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "doriste",
+            "target": "oronte",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "doriste",
+            "target": "rosandre",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "doriste",
+            "target": "braside",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "luciane",
+            "target": "philante",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "luciane",
+            "target": "clorian",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "luciane",
+            "target": "braside",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "braside",
+            "target": "belise",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "braside",
+            "target": "doriste",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "braside",
+            "target": "luciane",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "rosandre",
+            "label": "rosandre",
+            "size": 680,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "luciane",
+            "label": "luciane",
+            "size": 769,
+            "y": -76.60444431189781,
+            "x": 64.27876096865393,
+            "color": "rgba(226, 50, 28,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "oronte",
+            "label": "oronte",
+            "size": 1520,
+            "y": -17.36481776669304,
+            "x": 98.4807753012208,
+            "color": "rgba(198, 50, 56,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "almedor",
+            "label": "almedor",
+            "size": 846,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "philante",
+            "label": "philante",
+            "size": 945,
+            "y": 93.96926207859083,
+            "x": 34.20201433256689,
+            "color": "rgba(141, 50, 113,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "belise",
+            "label": "belise",
+            "size": 1108,
+            "y": 93.96926207859084,
+            "x": -34.20201433256687,
+            "color": "rgba(113, 50, 141,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "clorian",
+            "label": "clorian",
+            "size": 441,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "doriste",
+            "label": "doriste",
+            "size": 367,
+            "y": -17.364817766692997,
+            "x": -98.48077530122082,
+            "color": "rgba(56, 50, 198,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "braside",
+            "label": "braside",
+            "size": 127,
+            "y": -76.60444431189778,
+            "x": -64.27876096865396,
+            "color": "rgba(28, 50, 226,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

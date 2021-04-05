@@ -1,0 +1,830 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "precieuse",
+            "target": "la-vieille",
+            "size": 840,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "la-vieille",
+            "target": "precieuse",
+            "size": 685,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "le-poete",
+            "target": "precieuse",
+            "size": 632,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "le-poete",
+            "target": "la-vieille",
+            "size": 78,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "precieuse",
+            "target": "le-poete",
+            "size": 318,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "la-vieille",
+            "target": "le-poete",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "la-vieille",
+            "target": "dom-jean-de-carcame",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "precieuse",
+            "target": "dom-jean-de-carcame",
+            "size": 974,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "dom-jean-de-carcame",
+            "target": "la-vieille",
+            "size": 351,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "dom-jean-de-carcame",
+            "target": "precieuse",
+            "size": 1333,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "le-capitaine",
+            "target": "la-vieille",
+            "size": 250,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "le-capitaine",
+            "target": "precieuse",
+            "size": 250,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "le-capitaine",
+            "target": "dom-jean-de-carcame",
+            "size": 250,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "le-capitaine",
+            "target": "egyptiens",
+            "size": 231,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "la-vieille",
+            "target": "le-capitaine",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "la-vieille",
+            "target": "egyptiens",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "precieuse",
+            "target": "le-capitaine",
+            "size": 37,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "precieuse",
+            "target": "egyptiens",
+            "size": 27,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "dom-jean-de-carcame",
+            "target": "le-capitaine",
+            "size": 72,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "dom-jean-de-carcame",
+            "target": "egyptiens",
+            "size": 58,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "egyptiens",
+            "target": "le-capitaine",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "egyptiens",
+            "target": "la-vieille",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "egyptiens",
+            "target": "precieuse",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "egyptiens",
+            "target": "dom-jean-de-carcame",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "le-poete",
+            "target": "egyptien",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "egyptien",
+            "target": "le-poete",
+            "size": 96,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "la-vieille",
+            "target": "egyptien",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "precieuse",
+            "target": "egyptien",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "egyptien",
+            "target": "la-vieille",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "egyptien",
+            "target": "precieuse",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "egyptien",
+            "target": "dom-jean-de-carcame",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "dom-jean-de-carcame",
+            "target": "egyptien",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "dom-jean-de-carcame",
+            "target": "le-poete",
+            "size": 423,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "le-poete",
+            "target": "dom-jean-de-carcame",
+            "size": 254,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "dom-jean-de-carcame",
+            "target": "hipolite",
+            "size": 258,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "precieuse",
+            "target": "hipolite",
+            "size": 49,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "hipolite",
+            "target": "dom-jean-de-carcame",
+            "size": 502,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "hipolite",
+            "target": "precieuse",
+            "size": 44,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "hipolite",
+            "target": "le-prevost",
+            "size": 98,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "le-prevost",
+            "target": "hipolite",
+            "size": 59,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "le-prevost",
+            "target": "la-vieille",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "le-prevost",
+            "target": "dom-jean-de-carcame",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "le-prevost",
+            "target": "precieuse",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "le-prevost",
+            "target": "le-capitaine",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "le-prevost",
+            "target": "archer",
+            "size": 10,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "la-vieille",
+            "target": "le-prevost",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "la-vieille",
+            "target": "hipolite",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "la-vieille",
+            "target": "archer",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "dom-jean-de-carcame",
+            "target": "le-prevost",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "dom-jean-de-carcame",
+            "target": "archer",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "precieuse",
+            "target": "le-prevost",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "precieuse",
+            "target": "archer",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "le-capitaine",
+            "target": "le-prevost",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "le-capitaine",
+            "target": "hipolite",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "le-capitaine",
+            "target": "archer",
+            "size": 0,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "hipolite",
+            "target": "la-vieille",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "hipolite",
+            "target": "le-capitaine",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "hipolite",
+            "target": "archer",
+            "size": 25,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "archer",
+            "target": "le-prevost",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "archer",
+            "target": "la-vieille",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "archer",
+            "target": "dom-jean-de-carcame",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "archer",
+            "target": "precieuse",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "archer",
+            "target": "le-capitaine",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "archer",
+            "target": "hipolite",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "isabelle",
+            "target": "ferdinand",
+            "size": 251,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "ferdinand",
+            "target": "isabelle",
+            "size": 177,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "precieuse",
+            "target": "ferdinand",
+            "size": 91,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "precieuse",
+            "target": "isabelle",
+            "size": 269,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "ferdinand",
+            "target": "precieuse",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "isabelle",
+            "target": "precieuse",
+            "size": 244,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "isabelle",
+            "target": "la-vieille",
+            "size": 238,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "la-vieille",
+            "target": "isabelle",
+            "size": 119,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "ferdinand",
+            "target": "la-vieille",
+            "size": 91,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "la-vieille",
+            "target": "ferdinand",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "ferdinand",
+            "target": "dom-jean-de-carcame",
+            "size": 42,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "dom-jean-de-carcame",
+            "target": "ferdinand",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "dom-jean-de-carcame",
+            "target": "isabelle",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "isabelle",
+            "target": "dom-jean-de-carcame",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "le-capitaine",
+            "target": "ferdinand",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "le-capitaine",
+            "target": "egyptien",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "ferdinand",
+            "target": "le-capitaine",
+            "size": 16,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "ferdinand",
+            "target": "le-prevost",
+            "size": 16,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "ferdinand",
+            "target": "egyptien",
+            "size": 16,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "le-prevost",
+            "target": "ferdinand",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "le-prevost",
+            "target": "egyptien",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "egyptien",
+            "target": "le-capitaine",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "egyptien",
+            "target": "ferdinand",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "egyptien",
+            "target": "le-prevost",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "precieuse",
+            "label": "precieuse",
+            "size": 2630,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "la-vieille",
+            "label": "la-vieille",
+            "size": 1034,
+            "y": -86.60254037844388,
+            "x": 49.99999999999999,
+            "color": "rgba(233, 50, 21,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-poete",
+            "label": "le-poete",
+            "size": 1007,
+            "y": -50.000000000000014,
+            "x": 86.60254037844386,
+            "color": "rgba(212, 50, 42,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "dom-jean-de-carcame",
+            "label": "dom-jean-de-carcame",
+            "size": 3550,
+            "y": -6.123233995736766e-15,
+            "x": 100,
+            "color": "rgba(191, 50, 63,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-capitaine",
+            "label": "le-capitaine",
+            "size": 1006,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "egyptiens",
+            "label": "egyptiens",
+            "size": 23,
+            "y": 86.60254037844388,
+            "x": 49.99999999999999,
+            "color": "rgba(148, 50, 106,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "egyptien",
+            "label": "egyptien",
+            "size": 109,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "hipolite",
+            "label": "hipolite",
+            "size": 750,
+            "y": 86.60254037844388,
+            "x": -49.99999999999997,
+            "color": "rgba(106, 50, 148,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-prevost",
+            "label": "le-prevost",
+            "size": 116,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "archer",
+            "label": "archer",
+            "size": 18,
+            "y": 1.8369701987210297e-14,
+            "x": -100,
+            "color": "rgba(63, 50, 191,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "isabelle",
+            "label": "isabelle",
+            "size": 741,
+            "y": -50.000000000000014,
+            "x": -86.60254037844386,
+            "color": "rgba(42, 50, 212,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ferdinand",
+            "label": "ferdinand",
+            "size": 465,
+            "y": -86.60254037844383,
+            "x": -50.00000000000004,
+            "color": "rgba(21, 50, 233,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

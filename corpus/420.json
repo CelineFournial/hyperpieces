@@ -1,0 +1,1036 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "don-antoine",
+            "target": "don-sancho",
+            "size": 296,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "don-antoine",
+            "target": "don-félix",
+            "size": 296,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "don-sancho",
+            "target": "don-antoine",
+            "size": 120,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "don-sancho",
+            "target": "don-félix",
+            "size": 120,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "don-félix",
+            "target": "don-antoine",
+            "size": 44,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "don-félix",
+            "target": "don-sancho",
+            "size": 44,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "félismène",
+            "target": "don-félix",
+            "size": 983,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "don-félix",
+            "target": "félismène",
+            "size": 743,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "don-félix",
+            "target": "célie",
+            "size": 315,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "don-félix",
+            "target": "adolphe",
+            "size": 192,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "célie",
+            "target": "don-félix",
+            "size": 269,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "célie",
+            "target": "adolphe",
+            "size": 129,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "adolphe",
+            "target": "don-félix",
+            "size": 123,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "adolphe",
+            "target": "célie",
+            "size": 119,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "félismène",
+            "target": "le-page",
+            "size": 231,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "le-page",
+            "target": "félismène",
+            "size": 111,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "le-page",
+            "target": "don-félix",
+            "size": 111,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "don-félix",
+            "target": "le-page",
+            "size": 197,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "félismène",
+            "target": "célie",
+            "size": 454,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "célie",
+            "target": "félismène",
+            "size": 412,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "célie",
+            "target": "la-nourrice",
+            "size": 272,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "félismène",
+            "target": "la-nourrice",
+            "size": 82,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "la-nourrice",
+            "target": "célie",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "la-nourrice",
+            "target": "félismène",
+            "size": 33,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "adolphe",
+            "target": "lupolde",
+            "size": 78,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "adolphe",
+            "target": "fernande",
+            "size": 78,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "lupolde",
+            "target": "adolphe",
+            "size": 44,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "lupolde",
+            "target": "fernande",
+            "size": 44,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "fernande",
+            "target": "adolphe",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "fernande",
+            "target": "lupolde",
+            "size": 15,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "félismène",
+            "target": "diane",
+            "size": 39,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "félismène",
+            "target": "dante",
+            "size": 39,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "félismène",
+            "target": "duarde",
+            "size": 39,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "félismène",
+            "target": "sirène",
+            "size": 39,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "félismène",
+            "target": "adolphe",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "félismène",
+            "target": "lupolde",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "félismène",
+            "target": "troupe-des-bergers",
+            "size": 39,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "félismène",
+            "target": "fernande",
+            "size": 39,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "diane",
+            "target": "félismène",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "diane",
+            "target": "dante",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "diane",
+            "target": "duarde",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "diane",
+            "target": "sirène",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "diane",
+            "target": "don-félix",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "diane",
+            "target": "adolphe",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "diane",
+            "target": "lupolde",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "diane",
+            "target": "troupe-des-bergers",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "diane",
+            "target": "fernande",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "dante",
+            "target": "félismène",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "dante",
+            "target": "diane",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "dante",
+            "target": "duarde",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "dante",
+            "target": "sirène",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "dante",
+            "target": "don-félix",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "dante",
+            "target": "adolphe",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "dante",
+            "target": "lupolde",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "dante",
+            "target": "troupe-des-bergers",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "dante",
+            "target": "fernande",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "duarde",
+            "target": "félismène",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "duarde",
+            "target": "diane",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "duarde",
+            "target": "dante",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "duarde",
+            "target": "sirène",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "duarde",
+            "target": "don-félix",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "duarde",
+            "target": "adolphe",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "duarde",
+            "target": "lupolde",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "duarde",
+            "target": "troupe-des-bergers",
+            "size": 12,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "duarde",
+            "target": "fernande",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "sirène",
+            "target": "félismène",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "sirène",
+            "target": "diane",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "sirène",
+            "target": "dante",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "sirène",
+            "target": "duarde",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "sirène",
+            "target": "don-félix",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "sirène",
+            "target": "adolphe",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "sirène",
+            "target": "lupolde",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "sirène",
+            "target": "troupe-des-bergers",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "sirène",
+            "target": "fernande",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "don-félix",
+            "target": "diane",
+            "size": 29,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "don-félix",
+            "target": "dante",
+            "size": 29,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "don-félix",
+            "target": "duarde",
+            "size": 29,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "don-félix",
+            "target": "sirène",
+            "size": 29,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "don-félix",
+            "target": "lupolde",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "don-félix",
+            "target": "troupe-des-bergers",
+            "size": 29,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "don-félix",
+            "target": "fernande",
+            "size": 29,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "adolphe",
+            "target": "félismène",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "adolphe",
+            "target": "diane",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "adolphe",
+            "target": "dante",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "adolphe",
+            "target": "duarde",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "adolphe",
+            "target": "sirène",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "adolphe",
+            "target": "troupe-des-bergers",
+            "size": 4,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "lupolde",
+            "target": "félismène",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "lupolde",
+            "target": "diane",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "lupolde",
+            "target": "dante",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "lupolde",
+            "target": "duarde",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "lupolde",
+            "target": "sirène",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "lupolde",
+            "target": "don-félix",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "lupolde",
+            "target": "troupe-des-bergers",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "troupe-des-bergers",
+            "target": "félismène",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "troupe-des-bergers",
+            "target": "diane",
+            "size": 7,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "troupe-des-bergers",
+            "target": "dante",
+            "size": 7,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "troupe-des-bergers",
+            "target": "duarde",
+            "size": 7,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e98",
+            "source": "troupe-des-bergers",
+            "target": "sirène",
+            "size": 7,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e99",
+            "source": "troupe-des-bergers",
+            "target": "don-félix",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e100",
+            "source": "troupe-des-bergers",
+            "target": "adolphe",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e101",
+            "source": "troupe-des-bergers",
+            "target": "lupolde",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e102",
+            "source": "troupe-des-bergers",
+            "target": "fernande",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e103",
+            "source": "fernande",
+            "target": "félismène",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e104",
+            "source": "fernande",
+            "target": "diane",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e105",
+            "source": "fernande",
+            "target": "dante",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e106",
+            "source": "fernande",
+            "target": "duarde",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e107",
+            "source": "fernande",
+            "target": "sirène",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e108",
+            "source": "fernande",
+            "target": "don-félix",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e109",
+            "source": "fernande",
+            "target": "troupe-des-bergers",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "don-antoine",
+            "label": "don-antoine",
+            "size": 592,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "don-sancho",
+            "label": "don-sancho",
+            "size": 240,
+            "y": -91.35454576426008,
+            "x": 40.67366430758001,
+            "color": "rgba(238, 50, 17,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "don-félix",
+            "label": "don-félix",
+            "size": 1741,
+            "y": -66.91306063588583,
+            "x": 74.31448254773943,
+            "color": "rgba(221, 50, 34,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "félismène",
+            "label": "félismène",
+            "size": 2071,
+            "y": -30.901699437494745,
+            "x": 95.10565162951535,
+            "color": "rgba(204, 50, 51,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "adolphe",
+            "label": "adolphe",
+            "size": 518,
+            "y": 10.452846326765334,
+            "x": 99.45218953682733,
+            "color": "rgba(187, 50, 68,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "célie",
+            "label": "célie",
+            "size": 1083,
+            "y": 49.99999999999998,
+            "x": 86.60254037844388,
+            "color": "rgba(170, 50, 85,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-page",
+            "label": "le-page",
+            "size": 223,
+            "y": 80.90169943749473,
+            "x": 58.77852522924732,
+            "color": "rgba(153, 50, 102,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "la-nourrice",
+            "label": "la-nourrice",
+            "size": 67,
+            "y": 97.81476007338057,
+            "x": 20.79116908177593,
+            "color": "rgba(136, 50, 119,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "lupolde",
+            "label": "lupolde",
+            "size": 96,
+            "y": 97.81476007338057,
+            "x": -20.791169081775905,
+            "color": "rgba(119, 50, 136,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "fernande",
+            "label": "fernande",
+            "size": 44,
+            "y": 80.90169943749474,
+            "x": -58.7785252292473,
+            "color": "rgba(102, 50, 153,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "diane",
+            "label": "diane",
+            "size": 57,
+            "y": 50.00000000000004,
+            "x": -86.60254037844385,
+            "color": "rgba(85, 50, 170,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "dante",
+            "label": "dante",
+            "size": 109,
+            "y": 10.452846326765423,
+            "x": -99.45218953682733,
+            "color": "rgba(68, 50, 187,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "duarde",
+            "label": "duarde",
+            "size": 111,
+            "y": -30.901699437494724,
+            "x": -95.10565162951536,
+            "color": "rgba(51, 50, 204,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "sirène",
+            "label": "sirène",
+            "size": 10,
+            "y": -66.91306063588584,
+            "x": -74.3144825477394,
+            "color": "rgba(34, 50, 221,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "troupe-des-bergers",
+            "label": "troupe-des-bergers",
+            "size": 65,
+            "y": -91.3545457642601,
+            "x": -40.67366430758001,
+            "color": "rgba(17, 50, 238,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

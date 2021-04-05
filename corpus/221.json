@@ -1,0 +1,1024 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "l’ombre",
+            "target": "achille",
+            "size": 156,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "l’ombre",
+            "target": "nestor",
+            "size": 156,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "achille",
+            "target": "l’ombre",
+            "size": 144,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "achille",
+            "target": "nestor",
+            "size": 360,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "nestor",
+            "target": "l’ombre",
+            "size": 152,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "nestor",
+            "target": "achille",
+            "size": 170,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "agamemnon",
+            "target": "ménélas",
+            "size": 168,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "agamemnon",
+            "target": "ajax",
+            "size": 168,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "agamemnon",
+            "target": "nestor",
+            "size": 168,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "ménélas",
+            "target": "agamemnon",
+            "size": 81,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "ménélas",
+            "target": "ajax",
+            "size": 81,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "ménélas",
+            "target": "nestor",
+            "size": 81,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "ajax",
+            "target": "agamemnon",
+            "size": 93,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "ajax",
+            "target": "ménélas",
+            "size": 93,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "ajax",
+            "target": "nestor",
+            "size": 93,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "nestor",
+            "target": "agamemnon",
+            "size": 32,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "nestor",
+            "target": "ménélas",
+            "size": 32,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "nestor",
+            "target": "ajax",
+            "size": 32,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "priam",
+            "target": "pâris",
+            "size": 265,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "priam",
+            "target": "déiphobe",
+            "size": 265,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "priam",
+            "target": "nirée",
+            "size": 132,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "pâris",
+            "target": "priam",
+            "size": 134,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "pâris",
+            "target": "déiphobe",
+            "size": 342,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "pâris",
+            "target": "nirée",
+            "size": 65,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "déiphobe",
+            "target": "priam",
+            "size": 80,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "déiphobe",
+            "target": "pâris",
+            "size": 197,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "déiphobe",
+            "target": "nirée",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "nirée",
+            "target": "priam",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "nirée",
+            "target": "pâris",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "nirée",
+            "target": "déiphobe",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "achille",
+            "target": "nirée",
+            "size": 187,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "nirée",
+            "target": "achille",
+            "size": 44,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "nirée",
+            "target": "nestor",
+            "size": 44,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "nestor",
+            "target": "nirée",
+            "size": 12,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "agamemnon",
+            "target": "achille",
+            "size": 71,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "ménélas",
+            "target": "achille",
+            "size": 25,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "achille",
+            "target": "agamemnon",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "achille",
+            "target": "ménélas",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "achille",
+            "target": "ajax",
+            "size": 103,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "ajax",
+            "target": "achille",
+            "size": 72,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "pâris",
+            "target": "polyxène",
+            "size": 153,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "polyxène",
+            "target": "pâris",
+            "size": 197,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "polyxène",
+            "target": "déiphobe",
+            "size": 197,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "déiphobe",
+            "target": "polyxène",
+            "size": 69,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "achille",
+            "target": "messager",
+            "size": 211,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "achille",
+            "target": "pâris",
+            "size": 211,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "achille",
+            "target": "déiphobe",
+            "size": 211,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "achille",
+            "target": "polyxène",
+            "size": 136,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "messager",
+            "target": "achille",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "messager",
+            "target": "pâris",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "messager",
+            "target": "déiphobe",
+            "size": 10,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "messager",
+            "target": "polyxène",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "pâris",
+            "target": "achille",
+            "size": 104,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "pâris",
+            "target": "messager",
+            "size": 104,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "déiphobe",
+            "target": "achille",
+            "size": 62,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "déiphobe",
+            "target": "messager",
+            "size": 62,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "polyxène",
+            "target": "achille",
+            "size": 67,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "polyxène",
+            "target": "messager",
+            "size": 67,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "achille",
+            "target": "soldat-grec",
+            "size": 75,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "déiphobe",
+            "target": "soldat-grec",
+            "size": 43,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "déiphobe",
+            "target": "ajax",
+            "size": 47,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "pâris",
+            "target": "soldat-grec",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "pâris",
+            "target": "ajax",
+            "size": 54,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "soldat-grec",
+            "target": "achille",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "soldat-grec",
+            "target": "déiphobe",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "soldat-grec",
+            "target": "pâris",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "soldat-grec",
+            "target": "ajax",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "soldat-grec",
+            "target": "messager",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "ajax",
+            "target": "déiphobe",
+            "size": 105,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "ajax",
+            "target": "pâris",
+            "size": 105,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "ajax",
+            "target": "soldat-grec",
+            "size": 67,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "ajax",
+            "target": "messager",
+            "size": 67,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "messager",
+            "target": "soldat-grec",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "messager",
+            "target": "ajax",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "pâris",
+            "target": "chœur-de-troyens",
+            "size": 42,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "pâris",
+            "target": "chœur-des-soldats-grecs",
+            "size": 42,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "pâris",
+            "target": "chœur-des-troyens",
+            "size": 42,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "chœur-de-troyens",
+            "target": "pâris",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "chœur-de-troyens",
+            "target": "déiphobe",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "chœur-de-troyens",
+            "target": "ajax",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "chœur-de-troyens",
+            "target": "chœur-des-soldats-grecs",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "chœur-de-troyens",
+            "target": "chœur-des-troyens",
+            "size": 6,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "déiphobe",
+            "target": "chœur-de-troyens",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "déiphobe",
+            "target": "chœur-des-soldats-grecs",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "déiphobe",
+            "target": "chœur-des-troyens",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "ajax",
+            "target": "chœur-de-troyens",
+            "size": 38,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "ajax",
+            "target": "chœur-des-soldats-grecs",
+            "size": 38,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "ajax",
+            "target": "chœur-des-troyens",
+            "size": 38,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "chœur-des-soldats-grecs",
+            "target": "pâris",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "chœur-des-soldats-grecs",
+            "target": "chœur-de-troyens",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "chœur-des-soldats-grecs",
+            "target": "déiphobe",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "chœur-des-soldats-grecs",
+            "target": "ajax",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "chœur-des-soldats-grecs",
+            "target": "chœur-des-troyens",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "chœur-des-troyens",
+            "target": "pâris",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "chœur-des-troyens",
+            "target": "chœur-de-troyens",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "chœur-des-troyens",
+            "target": "déiphobe",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "chœur-des-troyens",
+            "target": "ajax",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "chœur-des-troyens",
+            "target": "chœur-des-soldats-grecs",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e98",
+            "source": "ajax",
+            "target": "ulysse",
+            "size": 56,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e99",
+            "source": "ménélas",
+            "target": "ulysse",
+            "size": 32,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e100",
+            "source": "nestor",
+            "target": "ulysse",
+            "size": 23,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e101",
+            "source": "ulysse",
+            "target": "ajax",
+            "size": 21,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e102",
+            "source": "ulysse",
+            "target": "ménélas",
+            "size": 21,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e103",
+            "source": "ulysse",
+            "target": "nestor",
+            "size": 21,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e104",
+            "source": "ulysse",
+            "target": "agamemnon",
+            "size": 21,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e105",
+            "source": "agamemnon",
+            "target": "ulysse",
+            "size": 25,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "l’ombre",
+            "label": "l’ombre",
+            "size": 312,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "achille",
+            "label": "achille",
+            "size": 1698,
+            "y": -93.24722294043558,
+            "x": 36.12416661871529,
+            "color": "rgba(240, 50, 15,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "nestor",
+            "label": "nestor",
+            "size": 456,
+            "y": -73.90089172206591,
+            "x": 67.36956436465572,
+            "color": "rgba(225, 50, 30,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "agamemnon",
+            "label": "agamemnon",
+            "size": 602,
+            "y": -44.57383557765383,
+            "x": 89.51632913550624,
+            "color": "rgba(210, 50, 45,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ménélas",
+            "label": "ménélas",
+            "size": 301,
+            "y": -9.226835946330201,
+            "x": 99.57341762950345,
+            "color": "rgba(195, 50, 60,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ajax",
+            "label": "ajax",
+            "size": 870,
+            "y": 27.36629900720829,
+            "x": 96.1825643172819,
+            "color": "rgba(180, 50, 75,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "priam",
+            "label": "priam",
+            "size": 663,
+            "y": 60.26346363792563,
+            "x": 79.80172272802396,
+            "color": "rgba(165, 50, 90,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "pâris",
+            "label": "pâris",
+            "size": 1098,
+            "y": 85.0217135729614,
+            "x": 52.643216287735605,
+            "color": "rgba(150, 50, 105,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "déiphobe",
+            "label": "déiphobe",
+            "size": 621,
+            "y": 98.29730996839018,
+            "x": 18.374951781657035,
+            "color": "rgba(135, 50, 120,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "nirée",
+            "label": "nirée",
+            "size": 118,
+            "y": 98.29730996839018,
+            "x": -18.37495178165701,
+            "color": "rgba(120, 50, 135,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "polyxène",
+            "label": "polyxène",
+            "size": 528,
+            "y": 85.02171357296142,
+            "x": -52.643216287735584,
+            "color": "rgba(105, 50, 150,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "messager",
+            "label": "messager",
+            "size": 47,
+            "y": 60.26346363792572,
+            "x": -79.80172272802389,
+            "color": "rgba(90, 50, 165,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "soldat-grec",
+            "label": "soldat-grec",
+            "size": 56,
+            "y": 27.366299007208312,
+            "x": -96.1825643172819,
+            "color": "rgba(75, 50, 180,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur-de-troyens",
+            "label": "chœur-de-troyens",
+            "size": 34,
+            "y": -9.226835946330244,
+            "x": -99.57341762950345,
+            "color": "rgba(60, 50, 195,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur-des-soldats-grecs",
+            "label": "chœur-des-soldats-grecs",
+            "size": 27,
+            "y": -44.57383557765377,
+            "x": -89.51632913550625,
+            "color": "rgba(45, 50, 210,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "chœur-des-troyens",
+            "label": "chœur-des-troyens",
+            "size": 18,
+            "y": -73.90089172206586,
+            "x": -67.36956436465577,
+            "color": "rgba(30, 50, 225,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ulysse",
+            "label": "ulysse",
+            "size": 86,
+            "y": -93.24722294043558,
+            "x": -36.1241666187153,
+            "color": "rgba(15, 50, 240,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}

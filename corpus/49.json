@@ -1,0 +1,1170 @@
+{
+    "edges": [
+        {
+            "id": "e0",
+            "source": "dorothée",
+            "target": "célirée",
+            "size": 86,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e1",
+            "source": "dorothée",
+            "target": "orante",
+            "size": 88,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e2",
+            "source": "célirée",
+            "target": "dorothée",
+            "size": 60,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e3",
+            "source": "célirée",
+            "target": "orante",
+            "size": 523,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e4",
+            "source": "orante",
+            "target": "dorothée",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e5",
+            "source": "orante",
+            "target": "célirée",
+            "size": 500,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e6",
+            "source": "filémon",
+            "target": "orante",
+            "size": 294,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e7",
+            "source": "orante",
+            "target": "filémon",
+            "size": 272,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e8",
+            "source": "sylvian",
+            "target": "filémon",
+            "size": 40,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e9",
+            "source": "filémon",
+            "target": "sylvian",
+            "size": 19,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e10",
+            "source": "sylvian",
+            "target": "damon",
+            "size": 91,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e11",
+            "source": "sylvian",
+            "target": "svlvian",
+            "size": 85,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e12",
+            "source": "damon",
+            "target": "sylvian",
+            "size": 76,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e13",
+            "source": "damon",
+            "target": "svlvian",
+            "size": 58,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e14",
+            "source": "svlvian",
+            "target": "sylvian",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e15",
+            "source": "svlvian",
+            "target": "damon",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e16",
+            "source": "lysimant",
+            "target": "orante",
+            "size": 91,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e17",
+            "source": "orante",
+            "target": "lysimant",
+            "size": 110,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e18",
+            "source": "célirée",
+            "target": "lysimant",
+            "size": 246,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e19",
+            "source": "lysimant",
+            "target": "célirée",
+            "size": 140,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e20",
+            "source": "orante",
+            "target": "ariste",
+            "size": 160,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e21",
+            "source": "ariste",
+            "target": "orante",
+            "size": 439,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e22",
+            "source": "orimand",
+            "target": "lysimant",
+            "size": 88,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e23",
+            "source": "lysimant",
+            "target": "orimand",
+            "size": 23,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e24",
+            "source": "le-laquais",
+            "target": "diane",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e25",
+            "source": "diane",
+            "target": "le-laquais",
+            "size": 62,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e26",
+            "source": "orimand",
+            "target": "le-laquais",
+            "size": 69,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e27",
+            "source": "orimand",
+            "target": "diane",
+            "size": 38,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e28",
+            "source": "le-laquais",
+            "target": "orimand",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e29",
+            "source": "diane",
+            "target": "orimand",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e30",
+            "source": "lysimant",
+            "target": "le-laquais",
+            "size": 27,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e31",
+            "source": "le-laquais",
+            "target": "lysimant",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e32",
+            "source": "célirée",
+            "target": "diane",
+            "size": 223,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e33",
+            "source": "lysimant",
+            "target": "diane",
+            "size": 176,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e34",
+            "source": "diane",
+            "target": "célirée",
+            "size": 22,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e35",
+            "source": "diane",
+            "target": "lysimant",
+            "size": 83,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e36",
+            "source": "sylvian",
+            "target": "orante",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e37",
+            "source": "orante",
+            "target": "sylvian",
+            "size": 69,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e38",
+            "source": "sylvian",
+            "target": "dorothée",
+            "size": 50,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e39",
+            "source": "dorothée",
+            "target": "sylvian",
+            "size": 64,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e40",
+            "source": "dorothée",
+            "target": "lysimant",
+            "size": 53,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e41",
+            "source": "lysimant",
+            "target": "dorothée",
+            "size": 51,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e42",
+            "source": "diane",
+            "target": "dorothée",
+            "size": 42,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e43",
+            "source": "dorothée",
+            "target": "diane",
+            "size": 28,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e44",
+            "source": "lysandre",
+            "target": "sylvian",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e45",
+            "source": "lysandre",
+            "target": "orimand",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e46",
+            "source": "lysandre",
+            "target": "diane",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e47",
+            "source": "lysandre",
+            "target": "dorothée",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e48",
+            "source": "lysandre",
+            "target": "lysimant",
+            "size": 41,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e49",
+            "source": "sylvian",
+            "target": "lysandre",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e50",
+            "source": "sylvian",
+            "target": "orimand",
+            "size": 5,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e51",
+            "source": "sylvian",
+            "target": "diane",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e52",
+            "source": "sylvian",
+            "target": "lysimant",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e53",
+            "source": "orimand",
+            "target": "lysandre",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e54",
+            "source": "orimand",
+            "target": "sylvian",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e55",
+            "source": "orimand",
+            "target": "dorothée",
+            "size": 15,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e56",
+            "source": "diane",
+            "target": "lysandre",
+            "size": 20,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e57",
+            "source": "diane",
+            "target": "sylvian",
+            "size": 26,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e58",
+            "source": "dorothée",
+            "target": "lysandre",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e59",
+            "source": "dorothée",
+            "target": "orimand",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e60",
+            "source": "lysimant",
+            "target": "lysandre",
+            "size": 6,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e61",
+            "source": "lysimant",
+            "target": "sylvian",
+            "size": 7,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e62",
+            "source": "ariste",
+            "target": "filémon",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e63",
+            "source": "ariste",
+            "target": "diane",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e64",
+            "source": "ariste",
+            "target": "lysimant",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e65",
+            "source": "ariste",
+            "target": "sylvian",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e66",
+            "source": "filémon",
+            "target": "ariste",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e67",
+            "source": "filémon",
+            "target": "diane",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e68",
+            "source": "filémon",
+            "target": "lysimant",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e69",
+            "source": "diane",
+            "target": "ariste",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e70",
+            "source": "diane",
+            "target": "filémon",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e71",
+            "source": "lysimant",
+            "target": "ariste",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e72",
+            "source": "lysimant",
+            "target": "filémon",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e73",
+            "source": "sylvian",
+            "target": "ariste",
+            "size": 9,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e74",
+            "source": "archers",
+            "target": "orimand",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e75",
+            "source": "archers",
+            "target": "damon",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e76",
+            "source": "archers",
+            "target": "lysimant",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e77",
+            "source": "archers",
+            "target": "lysandre",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e78",
+            "source": "archers",
+            "target": "dorothée",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e79",
+            "source": "archers",
+            "target": "diane",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e80",
+            "source": "archers",
+            "target": "orante",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e81",
+            "source": "archers",
+            "target": "filémon",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e82",
+            "source": "archers",
+            "target": "ariste",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e83",
+            "source": "archers",
+            "target": "sylvian",
+            "size": 4,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e84",
+            "source": "orimand",
+            "target": "archers",
+            "size": 8,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e85",
+            "source": "orimand",
+            "target": "damon",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e86",
+            "source": "orimand",
+            "target": "orante",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e87",
+            "source": "orimand",
+            "target": "filémon",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e88",
+            "source": "orimand",
+            "target": "ariste",
+            "size": 8,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e89",
+            "source": "damon",
+            "target": "archers",
+            "size": 18,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e90",
+            "source": "damon",
+            "target": "orimand",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e91",
+            "source": "damon",
+            "target": "lysimant",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e92",
+            "source": "damon",
+            "target": "lysandre",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e93",
+            "source": "damon",
+            "target": "dorothée",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e94",
+            "source": "damon",
+            "target": "diane",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e95",
+            "source": "damon",
+            "target": "orante",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e96",
+            "source": "damon",
+            "target": "filémon",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e97",
+            "source": "damon",
+            "target": "ariste",
+            "size": 18,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e98",
+            "source": "lysimant",
+            "target": "archers",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e99",
+            "source": "lysimant",
+            "target": "damon",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e100",
+            "source": "lysandre",
+            "target": "archers",
+            "size": 11,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e101",
+            "source": "lysandre",
+            "target": "damon",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e102",
+            "source": "lysandre",
+            "target": "orante",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e103",
+            "source": "lysandre",
+            "target": "filémon",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e104",
+            "source": "lysandre",
+            "target": "ariste",
+            "size": 11,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e105",
+            "source": "dorothée",
+            "target": "archers",
+            "size": 1,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e106",
+            "source": "dorothée",
+            "target": "damon",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e107",
+            "source": "dorothée",
+            "target": "filémon",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e108",
+            "source": "dorothée",
+            "target": "ariste",
+            "size": 1,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e109",
+            "source": "diane",
+            "target": "archers",
+            "size": 2,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e110",
+            "source": "diane",
+            "target": "damon",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e111",
+            "source": "diane",
+            "target": "orante",
+            "size": 2,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e112",
+            "source": "orante",
+            "target": "archers",
+            "size": 3,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e113",
+            "source": "orante",
+            "target": "orimand",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e114",
+            "source": "orante",
+            "target": "damon",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e115",
+            "source": "orante",
+            "target": "lysandre",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e116",
+            "source": "orante",
+            "target": "diane",
+            "size": 3,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e117",
+            "source": "filémon",
+            "target": "archers",
+            "size": 0,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e118",
+            "source": "filémon",
+            "target": "orimand",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e119",
+            "source": "filémon",
+            "target": "damon",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e120",
+            "source": "filémon",
+            "target": "lysandre",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e121",
+            "source": "filémon",
+            "target": "dorothée",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e122",
+            "source": "ariste",
+            "target": "archers",
+            "size": 0,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e123",
+            "source": "ariste",
+            "target": "orimand",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e124",
+            "source": "ariste",
+            "target": "damon",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e125",
+            "source": "ariste",
+            "target": "lysandre",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e126",
+            "source": "ariste",
+            "target": "dorothée",
+            "size": 0,
+            "color": "rgba(190,190,190,0.8)",
+            "type": "drama"
+        },
+        {
+            "id": "e127",
+            "source": "sylvian",
+            "target": "archers",
+            "size": 5,
+            "color": "rgba(255,50,50,0.8)",
+            "type": "drama"
+        }
+    ],
+    "nodes": [
+        {
+            "id": "diane",
+            "label": "diane",
+            "size": 523,
+            "y": -100,
+            "x": 0,
+            "color": "rgba(255, 50, 0,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "dorothée",
+            "label": "dorothée",
+            "size": 419,
+            "y": -90.09688679024191,
+            "x": 43.388373911755814,
+            "color": "rgba(236, 50, 18,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "célirée",
+            "label": "célirée",
+            "size": 1207,
+            "y": -62.34898018587336,
+            "x": 78.18314824680299,
+            "color": "rgba(218, 50, 36,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "orante",
+            "label": "orante",
+            "size": 1159,
+            "y": -22.252093395631444,
+            "x": 97.49279121818236,
+            "color": "rgba(200, 50, 54,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "filémon",
+            "label": "filémon",
+            "size": 526,
+            "y": 22.252093395631434,
+            "x": 97.49279121818236,
+            "color": "rgba(182, 50, 72,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "sylvian",
+            "label": "sylvian",
+            "size": 436,
+            "y": 62.34898018587335,
+            "x": 78.18314824680299,
+            "color": "rgba(163, 50, 91,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "damon",
+            "label": "damon",
+            "size": 437,
+            "y": 90.09688679024191,
+            "x": 43.38837391175582,
+            "color": "rgba(145, 50, 109,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "svlvian",
+            "label": "svlvian",
+            "size": 7,
+            "y": 100,
+            "x": 1.2246467991473532e-14,
+            "color": "rgba(127, 50, 127,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "lysimant",
+            "label": "lysimant",
+            "size": 997,
+            "y": 90.09688679024191,
+            "x": -43.3883739117558,
+            "color": "rgba(109, 50, 145,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "ariste",
+            "label": "ariste",
+            "size": 570,
+            "y": 62.34898018587337,
+            "x": -78.18314824680297,
+            "color": "rgba(91, 50, 163,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "orimand",
+            "label": "orimand",
+            "size": 282,
+            "y": 22.25209339563146,
+            "x": -97.49279121818236,
+            "color": "rgba(72, 50, 182,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "lysandre",
+            "label": "lysandre",
+            "size": 308,
+            "y": -22.252093395631334,
+            "x": -97.49279121818239,
+            "color": "rgba(54, 50, 200,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "le-laquais",
+            "label": "le-laquais",
+            "size": 17,
+            "y": -62.34898018587334,
+            "x": -78.18314824680299,
+            "color": "rgba(36, 50, 218,0.8)",
+            "title": null,
+            "type": "drama"
+        },
+        {
+            "id": "archers",
+            "label": "archers",
+            "size": 45,
+            "y": -90.09688679024194,
+            "x": -43.38837391175575,
+            "color": "rgba(18, 50, 236,0.8)",
+            "title": null,
+            "type": "drama"
+        }
+    ]
+}
