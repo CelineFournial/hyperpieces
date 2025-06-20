@@ -212,8 +212,8 @@ var pieces = [
 {id:"167",type:"tragédie",auteur:"François Du Souhait",titre:"Radegonde, duchesse de Bourgogne",date1:"",recueil:"",lieu:"Paris",editeur:"J. Rezé",date2:"1599",source:"Gallica (exemplaire conservé à la Bibliothèque nationale de France)",gallica:"https://gallica.bnf.fr/ark:/12148/btv1b8626861d",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb30388488t",annee:"1599",texte:""},
 {id:"168",type:"tragédie",auteur:"Guyllaume Regnault",titre:"Octavie",date1:"",recueil:"",lieu:"Rouen",editeur:"J. Petit",date2:"1599",source:"Gallica (exemplaire conservé à la Bibliothèque nationale de France)",gallica:"https://gallica.bnf.fr/ark:/12148/bpt6k1503809s",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb39324921z",annee:"1599",texte:""},
 {id:"169",type:"tragédie",auteur:"Aymard de Veins",titre:"La Sophronie",date1:"",recueil:"",lieu:"Rouen",editeur:"A. Couturier",date2:"1599",source:"Gallica (exemplaire conservé à la Bibliothèque nationale de France)",gallica:"https://gallica.bnf.fr/ark:/12148/bpt6k855192c",catalogueBnf:"https://gallica.bnf.fr/ark:/12148/bpt6k855192c",annee:"1599",texte:""},
-{id:"170",type:"tragédie",auteur:"François Berthrand d’Orléans",titre:"Priam, roi de Troyes",date1:"",recueil:"",lieu:"Orléans",editeur:"F. Hotot",date2:"1600",source:"",gallica:"",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb44729651c",annee:"1600",texte:""},
-{id:"171",type:"tragédie",auteur:"Jean Le Saulx d’Espannay",titre:"L’Adamantine, ou le Désespoir",date1:"1600",recueil:"",lieu:"Rouen",editeur:"R. du Petit Val",date2:"1608",source:"",gallica:"",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb38764123t",annee:"1600",texte:""},
+{id:"170",type:"tragédie",auteur:"François Berthrand d’Orléans",titre:"Priam, roi de Troyes",date1:"",recueil:"",lieu:"Orléans",editeur:"F. Hotot",date2:"1600",source:"",gallica:"https://gallica.bnf.fr/ark:/12148/bpt6k10902166",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb44729651c",annee:"1600",texte:"https://www.bude-orleans.org/Theme-Orleanais/Berthrand-Priam.html"},
+{id:"171",type:"tragédie",auteur:"Jean Le Saulx d’Espannay",titre:"L’Adamantine, ou le Désespoir",date1:"1600",recueil:"",lieu:"Rouen",editeur:"R. du Petit Val",date2:"1608",source:"Gallica (exemplaire conservé à la Bibliothèque Carré d’art de Nîmes)",gallica:"",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb38764123t",annee:"1600",texte:""},
 {id:"172",type:"tragédie",auteur:"Jean de Virey",titre:"Tragédie de la Divine & Heureuse Victoire des Machabées sur le Roi Antiochus",date1:"1600",recueil:"",lieu:"Rouen",editeur:"R. du Petit Val",date2:"1600",source:"Gallica (exemplaire conservé à la Bibliothèque nationale de France)",gallica:"https://gallica.bnf.fr/ark:/12148/bpt6k70662m",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb315912272",annee:"1600",texte:""},
 {id:"173",type:"tragédie",auteur:"Jean de Virey",titre:"La Tragédie de Jeanne d’Arques, dite la Pucelle d’Orléans",date1:"",recueil:"",lieu:"Rouen",editeur:"R. du Petit Val",date2:"1600",source:"Gallica (exemplaire conservé à la Bibliothèque nationale de France)",gallica:"https://gallica.bnf.fr/ark:/12148/bpt6k71090f",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb31591228d",annee:"1600",texte:""},
 {id:"174",type:"tragédie",auteur:"Margarit Pageau",titre:"Bysathie",date1:"",recueil:"",lieu:"Paris",editeur:"J. Hamart",date2:"1600",source:"Gallica (exemplaire conservé à la Bibliothèque nationale de France)",gallica:"https://gallica.bnf.fr/ark:/12148/bpt6k1510332n/f29",catalogueBnf:"https://catalogue.bnf.fr/ark:/12148/cb31049295k",annee:"1600",texte:""},
@@ -1370,6 +1370,8 @@ $(document).ready(function(){
    var nbGarnier = 0;
    var nbEmothe = 0;
    var nbDPBr = 0;
+   var nbMelponum = 0;
+   var nbBude = 0;
    
    var dictPieces = {}
    
@@ -1511,6 +1513,12 @@ $(document).ready(function(){
             }
             if(p.texte.substring(0,18) == "http://www.dominio"){
                nbDPBr += 1;
+            }
+            if(p.texte.substring(0,18) == "https://cenhtor-ms"){
+               nbMelponum += 1;
+            }
+            if(p.texte.substring(0,18) == "https://www.bude-o"){
+               nbBude += 1;
             }
          }
       }
@@ -2447,8 +2455,9 @@ la <a href="http://bibdramatique.huma-num.fr/">Bibliothèque dramatique du CELLF
 <a href="https://classiques-garnier.com/databases">Classiques Garnier</a> (<span id="nbGarnier">29</span>&nbsp;pièces),
 <a href="http://théâtre-documentation.com">théâtre-documentation.com</a> (<span id="nbTD">20</span>&nbsp;pièces),
 <a href="https://cenhtor-msh-lorraine.cnrs.fr/s/melponum">MELPONUM</a> (<span id="nbMelponum">8</span>&nbsp;pièces),
-<a href="https://emothe.uv.es/biblioteca-digital/">EMOTHE, The Classics of Early Modern European Theatre</a> (<span id="nbEmothe">7</span>&nbsp;pièces)
-et <a href="http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.do">Domínio Público</a> (<span id="nbDPBr">1</span>&nbsp;pièces).
+<a href="https://emothe.uv.es/biblioteca-digital/">EMOTHE, The Classics of Early Modern European Theatre</a> (<span id="nbEmothe">7</span>&nbsp;pièces),
+<a href="http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.do">Domínio Público</a> (<span id="nbDPBr">1</span>&nbsp;pièce)
+et <a href="https://www.bude-orleans.org/Theme-Orleanais/Berthrand-Priam.html">Association orléanaise Guillaume-Budé</a> (<span id="nbBude">1</span>&nbsp;pièce).
 
 </p>
 <p>
